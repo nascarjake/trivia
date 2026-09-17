@@ -1,0 +1,302 @@
+{
+  "source": "https://github.com/ua2004/Millionaire-3D",
+  "commit": "4f4c85d0b38a0e15c293e3380442bfad1dfda1f0",
+  "assets": [
+    {
+      "path": "Assets/3D/Characters/Cowboy/Model/Cowboy 1.1.FBX",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c66d69f97428163735228799acc09df06113599",
+      "size": 404992,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/4c66d69f97428163735228799acc09df06113599"
+    },
+    {
+      "path": "Assets/3D/Characters/SuitedMan/Models/suit_F01.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee14ee3dee0662de1f1d94927e14e6a1a4204680",
+      "size": 621296,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/ee14ee3dee0662de1f1d94927e14e6a1a4204680"
+    },
+    {
+      "path": "Assets/3D/Studio/armchair_fbx.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21295a6690b0a9d5d4b88b13906e4eba41c5675e",
+      "size": 8834471,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/21295a6690b0a9d5d4b88b13906e4eba41c5675e"
+    },
+    {
+      "path": "Assets/3D/Studio/double_monitor_fbx.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428f9303a250e564b2b3ac543afac9bbfb33fad3",
+      "size": 5012316,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/428f9303a250e564b2b3ac543afac9bbfb33fad3"
+    },
+    {
+      "path": "Assets/3D/Studio/studio_big.dae",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1389c8b198aba340271fa39f0c7f7b212778772f",
+      "size": 21122746,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/1389c8b198aba340271fa39f0c7f7b212778772f"
+    },
+    {
+      "path": "Assets/3D/Studio/studio_empty_fbx.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0485fb847434342405076c926276d178720d8d1f",
+      "size": 51230433,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/0485fb847434342405076c926276d178720d8d1f"
+    },
+    {
+      "path": "Assets/3D/Studio/studio_fbx.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a0ae08e09f9abaa13390a511dba3d38d6e11792",
+      "size": 73780792,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/7a0ae08e09f9abaa13390a511dba3d38d6e11792"
+    },
+    {
+      "path": "Assets/Animations/Player/Idles.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edc05b72af3d313f68d60c389afe14e80e0dfc2f",
+      "size": 3042080,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/edc05b72af3d313f68d60c389afe14e80e0dfc2f"
+    },
+    {
+      "path": "Assets/Animations/Player/IdlesWave.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672e91325175e66c1e124c61c436f2a9e1300b50",
+      "size": 5085168,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/672e91325175e66c1e124c61c436f2a9e1300b50"
+    },
+    {
+      "path": "Assets/Animations/Player/Jump.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2966ac53afa9325d28ff19db790b53ccfa6cbbf2",
+      "size": 2020592,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/2966ac53afa9325d28ff19db790b53ccfa6cbbf2"
+    },
+    {
+      "path": "Assets/Animations/Player/Kick.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3cbc63d4dfcbb664373a8ddc5cdb6712f91c6c4",
+      "size": 2424624,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/c3cbc63d4dfcbb664373a8ddc5cdb6712f91c6c4"
+    },
+    {
+      "path": "Assets/Animations/Player/Runs.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "434dc87d6035380277cbbff3e162e35904edb5ce",
+      "size": 7131552,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/434dc87d6035380277cbbff3e162e35904edb5ce"
+    },
+    {
+      "path": "Assets/Animations/Player/WalkBack.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2957a0f1f5b5282129d8cb8001b54aaa52bbc788",
+      "size": 2528880,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/2957a0f1f5b5282129d8cb8001b54aaa52bbc788"
+    },
+    {
+      "path": "Assets/Animations/Player/WalkBackandTurn.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02683585814bd071f54ff6fbf3c27101f69926f7",
+      "size": 2359408,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/02683585814bd071f54ff6fbf3c27101f69926f7"
+    },
+    {
+      "path": "Assets/Animations/Player/WalkForward.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e384cc1b780cd48d0cc8b512dd8ce97ca86606d",
+      "size": 2523152,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/0e384cc1b780cd48d0cc8b512dd8ce97ca86606d"
+    },
+    {
+      "path": "Assets/Animations/Player/WalkForwardTurns.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fda1c6d1b8a7e4ed38c8993316b48c0f4a46aa5a",
+      "size": 2410080,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/fda1c6d1b8a7e4ed38c8993316b48c0f4a46aa5a"
+    },
+    {
+      "path": "Assets/Animations/Player/idleGrab.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e74554011a78905c7deaba18050c0f9e17a9cd8",
+      "size": 3631248,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/2e74554011a78905c7deaba18050c0f9e17a9cd8"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@embar_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e8e4ec16fbe80d369a3272f73811e34ecd300bc",
+      "size": 5850736,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/2e8e4ec16fbe80d369a3272f73811e34ecd300bc"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@embar_01.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bd3985b98dac2168d2791f90b61d6241f0b4dd",
+      "size": 4037808,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/c2bd3985b98dac2168d2791f90b61d6241f0b4dd"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@greet_01.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304f48a4fdae86a9b1493438862e2eb595934dfc",
+      "size": 4289200,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/304f48a4fdae86a9b1493438862e2eb595934dfc"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@greet_02.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2edf4f8ba6844544591b8c52db917fa70331156d",
+      "size": 4277456,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/2edf4f8ba6844544591b8c52db917fa70331156d"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@greet_04.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e18522159dab0d343b8fe32fbb085ca61a52f8",
+      "size": 3280272,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/96e18522159dab0d343b8fe32fbb085ca61a52f8"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@handshake_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "642e8297e2e6f16ccca28cb9743a9b6ded037eac",
+      "size": 2735536,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/642e8297e2e6f16ccca28cb9743a9b6ded037eac"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@idle_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70327b85c3e45d3600fc7f52d9a7c6d17946944",
+      "size": 10827744,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/d70327b85c3e45d3600fc7f52d9a7c6d17946944"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@idle_01.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a403e6c5e58bda54587159d52d85317b05142487",
+      "size": 4106080,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/a403e6c5e58bda54587159d52d85317b05142487"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@idle_11.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b881cee929107f9e89b908990226cfd340d3747",
+      "size": 4045344,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/4b881cee929107f9e89b908990226cfd340d3747"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@lookdown_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ae68c35304869010f1a8b5644c987ea95bd85f",
+      "size": 5297296,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/14ae68c35304869010f1a8b5644c987ea95bd85f"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@nod_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57521e2f96956c82918a62ec58056e328c268530",
+      "size": 2728320,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/57521e2f96956c82918a62ec58056e328c268530"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@offerhug_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2408319e3d4122ea306f63c4f0d648d1786f4e",
+      "size": 2543328,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/ee2408319e3d4122ea306f63c4f0d648d1786f4e"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@pose_01.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b385cfbb1ea26b4001a4d2ce72d330229d781e",
+      "size": 5927264,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/27b385cfbb1ea26b4001a4d2ce72d330229d781e"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@punch_20.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b50a95bf867709e724e121bc3fd284ff64a2c2ce",
+      "size": 1531856,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/b50a95bf867709e724e121bc3fd284ff64a2c2ce"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@refuse_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386240b5f051bbf13b95f3b82b2037f33e2299eb",
+      "size": 2013856,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/386240b5f051bbf13b95f3b82b2037f33e2299eb"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@scratchhead_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02420f3eed255db3d79e0a5815fbffdc5d435305",
+      "size": 2777984,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/02420f3eed255db3d79e0a5815fbffdc5d435305"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@sit_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a4456b8547deca9c0494de2dbde14aa95d4de89",
+      "size": 3312416,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/3a4456b8547deca9c0494de2dbde14aa95d4de89"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@sit_01.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa58b93c8bb2d85d5f34c73602c9d9483b6a5127",
+      "size": 6642560,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/fa58b93c8bb2d85d5f34c73602c9d9483b6a5127"
+    },
+    {
+      "path": "Assets/Animations/Player/m01@thinking_00.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7423fd5676700ac6200f09b296aebfae0303ac6",
+      "size": 4503264,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/c7423fd5676700ac6200f09b296aebfae0303ac6"
+    },
+    {
+      "path": "Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ee8f359e4285289d1c5b7a4162b6da6878b61f",
+      "size": 3694928,
+      "url": "https://api.github.com/repos/ua2004/Millionaire-3D/git/blobs/b3ee8f359e4285289d1c5b7a4162b6da6878b61f"
+    }
+  ]
+}

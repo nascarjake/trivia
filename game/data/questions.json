@@ -1,0 +1,1682 @@
+[
+  {
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "Which platform calls its short-form videos Shorts?",
+    "answers": [
+      "YouTube",
+      "Twitch",
+      "Discord",
+      "Reddit"
+    ],
+    "correct": 0,
+    "explanation": "Shorts is YouTube’s short-form video format.",
+    "source": "https://www.youtube.com/creators/shorts/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "Which streaming platform uses a purple speech-bubble logo?",
+    "answers": [
+      "Twitch",
+      "Vimeo",
+      "Dailymotion",
+      "Kick"
+    ],
+    "correct": 0,
+    "explanation": "Twitch’s branding uses purple and the Glitch speech-bubble mark.",
+    "source": "https://brand.twitch.com/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "What does the original web protocol abbreviation HTTP expand to?",
+    "answers": [
+      "Hypertext Transfer Protocol",
+      "Hyperlink Text Transport Process",
+      "Host Transfer Transmission Protocol",
+      "Hypertext Translation Program"
+    ],
+    "correct": 0,
+    "explanation": "HTTP stands for Hypertext Transfer Protocol.",
+    "source": "https://www.w3.org/Protocols/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "In Minecraft, which creature is known for sneaking up and exploding?",
+    "answers": [
+      "Creeper",
+      "Enderman",
+      "Villager",
+      "Allay"
+    ],
+    "correct": 0,
+    "explanation": "The Creeper is Minecraft’s iconic explosive hostile mob.",
+    "source": "https://www.minecraft.net/en-us/article/meet-creeper"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Which studio originally developed Portal?",
+    "answers": [
+      "Valve",
+      "Bungie",
+      "id Software",
+      "Supergiant"
+    ],
+    "correct": 0,
+    "explanation": "Portal was developed by Valve.",
+    "source": "https://www.valvesoftware.com/en/games/portal"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "In the original Portal, what does GLaDOS stand for?",
+    "answers": [
+      "Genetic Lifeform and Disk Operating System",
+      "General Logic and Digital Operating System",
+      "Global Laboratory and Defense Operating System",
+      "Guided Learning and Disk Output System"
+    ],
+    "correct": 0,
+    "explanation": "GLaDOS expands to Genetic Lifeform and Disk Operating System.",
+    "source": "https://www.thinkwithportals.com/"
+  },
+  {
+    "category": "Music",
+    "difficulty": 0,
+    "question": "How many strings does a standard guitar usually have?",
+    "answers": [
+      "Six",
+      "Four",
+      "Eight",
+      "Twelve"
+    ],
+    "correct": 0,
+    "explanation": "A standard guitar has six strings.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/guitar/"
+  },
+  {
+    "category": "Music",
+    "difficulty": 1,
+    "question": "What term describes a gradual increase in musical loudness?",
+    "answers": [
+      "Crescendo",
+      "Ritardando",
+      "Staccato",
+      "Diminuendo"
+    ],
+    "correct": 0,
+    "explanation": "A crescendo is a gradual increase in loudness.",
+    "source": "https://www.britannica.com/art/crescendo"
+  },
+  {
+    "category": "Music",
+    "difficulty": 2,
+    "question": "How many semitones are in a perfect fifth in equal temperament?",
+    "answers": [
+      "Seven",
+      "Five",
+      "Six",
+      "Eight"
+    ],
+    "correct": 0,
+    "explanation": "A perfect fifth spans seven semitones.",
+    "source": "https://www.britannica.com/art/interval-music"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "Which fictional school does Harry Potter attend?",
+    "answers": [
+      "Hogwarts",
+      "Nevermore",
+      "Xavier’s School",
+      "Bayside"
+    ],
+    "correct": 0,
+    "explanation": "Harry Potter attends Hogwarts School of Witchcraft and Wizardry.",
+    "source": "https://www.harrypotter.com/"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "Who directed the 2001 animated film Spirited Away?",
+    "answers": [
+      "Hayao Miyazaki",
+      "Satoshi Kon",
+      "Mamoru Hosoda",
+      "Isao Takahata"
+    ],
+    "correct": 0,
+    "explanation": "Spirited Away was written and directed by Hayao Miyazaki.",
+    "source": "https://www.ghibli.jp/works/chihiro/"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Which film won the first Academy Award for Best Animated Feature?",
+    "answers": [
+      "Shrek",
+      "Monsters, Inc.",
+      "Toy Story",
+      "Spirited Away"
+    ],
+    "correct": 0,
+    "explanation": "Shrek won the first Animated Feature Oscar at the 2002 ceremony.",
+    "source": "https://www.oscars.org/oscars/ceremonies/2002"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "Which planet is famous for its prominent rings?",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Mercury",
+      "Venus"
+    ],
+    "correct": 0,
+    "explanation": "Saturn has the solar system’s most prominent ring system.",
+    "source": "https://science.nasa.gov/saturn/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "The James Webb Space Telescope observes primarily in which part of the spectrum?",
+    "answers": [
+      "Infrared",
+      "Gamma rays",
+      "Radio",
+      "Ultraviolet"
+    ],
+    "correct": 0,
+    "explanation": "Webb is optimized for infrared observations.",
+    "source": "https://science.nasa.gov/mission/webb/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "Which moon has a dense nitrogen-rich atmosphere and lakes of liquid hydrocarbons?",
+    "answers": [
+      "Titan",
+      "Europa",
+      "Phobos",
+      "Triton"
+    ],
+    "correct": 0,
+    "explanation": "Saturn’s moon Titan has a dense atmosphere and methane/ethane lakes.",
+    "source": "https://science.nasa.gov/saturn/moons/titan/"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "What does the W in Wi-Fi stand for officially?",
+    "answers": [
+      "It is not an acronym",
+      "Wireless",
+      "World",
+      "Wide"
+    ],
+    "correct": 0,
+    "explanation": "Wi-Fi is a brand name, not an official abbreviation for Wireless Fidelity.",
+    "source": "https://www.wi-fi.org/"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "In web development, what does CSS stand for?",
+    "answers": [
+      "Cascading Style Sheets",
+      "Computer Style System",
+      "Creative Script Syntax",
+      "Coded Screen Structure"
+    ],
+    "correct": 0,
+    "explanation": "CSS stands for Cascading Style Sheets.",
+    "source": "https://www.w3.org/Style/CSS/"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "Which data structure follows the last-in, first-out principle?",
+    "answers": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Hash table"
+    ],
+    "correct": 0,
+    "explanation": "A stack removes the most recently added item first.",
+    "source": "https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-stacks"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "In basketball, a free throw is worth how many points?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct": 0,
+    "explanation": "Each successful free throw is worth one point.",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "In tennis, what score is called deuce?",
+    "answers": [
+      "40–40",
+      "30–30",
+      "15–15",
+      "0–0"
+    ],
+    "correct": 0,
+    "explanation": "Deuce describes a 40-all score in a standard advantage game.",
+    "source": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "In which city were the first modern Olympic Games held in 1896?",
+    "answers": [
+      "Athens",
+      "Paris",
+      "London",
+      "Rome"
+    ],
+    "correct": 0,
+    "explanation": "Athens hosted the first modern Olympic Games in 1896.",
+    "source": "https://olympics.com/en/olympic-games/athens-1896"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "Which ingredient forms the base of traditional guacamole?",
+    "answers": [
+      "Avocado",
+      "Chickpea",
+      "Cucumber",
+      "Pea"
+    ],
+    "correct": 0,
+    "explanation": "Guacamole is an avocado-based preparation.",
+    "source": "https://www.britannica.com/topic/guacamole"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Which Japanese term refers to the savory fifth basic taste?",
+    "answers": [
+      "Umami",
+      "Kawaii",
+      "Wabi-sabi",
+      "Kaizen"
+    ],
+    "correct": 0,
+    "explanation": "Umami describes the savory taste associated with glutamate.",
+    "source": "https://www.umamiinfo.com/what/whatisumami/"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "Which microorganism is used to make traditional koji?",
+    "answers": [
+      "Aspergillus oryzae",
+      "Saccharomyces cerevisiae",
+      "Lactobacillus acidophilus",
+      "Penicillium roqueforti"
+    ],
+    "correct": 0,
+    "explanation": "Koji is produced using Aspergillus oryzae mold.",
+    "source": "https://www.britannica.com/topic/koji"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "Which platform organizes many communities into subreddits?",
+    "answers": [
+      "Reddit",
+      "Discord",
+      "Twitch",
+      "Vimeo"
+    ],
+    "correct": 0,
+    "explanation": "Reddit communities are called subreddits.",
+    "source": "https://support.reddithelp.com/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "What is a podcast primarily designed to be?",
+    "answers": [
+      "An episodic audio program",
+      "A photo filter",
+      "A spreadsheet",
+      "A game controller"
+    ],
+    "correct": 0,
+    "explanation": "Podcasts are episodic programs commonly distributed as audio.",
+    "source": "https://www.britannica.com/technology/podcasting"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "Which symbol commonly begins a hashtag?",
+    "answers": [
+      "#",
+      "@",
+      "&",
+      "%"
+    ],
+    "correct": 0,
+    "explanation": "A hashtag begins with the hash symbol.",
+    "source": "https://help.x.com/en/using-x/how-to-use-hashtags"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "Which service is known for servers and text and voice channels?",
+    "answers": [
+      "Discord",
+      "Pinterest",
+      "Wikipedia",
+      "Dropbox"
+    ],
+    "correct": 0,
+    "explanation": "Discord servers contain text and voice channels.",
+    "source": "https://support.discord.com/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "Which format is commonly associated with looping internet animations?",
+    "answers": [
+      "GIF",
+      "CSV",
+      "TXT",
+      "WAV"
+    ],
+    "correct": 0,
+    "explanation": "GIF supports multiple frames for animation.",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "What does a moderator typically manage in a community?",
+    "answers": [
+      "Rules and discussions",
+      "Internet cables",
+      "Computer processors",
+      "Bank transfers"
+    ],
+    "correct": 0,
+    "explanation": "Moderators help maintain community rules and discussions.",
+    "source": "https://support.reddithelp.com/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "What does an RSS feed help a reader follow?",
+    "answers": [
+      "Updates from websites",
+      "CPU temperatures",
+      "Wi-Fi passwords",
+      "Screen brightness"
+    ],
+    "correct": 0,
+    "explanation": "RSS lets readers subscribe to website updates.",
+    "source": "https://www.rssboard.org/rss-specification"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "What does a video thumbnail usually provide?",
+    "answers": [
+      "A small preview image",
+      "The complete transcript",
+      "A password",
+      "The audio waveform only"
+    ],
+    "correct": 0,
+    "explanation": "Thumbnails are preview images for videos.",
+    "source": "https://support.google.com/youtube/answer/72431"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "Which HTTP status code means Not Found?",
+    "answers": [
+      "404",
+      "200",
+      "301",
+      "503"
+    ],
+    "correct": 0,
+    "explanation": "HTTP 404 means the requested resource was not found.",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "Which organization runs Wikipedia?",
+    "answers": [
+      "Wikimedia Foundation",
+      "Mozilla Foundation",
+      "Internet Archive",
+      "Linux Foundation"
+    ],
+    "correct": 0,
+    "explanation": "The Wikimedia Foundation operates Wikipedia.",
+    "source": "https://wikimediafoundation.org/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "In Creative Commons licensing, what does BY require?",
+    "answers": [
+      "Attribution",
+      "Payment per view",
+      "Noncommercial use only",
+      "No adaptations"
+    ],
+    "correct": 0,
+    "explanation": "BY requires giving appropriate credit to the creator.",
+    "source": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "What is the term for a website that impersonates another to steal credentials?",
+    "answers": [
+      "Phishing site",
+      "Mirror cache",
+      "Content feed",
+      "Search index"
+    ],
+    "correct": 0,
+    "explanation": "Phishing sites impersonate trusted services to obtain sensitive information.",
+    "source": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "Which Nintendo character is a plumber with a red cap?",
+    "answers": [
+      "Mario",
+      "Link",
+      "Kirby",
+      "Fox"
+    ],
+    "correct": 0,
+    "explanation": "Mario is Nintendo’s red-capped plumber.",
+    "source": "https://mario.nintendo.com/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "In chess, which piece moves in an L shape?",
+    "answers": [
+      "Knight",
+      "Bishop",
+      "Rook",
+      "King"
+    ],
+    "correct": 0,
+    "explanation": "The knight moves two squares on one axis and one on the other.",
+    "source": "https://handbook.fide.com/chapter/E012023"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "In Tetris, what do players arrange?",
+    "answers": [
+      "Falling blocks",
+      "Playing cards",
+      "Race cars",
+      "Musical notes"
+    ],
+    "correct": 0,
+    "explanation": "Tetris is built around arranging falling blocks.",
+    "source": "https://tetris.com/about-us"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "Which item is central to catching a Pokémon?",
+    "answers": [
+      "Poké Ball",
+      "Power Star",
+      "Chaos Emerald",
+      "Master Sword"
+    ],
+    "correct": 0,
+    "explanation": "Trainers use Poké Balls to catch Pokémon.",
+    "source": "https://www.pokemon.com/us"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Which series features the fictional land of Hyrule?",
+    "answers": [
+      "The Legend of Zelda",
+      "Halo",
+      "Metroid",
+      "Animal Crossing"
+    ],
+    "correct": 0,
+    "explanation": "Hyrule is a principal setting in The Legend of Zelda.",
+    "source": "https://zelda.nintendo.com/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Which company developed the original Sonic the Hedgehog?",
+    "answers": [
+      "Sega",
+      "Nintendo",
+      "Capcom",
+      "Namco"
+    ],
+    "correct": 0,
+    "explanation": "Sonic the Hedgehog originated at Sega.",
+    "source": "https://www.sega.com/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "What is the name of the spaceship in Among Us’s original map?",
+    "answers": [
+      "The Skeld",
+      "The Normandy",
+      "The Roci",
+      "The Enterprise"
+    ],
+    "correct": 0,
+    "explanation": "The Skeld is the spaceship map in Among Us.",
+    "source": "https://www.innersloth.com/games/among-us/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Which studio developed Stardew Valley under the name ConcernedApe?",
+    "answers": [
+      "Eric Barone’s studio",
+      "Valve",
+      "Mojang",
+      "Bungie"
+    ],
+    "correct": 0,
+    "explanation": "Eric Barone, known as ConcernedApe, created Stardew Valley.",
+    "source": "https://www.stardewvalley.net/faq/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "How many squares are on a standard chessboard?",
+    "answers": [
+      "64",
+      "72",
+      "81",
+      "100"
+    ],
+    "correct": 0,
+    "explanation": "A chessboard has eight rows and eight columns: 64 squares.",
+    "source": "https://handbook.fide.com/chapter/E012023"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "What is the name of the protagonist in the original Half-Life?",
+    "answers": [
+      "Gordon Freeman",
+      "Isaac Clarke",
+      "Sam Fisher",
+      "Duke Nukem"
+    ],
+    "correct": 0,
+    "explanation": "Gordon Freeman is the protagonist of Half-Life.",
+    "source": "https://www.half-life.com/en/halflife"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "Which studio created the roguelike Hades?",
+    "answers": [
+      "Supergiant Games",
+      "Team Cherry",
+      "Motion Twin",
+      "Subset Games"
+    ],
+    "correct": 0,
+    "explanation": "Hades was developed by Supergiant Games.",
+    "source": "https://www.supergiantgames.com/games/hades/"
+  },
+  {
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "What is the smallest number of moves in a chess game ending in Fool’s Mate?",
+    "answers": [
+      "Two moves by each side",
+      "Three moves by each side",
+      "One move by each side",
+      "Four moves by each side"
+    ],
+    "correct": 0,
+    "explanation": "Fool’s Mate ends on Black’s second move.",
+    "source": "https://www.chess.com/terms/fools-mate"
+  },
+  {
+    "category": "Music",
+    "difficulty": 0,
+    "question": "Which instrument has black and white keys?",
+    "answers": [
+      "Piano",
+      "Trumpet",
+      "Violin",
+      "Flute"
+    ],
+    "correct": 0,
+    "explanation": "A piano keyboard has black and white keys.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/piano/"
+  },
+  {
+    "category": "Music",
+    "difficulty": 0,
+    "question": "What does a drummer normally strike with drumsticks?",
+    "answers": [
+      "Drums",
+      "Violin strings",
+      "Piano pedals",
+      "Flute keys"
+    ],
+    "correct": 0,
+    "explanation": "Drumsticks are used to strike drums and percussion instruments.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/drums/"
+  },
+  {
+    "category": "Music",
+    "difficulty": 0,
+    "question": "A person singing alone performs a what?",
+    "answers": [
+      "Solo",
+      "Duet",
+      "Trio",
+      "Quartet"
+    ],
+    "correct": 0,
+    "explanation": "A solo is performed by one musician.",
+    "source": "https://www.britannica.com/art/solo-music"
+  },
+  {
+    "category": "Music",
+    "difficulty": 0,
+    "question": "Which instrument is usually played with a bow?",
+    "answers": [
+      "Violin",
+      "Trumpet",
+      "Clarinet",
+      "Xylophone"
+    ],
+    "correct": 0,
+    "explanation": "Violinists commonly draw a bow across the strings.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/violin/"
+  },
+  {
+    "category": "Music",
+    "difficulty": 1,
+    "question": "What does BPM measure in music?",
+    "answers": [
+      "Beats per minute",
+      "Bars per melody",
+      "Bass per measure",
+      "Breaths per movement"
+    ],
+    "correct": 0,
+    "explanation": "BPM measures musical tempo in beats per minute.",
+    "source": "https://www.britannica.com/art/tempo-music"
+  },
+  {
+    "category": "Music",
+    "difficulty": 1,
+    "question": "A group of four musicians is called a what?",
+    "answers": [
+      "Quartet",
+      "Trio",
+      "Quintet",
+      "Sextet"
+    ],
+    "correct": 0,
+    "explanation": "A quartet has four performers.",
+    "source": "https://www.britannica.com/art/quartet"
+  },
+  {
+    "category": "Music",
+    "difficulty": 1,
+    "question": "Which family does the clarinet belong to?",
+    "answers": [
+      "Woodwind",
+      "Brass",
+      "Percussion",
+      "Strings"
+    ],
+    "correct": 0,
+    "explanation": "The clarinet is a woodwind instrument that uses a single reed.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/"
+  },
+  {
+    "category": "Music",
+    "difficulty": 1,
+    "question": "What symbol raises a note by a semitone?",
+    "answers": [
+      "Sharp",
+      "Flat",
+      "Fermata",
+      "Rest"
+    ],
+    "correct": 0,
+    "explanation": "A sharp raises a note by one semitone.",
+    "source": "https://www.britannica.com/art/sharp-music"
+  },
+  {
+    "category": "Music",
+    "difficulty": 2,
+    "question": "How many semitones make an octave in twelve-tone equal temperament?",
+    "answers": [
+      "Twelve",
+      "Eight",
+      "Seven",
+      "Ten"
+    ],
+    "correct": 0,
+    "explanation": "An octave is divided into twelve equal semitones.",
+    "source": "https://www.britannica.com/art/equal-temperament"
+  },
+  {
+    "category": "Music",
+    "difficulty": 2,
+    "question": "Which term means plucking a bowed string instrument?",
+    "answers": [
+      "Pizzicato",
+      "Legato",
+      "Vibrato",
+      "Fortissimo"
+    ],
+    "correct": 0,
+    "explanation": "Pizzicato means playing by plucking the strings.",
+    "source": "https://www.britannica.com/art/pizzicato"
+  },
+  {
+    "category": "Music",
+    "difficulty": 2,
+    "question": "Which major key has no sharps or flats in its key signature?",
+    "answers": [
+      "C major",
+      "G major",
+      "D major",
+      "F major"
+    ],
+    "correct": 0,
+    "explanation": "C major has no sharps or flats in its key signature.",
+    "source": "https://www.britannica.com/art/key-signature"
+  },
+  {
+    "category": "Music",
+    "difficulty": 2,
+    "question": "How many lines are in a standard musical staff?",
+    "answers": [
+      "Five",
+      "Four",
+      "Six",
+      "Seven"
+    ],
+    "correct": 0,
+    "explanation": "A standard staff consists of five horizontal lines.",
+    "source": "https://www.britannica.com/art/staff"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "Which movie series features Darth Vader?",
+    "answers": [
+      "Star Wars",
+      "Star Trek",
+      "The Matrix",
+      "Dune"
+    ],
+    "correct": 0,
+    "explanation": "Darth Vader is a central Star Wars character.",
+    "source": "https://www.starwars.com/databank/darth-vader"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "Which animated film features the toys Woody and Buzz Lightyear?",
+    "answers": [
+      "Toy Story",
+      "Shrek",
+      "Frozen",
+      "Cars"
+    ],
+    "correct": 0,
+    "explanation": "Woody and Buzz Lightyear are Toy Story characters.",
+    "source": "https://www.pixar.com/toy-story"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "Which superhero’s civilian identity is Bruce Wayne?",
+    "answers": [
+      "Batman",
+      "Superman",
+      "Spider-Man",
+      "Iron Man"
+    ],
+    "correct": 0,
+    "explanation": "Bruce Wayne is Batman’s civilian identity.",
+    "source": "https://www.dc.com/characters/batman"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "What do the closing credits of a film usually list?",
+    "answers": [
+      "Cast and crew",
+      "Only ticket prices",
+      "Only weather forecasts",
+      "Only cinema locations"
+    ],
+    "correct": 0,
+    "explanation": "Closing credits identify contributors to a film.",
+    "source": "https://www.britannica.com/art/motion-picture"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "Which director made Jurassic Park (1993)?",
+    "answers": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott",
+      "George Lucas"
+    ],
+    "correct": 0,
+    "explanation": "Steven Spielberg directed Jurassic Park.",
+    "source": "https://www.universalpictures.com/movies/jurassic-park"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "Which fictional city does Batman protect?",
+    "answers": [
+      "Gotham City",
+      "Metropolis",
+      "Wakanda",
+      "Asgard"
+    ],
+    "correct": 0,
+    "explanation": "Batman operates in Gotham City.",
+    "source": "https://www.dc.com/characters/batman"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "Which Pixar film is set largely in a young girl’s mind?",
+    "answers": [
+      "Inside Out",
+      "Ratatouille",
+      "WALL-E",
+      "Brave"
+    ],
+    "correct": 0,
+    "explanation": "Inside Out personifies emotions inside Riley’s mind.",
+    "source": "https://www.pixar.com/inside-out"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "What term describes a story set before an earlier released film?",
+    "answers": [
+      "Prequel",
+      "Sequel",
+      "Remake",
+      "Trailer"
+    ],
+    "correct": 0,
+    "explanation": "A prequel depicts events preceding an existing story.",
+    "source": "https://www.britannica.com/dictionary/prequel"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Who composed the music for the original Star Wars film?",
+    "answers": [
+      "John Williams",
+      "Hans Zimmer",
+      "Howard Shore",
+      "Danny Elfman"
+    ],
+    "correct": 0,
+    "explanation": "John Williams composed the original Star Wars score.",
+    "source": "https://www.starwars.com/news/john-williams"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Which 1927 film is associated with the breakthrough of feature-length talkies?",
+    "answers": [
+      "The Jazz Singer",
+      "Metropolis",
+      "Sunrise",
+      "The General"
+    ],
+    "correct": 0,
+    "explanation": "The Jazz Singer helped popularize synchronized dialogue in feature films.",
+    "source": "https://www.britannica.com/topic/The-Jazz-Singer-film-1927"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Which animation technique photographs physical models one frame at a time?",
+    "answers": [
+      "Stop motion",
+      "Rotoscoping",
+      "Motion capture",
+      "Cel shading"
+    ],
+    "correct": 0,
+    "explanation": "Stop motion moves physical models between photographed frames.",
+    "source": "https://www.britannica.com/art/stop-motion-animation"
+  },
+  {
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Which studio produced My Neighbor Totoro?",
+    "answers": [
+      "Studio Ghibli",
+      "Pixar",
+      "DreamWorks",
+      "Laika"
+    ],
+    "correct": 0,
+    "explanation": "My Neighbor Totoro is a Studio Ghibli film.",
+    "source": "https://www.ghibli.jp/works/totoro/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "Which star is closest to Earth?",
+    "answers": [
+      "The Sun",
+      "Sirius",
+      "Polaris",
+      "Betelgeuse"
+    ],
+    "correct": 0,
+    "explanation": "The Sun is Earth’s nearest star.",
+    "source": "https://science.nasa.gov/sun/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "How many legs does an insect have?",
+    "answers": [
+      "Six",
+      "Four",
+      "Eight",
+      "Ten"
+    ],
+    "correct": 0,
+    "explanation": "Insects have three pairs of legs.",
+    "source": "https://www.britannica.com/animal/insect"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "What is water’s chemical formula?",
+    "answers": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ],
+    "correct": 0,
+    "explanation": "Water molecules contain two hydrogen atoms and one oxygen atom.",
+    "source": "https://www.britannica.com/science/water"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "Which planet is often called the Red Planet?",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Neptune",
+      "Mercury"
+    ],
+    "correct": 0,
+    "explanation": "Iron minerals on Mars give its surface a reddish appearance.",
+    "source": "https://science.nasa.gov/mars/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "What force keeps planets in orbit around the Sun?",
+    "answers": [
+      "Gravity",
+      "Friction",
+      "Magnetism alone",
+      "Surface tension"
+    ],
+    "correct": 0,
+    "explanation": "Gravity supplies the attraction that keeps planets in orbit.",
+    "source": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "Which gas do plants take in during photosynthesis?",
+    "answers": [
+      "Carbon dioxide",
+      "Helium",
+      "Neon",
+      "Argon"
+    ],
+    "correct": 0,
+    "explanation": "Photosynthesis uses carbon dioxide and water to produce sugars.",
+    "source": "https://www.britannica.com/science/photosynthesis"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Pb"
+    ],
+    "correct": 0,
+    "explanation": "Gold has the chemical symbol Au.",
+    "source": "https://www.rsc.org/periodic-table/element/79/gold"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "Which organ pumps blood around the human body?",
+    "answers": [
+      "Heart",
+      "Liver",
+      "Lung",
+      "Kidney"
+    ],
+    "correct": 0,
+    "explanation": "The heart pumps blood through the circulatory system.",
+    "source": "https://www.britannica.com/science/heart"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "What type of galaxy is the Milky Way?",
+    "answers": [
+      "Barred spiral",
+      "Elliptical",
+      "Ring only",
+      "Irregular"
+    ],
+    "correct": 0,
+    "explanation": "The Milky Way is a barred spiral galaxy.",
+    "source": "https://science.nasa.gov/universe/galaxies/"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "What is the approximate speed of light in a vacuum?",
+    "answers": [
+      "300,000 km/s",
+      "30,000 km/s",
+      "3,000 km/s",
+      "300 km/s"
+    ],
+    "correct": 0,
+    "explanation": "The exact speed is 299,792,458 metres per second.",
+    "source": "https://www.nist.gov/pml/owm/si-units-length"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "Which particle carries a negative electric charge?",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Photon"
+    ],
+    "correct": 0,
+    "explanation": "Electrons carry negative electric charge.",
+    "source": "https://www.britannica.com/science/electron"
+  },
+  {
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "What process powers the Sun’s core?",
+    "answers": [
+      "Nuclear fusion",
+      "Nuclear fission",
+      "Chemical combustion",
+      "Radioactive decay alone"
+    ],
+    "correct": 0,
+    "explanation": "The Sun fuses hydrogen into helium in its core.",
+    "source": "https://science.nasa.gov/sun/facts/"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "What does a computer keyboard primarily enter?",
+    "answers": [
+      "Text and commands",
+      "Printed paper",
+      "Electrical power",
+      "Cooling air"
+    ],
+    "correct": 0,
+    "explanation": "A keyboard is an input device for text and commands.",
+    "source": "https://www.britannica.com/technology/computer"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "Which device displays a computer’s visual output?",
+    "answers": [
+      "Monitor",
+      "Microphone",
+      "Scanner",
+      "Keyboard"
+    ],
+    "correct": 0,
+    "explanation": "A monitor displays visual output from a computer.",
+    "source": "https://www.britannica.com/technology/computer"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "Which of these is an operating system?",
+    "answers": [
+      "Linux",
+      "HDMI",
+      "JPEG",
+      "USB"
+    ],
+    "correct": 0,
+    "explanation": "Linux is an operating-system kernel used in Linux operating systems.",
+    "source": "https://www.kernel.org/"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "What do you usually use to visit websites?",
+    "answers": [
+      "Web browser",
+      "File compressor",
+      "Disk formatter",
+      "Audio equalizer"
+    ],
+    "correct": 0,
+    "explanation": "A web browser retrieves and displays web pages.",
+    "source": "https://developer.mozilla.org/en-US/docs/Glossary/Browser"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "What does HTML stand for?",
+    "answers": [
+      "HyperText Markup Language",
+      "High Transfer Machine Language",
+      "Hyperlink Text Management List",
+      "Home Tool Markup Logic"
+    ],
+    "correct": 0,
+    "explanation": "HTML stands for HyperText Markup Language.",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "Which number system uses only 0 and 1?",
+    "answers": [
+      "Binary",
+      "Decimal",
+      "Hexadecimal",
+      "Octal"
+    ],
+    "correct": 0,
+    "explanation": "Binary uses two digits: zero and one.",
+    "source": "https://www.britannica.com/science/binary-number-system"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "What is RAM mainly used for?",
+    "answers": [
+      "Temporary working memory",
+      "Permanent paper storage",
+      "Screen illumination",
+      "Network cabling"
+    ],
+    "correct": 0,
+    "explanation": "RAM holds data and instructions currently in use.",
+    "source": "https://www.britannica.com/technology/RAM-computing"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "What does GPU stand for?",
+    "answers": [
+      "Graphics Processing Unit",
+      "General Power Utility",
+      "Global Program Uplink",
+      "Graphical Print User"
+    ],
+    "correct": 0,
+    "explanation": "A GPU is a graphics processing unit.",
+    "source": "https://www.nvidia.com/en-us/glossary/gpu/"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "Which data structure follows first-in, first-out order?",
+    "answers": [
+      "Queue",
+      "Stack",
+      "Binary search tree",
+      "Set"
+    ],
+    "correct": 0,
+    "explanation": "A queue removes items in the order they entered.",
+    "source": "https://docs.python.org/3/library/collections.html#collections.deque"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "How many bits are in a byte?",
+    "answers": [
+      "Eight",
+      "Four",
+      "Sixteen",
+      "Thirty-two"
+    ],
+    "correct": 0,
+    "explanation": "A byte conventionally contains eight bits.",
+    "source": "https://www.britannica.com/technology/byte"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "Which protocol encrypts ordinary web traffic?",
+    "answers": [
+      "HTTPS",
+      "FTP",
+      "Telnet",
+      "Plain HTTP"
+    ],
+    "correct": 0,
+    "explanation": "HTTPS uses TLS to secure HTTP traffic.",
+    "source": "https://developer.mozilla.org/en-US/docs/Glossary/HTTPS"
+  },
+  {
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "In hexadecimal, which decimal value does F represent?",
+    "answers": [
+      "15",
+      "16",
+      "14",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Hexadecimal digits A through F represent decimal 10 through 15.",
+    "source": "https://www.britannica.com/science/hexadecimal-number-system"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "Which sport uses a racket and a shuttlecock?",
+    "answers": [
+      "Badminton",
+      "Tennis",
+      "Squash",
+      "Table tennis"
+    ],
+    "correct": 0,
+    "explanation": "Badminton is played with a shuttlecock.",
+    "source": "https://olympics.com/en/sports/badminton/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "In association football, what is the usual name for the player guarding the goal?",
+    "answers": [
+      "Goalkeeper",
+      "Catcher",
+      "Quarterback",
+      "Pitcher"
+    ],
+    "correct": 0,
+    "explanation": "The goalkeeper guards the goal in association football.",
+    "source": "https://www.theifab.com/laws/latest/the-players/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "How many rings are in the Olympic symbol?",
+    "answers": [
+      "Five",
+      "Four",
+      "Six",
+      "Seven"
+    ],
+    "correct": 0,
+    "explanation": "The Olympic symbol consists of five interlaced rings.",
+    "source": "https://olympics.com/ioc/olympic-rings"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "Which sport features a home run?",
+    "answers": [
+      "Baseball",
+      "Basketball",
+      "Volleyball",
+      "Golf"
+    ],
+    "correct": 0,
+    "explanation": "A home run is a baseball scoring play.",
+    "source": "https://www.mlb.com/glossary/standard-stats/home-run"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "How many players per team are on court in standard basketball?",
+    "answers": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eleven"
+    ],
+    "correct": 0,
+    "explanation": "Each basketball team has five players on court.",
+    "source": "https://official.nba.com/rule-no-3-players-substitutes-and-coaches/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "In golf, what is one stroke under par on a hole called?",
+    "answers": [
+      "Birdie",
+      "Bogey",
+      "Eagle",
+      "Albatross"
+    ],
+    "correct": 0,
+    "explanation": "A birdie is one stroke under par.",
+    "source": "https://www.pga.com/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "How many points usually win a table-tennis game, with a two-point lead?",
+    "answers": [
+      "Eleven",
+      "Fifteen",
+      "Twenty-one",
+      "Twenty-five"
+    ],
+    "correct": 0,
+    "explanation": "Standard table-tennis games are played to eleven, with a two-point lead.",
+    "source": "https://www.ittf.com/handbook/"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "Which swimming stroke uses a simultaneous dolphin kick?",
+    "answers": [
+      "Butterfly",
+      "Breaststroke",
+      "Backstroke",
+      "Freestyle crawl"
+    ],
+    "correct": 0,
+    "explanation": "Butterfly uses the dolphin kick with simultaneous arm movement.",
+    "source": "https://www.worldaquatics.com/swimming"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "What is the official marathon distance?",
+    "answers": [
+      "42.195 km",
+      "40 km",
+      "41.195 km",
+      "45 km"
+    ],
+    "correct": 0,
+    "explanation": "The standard marathon distance is 42.195 kilometres.",
+    "source": "https://worldathletics.org/disciplines/road-running/marathon"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "How many events are in a decathlon?",
+    "answers": [
+      "Ten",
+      "Seven",
+      "Eight",
+      "Twelve"
+    ],
+    "correct": 0,
+    "explanation": "A decathlon combines ten track-and-field events.",
+    "source": "https://worldathletics.org/disciplines/combined-events/decathlon"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "In baseball, how many outs end a team’s half-inning?",
+    "answers": [
+      "Three",
+      "Two",
+      "Four",
+      "Six"
+    ],
+    "correct": 0,
+    "explanation": "Three outs end a half-inning.",
+    "source": "https://www.mlb.com/glossary/rules/inning"
+  },
+  {
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "What is the maximum score from one dart on a standard dartboard?",
+    "answers": [
+      "60",
+      "50",
+      "40",
+      "100"
+    ],
+    "correct": 0,
+    "explanation": "Triple twenty scores sixty points.",
+    "source": "https://www.pdc.tv/players/rules-darts"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "Which fruit is traditionally dried to make raisins?",
+    "answers": [
+      "Grapes",
+      "Plums",
+      "Apricots",
+      "Figs"
+    ],
+    "correct": 0,
+    "explanation": "Raisins are dried grapes.",
+    "source": "https://www.britannica.com/topic/raisin"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "Which utensil is typically used to eat soup?",
+    "answers": [
+      "Spoon",
+      "Fork",
+      "Chopstick alone",
+      "Rolling pin"
+    ],
+    "correct": 0,
+    "explanation": "A spoon holds the liquid in soup.",
+    "source": "https://www.britannica.com/topic/spoon"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "Which country is strongly associated with the traditional dish sushi?",
+    "answers": [
+      "Japan",
+      "Mexico",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 0,
+    "explanation": "Sushi is a Japanese dish based on seasoned rice.",
+    "source": "https://www.britannica.com/topic/sushi"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "What is the main ingredient in traditional hummus?",
+    "answers": [
+      "Chickpeas",
+      "Potatoes",
+      "Lentils",
+      "Corn"
+    ],
+    "correct": 0,
+    "explanation": "Traditional hummus is made primarily from chickpeas.",
+    "source": "https://www.britannica.com/topic/hummus"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "What is tofu made from?",
+    "answers": [
+      "Soybeans",
+      "Oats",
+      "Almonds",
+      "Wheat"
+    ],
+    "correct": 0,
+    "explanation": "Tofu is made by coagulating soy milk and pressing the curds.",
+    "source": "https://www.britannica.com/topic/tofu"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Which spice gives many curries a bright yellow color?",
+    "answers": [
+      "Turmeric",
+      "Cinnamon",
+      "Clove",
+      "Black pepper"
+    ],
+    "correct": 0,
+    "explanation": "Turmeric contains the yellow pigment curcumin.",
+    "source": "https://www.britannica.com/plant/turmeric"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Which Italian word describes pasta cooked firm to the bite?",
+    "answers": [
+      "Al dente",
+      "Al fresco",
+      "Dolce",
+      "Presto"
+    ],
+    "correct": 0,
+    "explanation": "Al dente describes pasta that remains firm to the bite.",
+    "source": "https://www.britannica.com/dictionary/al-dente"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Which grain is used to make traditional couscous?",
+    "answers": [
+      "Wheat",
+      "Rice",
+      "Maize",
+      "Oats"
+    ],
+    "correct": 0,
+    "explanation": "Traditional couscous is made from durum-wheat semolina.",
+    "source": "https://www.britannica.com/topic/couscous"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "What compound gives chili peppers their heat?",
+    "answers": [
+      "Capsaicin",
+      "Caffeine",
+      "Vanillin",
+      "Menthol"
+    ],
+    "correct": 0,
+    "explanation": "Capsaicin produces the hot sensation from chili peppers.",
+    "source": "https://www.britannica.com/science/capsaicin"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "What reaction produces much of the browning on seared meat?",
+    "answers": [
+      "Maillard reaction",
+      "Photosynthesis",
+      "Electrolysis",
+      "Saponification"
+    ],
+    "correct": 0,
+    "explanation": "The Maillard reaction involves amino acids and reducing sugars.",
+    "source": "https://www.britannica.com/science/Maillard-reaction"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "Which bacterium group is essential in traditional yogurt fermentation?",
+    "answers": [
+      "Lactic acid bacteria",
+      "Nitrogen-fixing bacteria",
+      "Methanogens",
+      "Sulfur bacteria"
+    ],
+    "correct": 0,
+    "explanation": "Yogurt cultures ferment lactose to lactic acid.",
+    "source": "https://www.britannica.com/topic/yogurt"
+  },
+  {
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "Which part of the crocus flower is harvested as saffron?",
+    "answers": [
+      "Stigmas",
+      "Roots",
+      "Leaves",
+      "Petals"
+    ],
+    "correct": 0,
+    "explanation": "Saffron is made from the dried stigmas of Crocus sativus.",
+    "source": "https://www.britannica.com/plant/saffron"
+  }
+]
