@@ -52,7 +52,7 @@ The game test checks all 255 category combinations, character switching, the 15-
 
 This is an original procedural studio/gameplay foundation, not the licensed Steam game's assets or final-quality characters. Fan assets were researched but not bundled. Sound effects are synthesized original tones. No trademark permission is claimed. [Godot's license](https://godotengine.org/license/) applies to its engine/runtime; retain the exported runtime's notices when distributing.
 
-Current limitations: single-player and client-authoritative answers; landscape desktop layout; no host voice/lip-sync; finite practice pool (15 questions per theme); no online accounts/leaderboards; no automatic trend refresh scheduler; no production hosting. The local server is not a public deployment service. The research document gives the next production steps.
+Current limitations: single-player and client-authoritative answers; landscape desktop layout; no host voice/lip-sync; finite practice pool (15 questions per theme); no online accounts/leaderboards; no automatic trend refresh scheduler; no hosted AI backend. The static practice game is published on GitHub Pages. The local server is not a public deployment service. The research document gives the next production steps.
 
 ## GitHub Pages publishing
 
