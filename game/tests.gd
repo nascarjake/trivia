@@ -9,6 +9,8 @@ func run() -> void:
 	root.add_child(game)
 	await process_frame
 	game.muted = true
+	game.reduced_motion = true
+	game.studio.reduced_motion = true
 	var bank_builder = load("res://scripts/question_bank.gd")
 	for mask in range(1, 256):
 		var cats := []
@@ -27,6 +29,62 @@ func run() -> void:
 			counts[q.category] = counts.get(q.category, 0) + 1
 		assert(counts.size() == cats.size())
 		assert(counts.values().max() - counts.values().min() <= 1)
+	# Twelve full runs from 60 distinct facts per tier in one theme.
+	# Synthetic fixtures verify capacity; they are never shipped as real questions.
+	var fixtures := []
+	var seed: Array = bank_builder.active_bank()
+	for d in range(3):
+		for j in range(60):
+			var q: Dictionary = seed[0].duplicate(true)
+			q.id = "fixture-%d-%d" % [d, j]
+			q.fact_key = q.id
+			q.category = "Gaming"
+			q.difficulty = d
+			fixtures.append(q)
+	var actual_history := []
+	var actual_repeats := 0
+	for run_index in range(12):
+		var actual: Dictionary = bank_builder.select_pack(bank_builder.CATEGORIES, actual_history, seed)
+		assert(actual.questions.size() == 15)
+		actual_repeats += int(actual.repeats)
+		for q in actual.questions: actual_history = bank_builder.remember(actual_history, q)
+	assert(actual_repeats >= 60) # 180 slots cannot be filled by 120 distinct facts.
+	print("Actual 120-question bank / 12 full-mix runs: %d unique facts, %d repeat slots" % [actual_history.size(), actual_repeats])
+	var history := []
+	for run_index in range(12):
+		var rotation: Dictionary = bank_builder.select_pack(["Gaming"], history, fixtures)
+		assert(rotation.questions.size() == 15 and rotation.repeats == 0)
+		for q in rotation.questions: history = bank_builder.remember(history, q)
+	assert(history.size() == 180)
+	var exhausted: Dictionary = bank_builder.select_pack(["Gaming"], history, fixtures)
+	assert(exhausted.repeats == 15)
+	assert(exhausted.questions.map(func(q): return q.id).has(history[0].id))
+	var paraphrase: Dictionary = fixtures[0].duplicate(true)
+	paraphrase.id = "same-fact-new-wording"
+	fixtures.append(paraphrase)
+	var dedup: Dictionary = bank_builder.select_pack(["Gaming"], history, fixtures)
+	assert(dedup.repeats == 15)
+	assert(not bank_builder.available({"expires_at": "2026-10-25"}, "2026-10-25"))
+	var short_pool: Array = fixtures.slice(0, 2)
+	assert(bank_builder.select_pack(["Gaming"], [], short_pool).questions.is_empty())
+	# Save/reload keeps older preference fields and history; uses a disposable file.
+	game.preference_path = "/tmp/trivia-preferences-test.cfg"
+	game.persist_enabled = true
+	var legacy := ConfigFile.new()
+	legacy.set_value("legacy", "keep", 42)
+	legacy.save(game.preference_path)
+	game.recent_questions = history
+	game.best = 32000
+	game.save_preferences()
+	game.recent_questions = []
+	game.best = 0
+	game.load_preferences()
+	assert(game.recent_questions.size() == 180 and game.best == 32000)
+	legacy.load(game.preference_path)
+	assert(legacy.get_value("legacy", "keep") == 42)
+	DirAccess.remove_absolute(game.preference_path)
+	game.persist_enabled = false
+	game.recent_questions = []
 	game.set_categories([])
 	assert(game.start_button.disabled)
 	await game.start_game()
@@ -49,7 +107,17 @@ func run() -> void:
 	# Complete all 15 questions, including both guaranteed checkpoints.
 	for i in range(15):
 		game.choose(int(game.pack[i].correct))
-		await game.lock_answer()
+		if i == 0:
+			game.lock_answer()
+			assert(game.phase == "locked" and game.final_button.disabled)
+			var locked_choice: int = game.selected
+			game.choose((locked_choice + 1) % 4)
+			assert(game.selected == locked_choice)
+			assert(game.studio.stage_state == "locked")
+			await create_timer(0.20).timeout
+			assert(game.phase == "reveal" and game.source_panel.visible)
+			assert(game.answers[locked_choice].get_node("Feedback").text == "[correct]")
+		else: await game.lock_answer()
 		assert(game.bank == game.MONEY[i])
 		if i == 4: assert(game.guarantee == 1000)
 		if i == 9: assert(game.guarantee == 32000)
@@ -100,5 +168,14 @@ func run() -> void:
 	assert(game.phase == "finished" and game.bank == 1000)
 	game.cancel_modal()
 	assert(game.phase == "lobby")
-	print("PASS: 255 category mixes, selection, characters, timer, votes, replay; full climb, safeguards, wrong answer, walk-away, 50:50")
+	for answer in game.answers:
+		assert(answer.position.x + answer.size.x <= 1260)
+		assert(answer.position.y + answer.size.y <= 821)
+		assert(answer.get_theme_font_size("font_size") >= 17)
+	for q in seed:
+		for choice in q.answers:
+			var width: float = game.answers[0].get_theme_font("font").get_string_size("D:    " + str(choice), HORIZONTAL_ALIGNMENT_LEFT, -1, 17).x
+			assert(width < 528)
+	assert(game.studio.spots.size() == 2)
+	print("PASS: 12-run rotation, exhaustion, canonical dedup, expiry, save/reload, reveal lock, stage lights, layout;  255 category mixes, selection, characters, timer, votes, replay; full climb, safeguards, wrong answer, walk-away, 50:50")
 	quit(0)

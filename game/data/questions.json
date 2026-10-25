@@ -11,7 +11,11 @@
     ],
     "correct": 0,
     "explanation": "Shorts is YouTube’s short-form video format.",
-    "source": "https://www.youtube.com/creators/shorts/"
+    "source": "https://www.youtube.com/creators/shorts/",
+    "id": "seed-23e587624f27d18f",
+    "fact_key": "seed:which-platform-calls-its-short-form-videos-shorts",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -25,7 +29,11 @@
     ],
     "correct": 0,
     "explanation": "Twitch’s branding uses purple and the Glitch speech-bubble mark.",
-    "source": "https://brand.twitch.com/"
+    "source": "https://brand.twitch.com/",
+    "id": "seed-165a75a0f0bacb35",
+    "fact_key": "seed:which-streaming-platform-uses-a-purple-speech-bubble-logo",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -39,7 +47,11 @@
     ],
     "correct": 0,
     "explanation": "HTTP stands for Hypertext Transfer Protocol.",
-    "source": "https://www.w3.org/Protocols/"
+    "source": "https://www.w3.org/Protocols/",
+    "id": "seed-f48a88b32e0ce643",
+    "fact_key": "seed:what-does-the-original-web-protocol-abbreviation-http-expand-to",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -53,7 +65,11 @@
     ],
     "correct": 0,
     "explanation": "The Creeper is Minecraft’s iconic explosive hostile mob.",
-    "source": "https://www.minecraft.net/en-us/article/meet-creeper"
+    "source": "https://www.minecraft.net/en-us/article/meet-creeper",
+    "id": "seed-86a4847505c61f38",
+    "fact_key": "seed:in-minecraft-which-creature-is-known-for-sneaking-up-and-exploding",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -67,7 +83,11 @@
     ],
     "correct": 0,
     "explanation": "Portal was developed by Valve.",
-    "source": "https://www.valvesoftware.com/en/games/portal"
+    "source": "https://www.valvesoftware.com/en/games/portal",
+    "id": "seed-d585564d12433413",
+    "fact_key": "seed:which-studio-originally-developed-portal",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -81,7 +101,11 @@
     ],
     "correct": 0,
     "explanation": "GLaDOS expands to Genetic Lifeform and Disk Operating System.",
-    "source": "https://www.thinkwithportals.com/"
+    "source": "https://www.thinkwithportals.com/",
+    "id": "seed-282595d74db314a0",
+    "fact_key": "seed:in-the-original-portal-what-does-glados-stand-for",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -95,7 +119,11 @@
     ],
     "correct": 0,
     "explanation": "A standard guitar has six strings.",
-    "source": "https://www.yamaha.com/en/musical_instrument_guide/guitar/"
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/guitar/",
+    "id": "seed-6c780ee488a7b335",
+    "fact_key": "seed:how-many-strings-does-a-standard-guitar-usually-have",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -109,7 +137,11 @@
     ],
     "correct": 0,
     "explanation": "A crescendo is a gradual increase in loudness.",
-    "source": "https://www.britannica.com/art/crescendo"
+    "source": "https://www.britannica.com/art/crescendo",
+    "id": "seed-aabc65b6e05de4a5",
+    "fact_key": "seed:what-term-describes-a-gradual-increase-in-musical-loudness",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -123,7 +155,11 @@
     ],
     "correct": 0,
     "explanation": "A perfect fifth spans seven semitones.",
-    "source": "https://www.britannica.com/art/interval-music"
+    "source": "https://www.britannica.com/art/interval-music",
+    "id": "seed-78203d7435b638dd",
+    "fact_key": "seed:how-many-semitones-are-in-a-perfect-fifth-in-equal-temperament",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -137,7 +173,11 @@
     ],
     "correct": 0,
     "explanation": "Harry Potter attends Hogwarts School of Witchcraft and Wizardry.",
-    "source": "https://www.harrypotter.com/"
+    "source": "https://www.harrypotter.com/",
+    "id": "seed-3394c5ea67dc01d8",
+    "fact_key": "seed:which-fictional-school-does-harry-potter-attend",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -151,7 +191,11 @@
     ],
     "correct": 0,
     "explanation": "Spirited Away was written and directed by Hayao Miyazaki.",
-    "source": "https://www.ghibli.jp/works/chihiro/"
+    "source": "https://www.ghibli.jp/works/chihiro/",
+    "id": "seed-587cdc602e3f362c",
+    "fact_key": "seed:who-directed-the-2001-animated-film-spirited-away",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -165,7 +209,11 @@
     ],
     "correct": 0,
     "explanation": "Shrek won the first Animated Feature Oscar at the 2002 ceremony.",
-    "source": "https://www.oscars.org/oscars/ceremonies/2002"
+    "source": "https://www.oscars.org/oscars/ceremonies/2002",
+    "id": "seed-e3e2475432984ad3",
+    "fact_key": "seed:which-film-won-the-first-academy-award-for-best-animated-feature",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -179,7 +227,11 @@
     ],
     "correct": 0,
     "explanation": "Saturn has the solar system’s most prominent ring system.",
-    "source": "https://science.nasa.gov/saturn/"
+    "source": "https://science.nasa.gov/saturn/",
+    "id": "seed-f9b136c0e2cf56d6",
+    "fact_key": "seed:which-planet-is-famous-for-its-prominent-rings",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -193,7 +245,11 @@
     ],
     "correct": 0,
     "explanation": "Webb is optimized for infrared observations.",
-    "source": "https://science.nasa.gov/mission/webb/"
+    "source": "https://science.nasa.gov/mission/webb/",
+    "id": "seed-c0d6758beebf7384",
+    "fact_key": "seed:the-james-webb-space-telescope-observes-primarily-in-which-part-of-the-spectrum",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -207,7 +263,11 @@
     ],
     "correct": 0,
     "explanation": "Saturn’s moon Titan has a dense atmosphere and methane/ethane lakes.",
-    "source": "https://science.nasa.gov/saturn/moons/titan/"
+    "source": "https://science.nasa.gov/saturn/moons/titan/",
+    "id": "seed-ec323c36cb39dca5",
+    "fact_key": "seed:which-moon-has-a-dense-nitrogen-rich-atmosphere-and-lakes-of-liquid-hydrocarbons",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -221,7 +281,11 @@
     ],
     "correct": 0,
     "explanation": "Wi-Fi is a brand name, not an official abbreviation for Wireless Fidelity.",
-    "source": "https://www.wi-fi.org/"
+    "source": "https://www.wi-fi.org/",
+    "id": "seed-9dc4a38dade08442",
+    "fact_key": "seed:what-does-the-w-in-wi-fi-stand-for-officially",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -235,7 +299,11 @@
     ],
     "correct": 0,
     "explanation": "CSS stands for Cascading Style Sheets.",
-    "source": "https://www.w3.org/Style/CSS/"
+    "source": "https://www.w3.org/Style/CSS/",
+    "id": "seed-d9bd6dce60168b35",
+    "fact_key": "seed:in-web-development-what-does-css-stand-for",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -249,7 +317,11 @@
     ],
     "correct": 0,
     "explanation": "A stack removes the most recently added item first.",
-    "source": "https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-stacks"
+    "source": "https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-stacks",
+    "id": "seed-134087b28be2af5c",
+    "fact_key": "seed:which-data-structure-follows-the-last-in-first-out-principle",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -263,7 +335,11 @@
     ],
     "correct": 0,
     "explanation": "Each successful free throw is worth one point.",
-    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "id": "seed-6aaa24fe5f397cc2",
+    "fact_key": "seed:in-basketball-a-free-throw-is-worth-how-many-points",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -277,7 +353,11 @@
     ],
     "correct": 0,
     "explanation": "Deuce describes a 40-all score in a standard advantage game.",
-    "source": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/"
+    "source": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/",
+    "id": "seed-b5e4ef62635971fe",
+    "fact_key": "seed:in-tennis-what-score-is-called-deuce",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -291,7 +371,11 @@
     ],
     "correct": 0,
     "explanation": "Athens hosted the first modern Olympic Games in 1896.",
-    "source": "https://olympics.com/en/olympic-games/athens-1896"
+    "source": "https://olympics.com/en/olympic-games/athens-1896",
+    "id": "seed-7727e911f9188846",
+    "fact_key": "seed:in-which-city-were-the-first-modern-olympic-games-held-in-1896",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -305,7 +389,11 @@
     ],
     "correct": 0,
     "explanation": "Guacamole is an avocado-based preparation.",
-    "source": "https://www.britannica.com/topic/guacamole"
+    "source": "https://www.britannica.com/topic/guacamole",
+    "id": "seed-052499d78f69b616",
+    "fact_key": "seed:which-ingredient-forms-the-base-of-traditional-guacamole",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -319,7 +407,11 @@
     ],
     "correct": 0,
     "explanation": "Umami describes the savory taste associated with glutamate.",
-    "source": "https://www.umamiinfo.com/what/whatisumami/"
+    "source": "https://www.umamiinfo.com/what/whatisumami/",
+    "id": "seed-c5a75d0b2ebfb770",
+    "fact_key": "seed:which-japanese-term-refers-to-the-savory-fifth-basic-taste",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -333,7 +425,11 @@
     ],
     "correct": 0,
     "explanation": "Koji is produced using Aspergillus oryzae mold.",
-    "source": "https://www.britannica.com/topic/koji"
+    "source": "https://www.britannica.com/topic/koji",
+    "id": "seed-e07d830c7599bc63",
+    "fact_key": "seed:which-microorganism-is-used-to-make-traditional-koji",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -347,7 +443,11 @@
     ],
     "correct": 0,
     "explanation": "Reddit communities are called subreddits.",
-    "source": "https://support.reddithelp.com/"
+    "source": "https://support.reddithelp.com/",
+    "id": "seed-c9abb601a4ef6fbb",
+    "fact_key": "seed:which-platform-organizes-many-communities-into-subreddits",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -361,7 +461,11 @@
     ],
     "correct": 0,
     "explanation": "Podcasts are episodic programs commonly distributed as audio.",
-    "source": "https://www.britannica.com/technology/podcasting"
+    "source": "https://www.britannica.com/technology/podcasting",
+    "id": "seed-8ed05085c4601dc4",
+    "fact_key": "seed:what-is-a-podcast-primarily-designed-to-be",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -375,7 +479,11 @@
     ],
     "correct": 0,
     "explanation": "A hashtag begins with the hash symbol.",
-    "source": "https://help.x.com/en/using-x/how-to-use-hashtags"
+    "source": "https://help.x.com/en/using-x/how-to-use-hashtags",
+    "id": "seed-402b0005d2a8f79b",
+    "fact_key": "seed:which-symbol-commonly-begins-a-hashtag",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -389,7 +497,11 @@
     ],
     "correct": 0,
     "explanation": "Discord servers contain text and voice channels.",
-    "source": "https://support.discord.com/"
+    "source": "https://support.discord.com/",
+    "id": "seed-932b4370f1ffcacd",
+    "fact_key": "seed:which-service-is-known-for-servers-and-text-and-voice-channels",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -403,7 +515,11 @@
     ],
     "correct": 0,
     "explanation": "GIF supports multiple frames for animation.",
-    "source": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types"
+    "source": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types",
+    "id": "seed-0d7909e0b1b1cb7a",
+    "fact_key": "seed:which-format-is-commonly-associated-with-looping-internet-animations",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -417,7 +533,11 @@
     ],
     "correct": 0,
     "explanation": "Moderators help maintain community rules and discussions.",
-    "source": "https://support.reddithelp.com/"
+    "source": "https://support.reddithelp.com/",
+    "id": "seed-54b5f68b8e8cb620",
+    "fact_key": "seed:what-does-a-moderator-typically-manage-in-a-community",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -431,7 +551,11 @@
     ],
     "correct": 0,
     "explanation": "RSS lets readers subscribe to website updates.",
-    "source": "https://www.rssboard.org/rss-specification"
+    "source": "https://www.rssboard.org/rss-specification",
+    "id": "seed-17a4be6d03dd654f",
+    "fact_key": "seed:what-does-an-rss-feed-help-a-reader-follow",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -445,7 +569,11 @@
     ],
     "correct": 0,
     "explanation": "Thumbnails are preview images for videos.",
-    "source": "https://support.google.com/youtube/answer/72431"
+    "source": "https://support.google.com/youtube/answer/72431",
+    "id": "seed-75c3ef7b41856401",
+    "fact_key": "seed:what-does-a-video-thumbnail-usually-provide",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -459,7 +587,11 @@
     ],
     "correct": 0,
     "explanation": "HTTP 404 means the requested resource was not found.",
-    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404"
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404",
+    "id": "seed-7736fa0931cd6245",
+    "fact_key": "seed:which-http-status-code-means-not-found",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -473,7 +605,11 @@
     ],
     "correct": 0,
     "explanation": "The Wikimedia Foundation operates Wikipedia.",
-    "source": "https://wikimediafoundation.org/"
+    "source": "https://wikimediafoundation.org/",
+    "id": "seed-7011929240359c8b",
+    "fact_key": "seed:which-organization-runs-wikipedia",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -487,7 +623,11 @@
     ],
     "correct": 0,
     "explanation": "BY requires giving appropriate credit to the creator.",
-    "source": "https://creativecommons.org/licenses/by/4.0/"
+    "source": "https://creativecommons.org/licenses/by/4.0/",
+    "id": "seed-da87662444e2e97c",
+    "fact_key": "seed:in-creative-commons-licensing-what-does-by-require",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Internet & creators",
@@ -501,7 +641,11 @@
     ],
     "correct": 0,
     "explanation": "Phishing sites impersonate trusted services to obtain sensitive information.",
-    "source": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+    "source": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+    "id": "seed-8af5f2733373fcaa",
+    "fact_key": "seed:what-is-the-term-for-a-website-that-impersonates-another-to-steal-credentials",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -515,7 +659,11 @@
     ],
     "correct": 0,
     "explanation": "Mario is Nintendo’s red-capped plumber.",
-    "source": "https://mario.nintendo.com/"
+    "source": "https://mario.nintendo.com/",
+    "id": "seed-3e802f5dadd2bef5",
+    "fact_key": "seed:which-nintendo-character-is-a-plumber-with-a-red-cap",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -529,7 +677,11 @@
     ],
     "correct": 0,
     "explanation": "The knight moves two squares on one axis and one on the other.",
-    "source": "https://handbook.fide.com/chapter/E012023"
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "id": "seed-a578ddde6ea3084e",
+    "fact_key": "seed:in-chess-which-piece-moves-in-an-l-shape",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -543,7 +695,11 @@
     ],
     "correct": 0,
     "explanation": "Tetris is built around arranging falling blocks.",
-    "source": "https://tetris.com/about-us"
+    "source": "https://tetris.com/about-us",
+    "id": "seed-ea2afab22aad143e",
+    "fact_key": "seed:in-tetris-what-do-players-arrange",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -557,7 +713,11 @@
     ],
     "correct": 0,
     "explanation": "Trainers use Poké Balls to catch Pokémon.",
-    "source": "https://www.pokemon.com/us"
+    "source": "https://www.pokemon.com/us",
+    "id": "seed-a944bc3f870a171c",
+    "fact_key": "seed:which-item-is-central-to-catching-a-pok-mon",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -571,7 +731,11 @@
     ],
     "correct": 0,
     "explanation": "Hyrule is a principal setting in The Legend of Zelda.",
-    "source": "https://zelda.nintendo.com/"
+    "source": "https://zelda.nintendo.com/",
+    "id": "seed-bb8041d652b61124",
+    "fact_key": "seed:which-series-features-the-fictional-land-of-hyrule",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -585,7 +749,11 @@
     ],
     "correct": 0,
     "explanation": "Sonic the Hedgehog originated at Sega.",
-    "source": "https://www.sega.com/"
+    "source": "https://www.sega.com/",
+    "id": "seed-80dbd7f24b20e34b",
+    "fact_key": "seed:which-company-developed-the-original-sonic-the-hedgehog",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -599,7 +767,11 @@
     ],
     "correct": 0,
     "explanation": "The Skeld is the spaceship map in Among Us.",
-    "source": "https://www.innersloth.com/games/among-us/"
+    "source": "https://www.innersloth.com/games/among-us/",
+    "id": "seed-865fa8863beb4d3e",
+    "fact_key": "seed:what-is-the-name-of-the-spaceship-in-among-us-s-original-map",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -613,7 +785,11 @@
     ],
     "correct": 0,
     "explanation": "Eric Barone, known as ConcernedApe, created Stardew Valley.",
-    "source": "https://www.stardewvalley.net/faq/"
+    "source": "https://www.stardewvalley.net/faq/",
+    "id": "seed-9e71bdf323d9b81a",
+    "fact_key": "seed:which-studio-developed-stardew-valley-under-the-name-concernedape",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -627,7 +803,11 @@
     ],
     "correct": 0,
     "explanation": "A chessboard has eight rows and eight columns: 64 squares.",
-    "source": "https://handbook.fide.com/chapter/E012023"
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "id": "seed-4d428df49483cd45",
+    "fact_key": "seed:how-many-squares-are-on-a-standard-chessboard",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -641,7 +821,11 @@
     ],
     "correct": 0,
     "explanation": "Gordon Freeman is the protagonist of Half-Life.",
-    "source": "https://www.half-life.com/en/halflife"
+    "source": "https://www.half-life.com/en/halflife",
+    "id": "seed-9446ebf3f611708f",
+    "fact_key": "seed:what-is-the-name-of-the-protagonist-in-the-original-half-life",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -655,7 +839,11 @@
     ],
     "correct": 0,
     "explanation": "Hades was developed by Supergiant Games.",
-    "source": "https://www.supergiantgames.com/games/hades/"
+    "source": "https://www.supergiantgames.com/games/hades/",
+    "id": "seed-8d8f2563f61c1b34",
+    "fact_key": "seed:which-studio-created-the-roguelike-hades",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Gaming",
@@ -669,7 +857,11 @@
     ],
     "correct": 0,
     "explanation": "Fool’s Mate ends on Black’s second move.",
-    "source": "https://www.chess.com/terms/fools-mate"
+    "source": "https://www.chess.com/terms/fools-mate",
+    "id": "seed-28026b78d73e87c7",
+    "fact_key": "seed:what-is-the-smallest-number-of-moves-in-a-chess-game-ending-in-fool-s-mate",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -683,7 +875,11 @@
     ],
     "correct": 0,
     "explanation": "A piano keyboard has black and white keys.",
-    "source": "https://www.yamaha.com/en/musical_instrument_guide/piano/"
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/piano/",
+    "id": "seed-6dd1bb551271f9ad",
+    "fact_key": "seed:which-instrument-has-black-and-white-keys",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -697,7 +893,11 @@
     ],
     "correct": 0,
     "explanation": "Drumsticks are used to strike drums and percussion instruments.",
-    "source": "https://www.yamaha.com/en/musical_instrument_guide/drums/"
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/drums/",
+    "id": "seed-a470af9529c4d2e3",
+    "fact_key": "seed:what-does-a-drummer-normally-strike-with-drumsticks",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -711,7 +911,11 @@
     ],
     "correct": 0,
     "explanation": "A solo is performed by one musician.",
-    "source": "https://www.britannica.com/art/solo-music"
+    "source": "https://www.britannica.com/art/solo-music",
+    "id": "seed-e09e1d68f80edce9",
+    "fact_key": "seed:a-person-singing-alone-performs-a-what",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -725,7 +929,11 @@
     ],
     "correct": 0,
     "explanation": "Violinists commonly draw a bow across the strings.",
-    "source": "https://www.yamaha.com/en/musical_instrument_guide/violin/"
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/violin/",
+    "id": "seed-82f51fcdc4bb7fd1",
+    "fact_key": "seed:which-instrument-is-usually-played-with-a-bow",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -739,7 +947,11 @@
     ],
     "correct": 0,
     "explanation": "BPM measures musical tempo in beats per minute.",
-    "source": "https://www.britannica.com/art/tempo-music"
+    "source": "https://www.britannica.com/art/tempo-music",
+    "id": "seed-5e4cc5b1340162fc",
+    "fact_key": "seed:what-does-bpm-measure-in-music",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -753,7 +965,11 @@
     ],
     "correct": 0,
     "explanation": "A quartet has four performers.",
-    "source": "https://www.britannica.com/art/quartet"
+    "source": "https://www.britannica.com/art/quartet",
+    "id": "seed-4612bbe1dacd903f",
+    "fact_key": "seed:a-group-of-four-musicians-is-called-a-what",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -767,7 +983,11 @@
     ],
     "correct": 0,
     "explanation": "The clarinet is a woodwind instrument that uses a single reed.",
-    "source": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/"
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/",
+    "id": "seed-f48ec4556af07095",
+    "fact_key": "seed:which-family-does-the-clarinet-belong-to",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -781,7 +1001,11 @@
     ],
     "correct": 0,
     "explanation": "A sharp raises a note by one semitone.",
-    "source": "https://www.britannica.com/art/sharp-music"
+    "source": "https://www.britannica.com/art/sharp-music",
+    "id": "seed-df3dc0594cacf037",
+    "fact_key": "seed:what-symbol-raises-a-note-by-a-semitone",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -795,7 +1019,11 @@
     ],
     "correct": 0,
     "explanation": "An octave is divided into twelve equal semitones.",
-    "source": "https://www.britannica.com/art/equal-temperament"
+    "source": "https://www.britannica.com/art/equal-temperament",
+    "id": "seed-d0bcfb23c83e1c8f",
+    "fact_key": "seed:how-many-semitones-make-an-octave-in-twelve-tone-equal-temperament",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -809,7 +1037,11 @@
     ],
     "correct": 0,
     "explanation": "Pizzicato means playing by plucking the strings.",
-    "source": "https://www.britannica.com/art/pizzicato"
+    "source": "https://www.britannica.com/art/pizzicato",
+    "id": "seed-f1589d5c3468b84a",
+    "fact_key": "seed:which-term-means-plucking-a-bowed-string-instrument",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -823,7 +1055,11 @@
     ],
     "correct": 0,
     "explanation": "C major has no sharps or flats in its key signature.",
-    "source": "https://www.britannica.com/art/key-signature"
+    "source": "https://www.britannica.com/art/key-signature",
+    "id": "seed-cb2c5efcda37c634",
+    "fact_key": "seed:which-major-key-has-no-sharps-or-flats-in-its-key-signature",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Music",
@@ -837,7 +1073,11 @@
     ],
     "correct": 0,
     "explanation": "A standard staff consists of five horizontal lines.",
-    "source": "https://www.britannica.com/art/staff"
+    "source": "https://www.britannica.com/art/staff",
+    "id": "seed-aa7412ee9b717b6e",
+    "fact_key": "seed:how-many-lines-are-in-a-standard-musical-staff",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -851,7 +1091,11 @@
     ],
     "correct": 0,
     "explanation": "Darth Vader is a central Star Wars character.",
-    "source": "https://www.starwars.com/databank/darth-vader"
+    "source": "https://www.starwars.com/databank/darth-vader",
+    "id": "seed-93f1689617837fdd",
+    "fact_key": "seed:which-movie-series-features-darth-vader",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -865,7 +1109,11 @@
     ],
     "correct": 0,
     "explanation": "Woody and Buzz Lightyear are Toy Story characters.",
-    "source": "https://www.pixar.com/toy-story"
+    "source": "https://www.pixar.com/toy-story",
+    "id": "seed-cd16361a43c05fa9",
+    "fact_key": "seed:which-animated-film-features-the-toys-woody-and-buzz-lightyear",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -879,7 +1127,11 @@
     ],
     "correct": 0,
     "explanation": "Bruce Wayne is Batman’s civilian identity.",
-    "source": "https://www.dc.com/characters/batman"
+    "source": "https://www.dc.com/characters/batman",
+    "id": "seed-fe6d452842d4288b",
+    "fact_key": "seed:which-superhero-s-civilian-identity-is-bruce-wayne",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -893,7 +1145,11 @@
     ],
     "correct": 0,
     "explanation": "Closing credits identify contributors to a film.",
-    "source": "https://www.britannica.com/art/motion-picture"
+    "source": "https://www.britannica.com/art/motion-picture",
+    "id": "seed-f2a00c04cf05c33b",
+    "fact_key": "seed:what-do-the-closing-credits-of-a-film-usually-list",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -907,7 +1163,11 @@
     ],
     "correct": 0,
     "explanation": "Steven Spielberg directed Jurassic Park.",
-    "source": "https://www.universalpictures.com/movies/jurassic-park"
+    "source": "https://www.universalpictures.com/movies/jurassic-park",
+    "id": "seed-13ebfa7660c6eb64",
+    "fact_key": "seed:which-director-made-jurassic-park-1993",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -921,7 +1181,11 @@
     ],
     "correct": 0,
     "explanation": "Batman operates in Gotham City.",
-    "source": "https://www.dc.com/characters/batman"
+    "source": "https://www.dc.com/characters/batman",
+    "id": "seed-885b8987ec4e5304",
+    "fact_key": "seed:which-fictional-city-does-batman-protect",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -935,7 +1199,11 @@
     ],
     "correct": 0,
     "explanation": "Inside Out personifies emotions inside Riley’s mind.",
-    "source": "https://www.pixar.com/inside-out"
+    "source": "https://www.pixar.com/inside-out",
+    "id": "seed-52b792005a445279",
+    "fact_key": "seed:which-pixar-film-is-set-largely-in-a-young-girl-s-mind",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -949,7 +1217,11 @@
     ],
     "correct": 0,
     "explanation": "A prequel depicts events preceding an existing story.",
-    "source": "https://www.britannica.com/dictionary/prequel"
+    "source": "https://www.britannica.com/dictionary/prequel",
+    "id": "seed-44b5b9826c352d27",
+    "fact_key": "seed:what-term-describes-a-story-set-before-an-earlier-released-film",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -963,7 +1235,11 @@
     ],
     "correct": 0,
     "explanation": "John Williams composed the original Star Wars score.",
-    "source": "https://www.starwars.com/news/john-williams"
+    "source": "https://www.starwars.com/news/john-williams",
+    "id": "seed-e7e5a59a63f10d5c",
+    "fact_key": "seed:who-composed-the-music-for-the-original-star-wars-film",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -977,7 +1253,11 @@
     ],
     "correct": 0,
     "explanation": "The Jazz Singer helped popularize synchronized dialogue in feature films.",
-    "source": "https://www.britannica.com/topic/The-Jazz-Singer-film-1927"
+    "source": "https://www.britannica.com/topic/The-Jazz-Singer-film-1927",
+    "id": "seed-becddff530d38ac2",
+    "fact_key": "seed:which-1927-film-is-associated-with-the-breakthrough-of-feature-length-talkies",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -991,7 +1271,11 @@
     ],
     "correct": 0,
     "explanation": "Stop motion moves physical models between photographed frames.",
-    "source": "https://www.britannica.com/art/stop-motion-animation"
+    "source": "https://www.britannica.com/art/stop-motion-animation",
+    "id": "seed-3cbcd809c6eb419c",
+    "fact_key": "seed:which-animation-technique-photographs-physical-models-one-frame-at-a-time",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Film & TV",
@@ -1005,7 +1289,11 @@
     ],
     "correct": 0,
     "explanation": "My Neighbor Totoro is a Studio Ghibli film.",
-    "source": "https://www.ghibli.jp/works/totoro/"
+    "source": "https://www.ghibli.jp/works/totoro/",
+    "id": "seed-0bf47db52738d8ac",
+    "fact_key": "seed:which-studio-produced-my-neighbor-totoro",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1019,7 +1307,11 @@
     ],
     "correct": 0,
     "explanation": "The Sun is Earth’s nearest star.",
-    "source": "https://science.nasa.gov/sun/"
+    "source": "https://science.nasa.gov/sun/",
+    "id": "seed-9b974b3e70347d19",
+    "fact_key": "seed:which-star-is-closest-to-earth",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1033,7 +1325,11 @@
     ],
     "correct": 0,
     "explanation": "Insects have three pairs of legs.",
-    "source": "https://www.britannica.com/animal/insect"
+    "source": "https://www.britannica.com/animal/insect",
+    "id": "seed-2e0bfb2549bb0702",
+    "fact_key": "seed:how-many-legs-does-an-insect-have",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1047,7 +1343,11 @@
     ],
     "correct": 0,
     "explanation": "Water molecules contain two hydrogen atoms and one oxygen atom.",
-    "source": "https://www.britannica.com/science/water"
+    "source": "https://www.britannica.com/science/water",
+    "id": "seed-979de1aab125a483",
+    "fact_key": "seed:what-is-water-s-chemical-formula",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1061,7 +1361,11 @@
     ],
     "correct": 0,
     "explanation": "Iron minerals on Mars give its surface a reddish appearance.",
-    "source": "https://science.nasa.gov/mars/"
+    "source": "https://science.nasa.gov/mars/",
+    "id": "seed-4dd30aa7ccbd1888",
+    "fact_key": "seed:which-planet-is-often-called-the-red-planet",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1075,7 +1379,11 @@
     ],
     "correct": 0,
     "explanation": "Gravity supplies the attraction that keeps planets in orbit.",
-    "source": "https://science.nasa.gov/solar-system/"
+    "source": "https://science.nasa.gov/solar-system/",
+    "id": "seed-5158ff96db397f88",
+    "fact_key": "seed:what-force-keeps-planets-in-orbit-around-the-sun",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1089,7 +1397,11 @@
     ],
     "correct": 0,
     "explanation": "Photosynthesis uses carbon dioxide and water to produce sugars.",
-    "source": "https://www.britannica.com/science/photosynthesis"
+    "source": "https://www.britannica.com/science/photosynthesis",
+    "id": "seed-d562665452e3a626",
+    "fact_key": "seed:which-gas-do-plants-take-in-during-photosynthesis",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1103,7 +1415,11 @@
     ],
     "correct": 0,
     "explanation": "Gold has the chemical symbol Au.",
-    "source": "https://www.rsc.org/periodic-table/element/79/gold"
+    "source": "https://www.rsc.org/periodic-table/element/79/gold",
+    "id": "seed-cfdc61c3ebfe235f",
+    "fact_key": "seed:what-is-the-chemical-symbol-for-gold",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1117,7 +1433,11 @@
     ],
     "correct": 0,
     "explanation": "The heart pumps blood through the circulatory system.",
-    "source": "https://www.britannica.com/science/heart"
+    "source": "https://www.britannica.com/science/heart",
+    "id": "seed-ffedaa18d5a2b893",
+    "fact_key": "seed:which-organ-pumps-blood-around-the-human-body",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1131,7 +1451,11 @@
     ],
     "correct": 0,
     "explanation": "The Milky Way is a barred spiral galaxy.",
-    "source": "https://science.nasa.gov/universe/galaxies/"
+    "source": "https://science.nasa.gov/universe/galaxies/",
+    "id": "seed-14288673632e1a38",
+    "fact_key": "seed:what-type-of-galaxy-is-the-milky-way",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1145,7 +1469,11 @@
     ],
     "correct": 0,
     "explanation": "The exact speed is 299,792,458 metres per second.",
-    "source": "https://www.nist.gov/pml/owm/si-units-length"
+    "source": "https://www.nist.gov/pml/owm/si-units-length",
+    "id": "seed-921a3361a823483f",
+    "fact_key": "seed:what-is-the-approximate-speed-of-light-in-a-vacuum",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1159,7 +1487,11 @@
     ],
     "correct": 0,
     "explanation": "Electrons carry negative electric charge.",
-    "source": "https://www.britannica.com/science/electron"
+    "source": "https://www.britannica.com/science/electron",
+    "id": "seed-06151e2734a937a3",
+    "fact_key": "seed:which-particle-carries-a-negative-electric-charge",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Science & space",
@@ -1173,7 +1505,11 @@
     ],
     "correct": 0,
     "explanation": "The Sun fuses hydrogen into helium in its core.",
-    "source": "https://science.nasa.gov/sun/facts/"
+    "source": "https://science.nasa.gov/sun/facts/",
+    "id": "seed-c3e626eb525eb355",
+    "fact_key": "seed:what-process-powers-the-sun-s-core",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1187,7 +1523,11 @@
     ],
     "correct": 0,
     "explanation": "A keyboard is an input device for text and commands.",
-    "source": "https://www.britannica.com/technology/computer"
+    "source": "https://www.britannica.com/technology/computer",
+    "id": "seed-f48cd10b844e66fa",
+    "fact_key": "seed:what-does-a-computer-keyboard-primarily-enter",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1201,7 +1541,11 @@
     ],
     "correct": 0,
     "explanation": "A monitor displays visual output from a computer.",
-    "source": "https://www.britannica.com/technology/computer"
+    "source": "https://www.britannica.com/technology/computer",
+    "id": "seed-99c35850dacf5aa2",
+    "fact_key": "seed:which-device-displays-a-computer-s-visual-output",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1215,7 +1559,11 @@
     ],
     "correct": 0,
     "explanation": "Linux is an operating-system kernel used in Linux operating systems.",
-    "source": "https://www.kernel.org/"
+    "source": "https://www.kernel.org/",
+    "id": "seed-21e77aaecd01ff2c",
+    "fact_key": "seed:which-of-these-is-an-operating-system",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1229,7 +1577,11 @@
     ],
     "correct": 0,
     "explanation": "A web browser retrieves and displays web pages.",
-    "source": "https://developer.mozilla.org/en-US/docs/Glossary/Browser"
+    "source": "https://developer.mozilla.org/en-US/docs/Glossary/Browser",
+    "id": "seed-2a7cb89bfd17d411",
+    "fact_key": "seed:what-do-you-usually-use-to-visit-websites",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1243,7 +1595,11 @@
     ],
     "correct": 0,
     "explanation": "HTML stands for HyperText Markup Language.",
-    "source": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "id": "seed-310fd27646f36c4c",
+    "fact_key": "seed:what-does-html-stand-for",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1257,7 +1613,11 @@
     ],
     "correct": 0,
     "explanation": "Binary uses two digits: zero and one.",
-    "source": "https://www.britannica.com/science/binary-number-system"
+    "source": "https://www.britannica.com/science/binary-number-system",
+    "id": "seed-2b97690b958a661f",
+    "fact_key": "seed:which-number-system-uses-only-0-and-1",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1271,7 +1631,11 @@
     ],
     "correct": 0,
     "explanation": "RAM holds data and instructions currently in use.",
-    "source": "https://www.britannica.com/technology/RAM-computing"
+    "source": "https://www.britannica.com/technology/RAM-computing",
+    "id": "seed-bdfa2042b22a05b1",
+    "fact_key": "seed:what-is-ram-mainly-used-for",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1285,7 +1649,11 @@
     ],
     "correct": 0,
     "explanation": "A GPU is a graphics processing unit.",
-    "source": "https://www.nvidia.com/en-us/glossary/gpu/"
+    "source": "https://www.nvidia.com/en-us/glossary/gpu/",
+    "id": "seed-94da5fb4ad6920d8",
+    "fact_key": "seed:what-does-gpu-stand-for",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1299,7 +1667,11 @@
     ],
     "correct": 0,
     "explanation": "A queue removes items in the order they entered.",
-    "source": "https://docs.python.org/3/library/collections.html#collections.deque"
+    "source": "https://docs.python.org/3/library/collections.html#collections.deque",
+    "id": "seed-781c5f78deca61a8",
+    "fact_key": "seed:which-data-structure-follows-first-in-first-out-order",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1313,7 +1685,11 @@
     ],
     "correct": 0,
     "explanation": "A byte conventionally contains eight bits.",
-    "source": "https://www.britannica.com/technology/byte"
+    "source": "https://www.britannica.com/technology/byte",
+    "id": "seed-2f42dae5bcc47d4d",
+    "fact_key": "seed:how-many-bits-are-in-a-byte",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1327,7 +1703,11 @@
     ],
     "correct": 0,
     "explanation": "HTTPS uses TLS to secure HTTP traffic.",
-    "source": "https://developer.mozilla.org/en-US/docs/Glossary/HTTPS"
+    "source": "https://developer.mozilla.org/en-US/docs/Glossary/HTTPS",
+    "id": "seed-63825c6bc97df3a4",
+    "fact_key": "seed:which-protocol-encrypts-ordinary-web-traffic",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Technology",
@@ -1341,7 +1721,11 @@
     ],
     "correct": 0,
     "explanation": "Hexadecimal digits A through F represent decimal 10 through 15.",
-    "source": "https://www.britannica.com/science/hexadecimal-number-system"
+    "source": "https://www.britannica.com/science/hexadecimal-number-system",
+    "id": "seed-0fe88c14b25889d9",
+    "fact_key": "seed:in-hexadecimal-which-decimal-value-does-f-represent",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1355,7 +1739,11 @@
     ],
     "correct": 0,
     "explanation": "Badminton is played with a shuttlecock.",
-    "source": "https://olympics.com/en/sports/badminton/"
+    "source": "https://olympics.com/en/sports/badminton/",
+    "id": "seed-5c11d9c995404db1",
+    "fact_key": "seed:which-sport-uses-a-racket-and-a-shuttlecock",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1369,7 +1757,11 @@
     ],
     "correct": 0,
     "explanation": "The goalkeeper guards the goal in association football.",
-    "source": "https://www.theifab.com/laws/latest/the-players/"
+    "source": "https://www.theifab.com/laws/latest/the-players/",
+    "id": "seed-737c14cdcbc06d3d",
+    "fact_key": "seed:in-association-football-what-is-the-usual-name-for-the-player-guarding-the-goal",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1383,7 +1775,11 @@
     ],
     "correct": 0,
     "explanation": "The Olympic symbol consists of five interlaced rings.",
-    "source": "https://olympics.com/ioc/olympic-rings"
+    "source": "https://olympics.com/ioc/olympic-rings",
+    "id": "seed-af3a049d8a0ad298",
+    "fact_key": "seed:how-many-rings-are-in-the-olympic-symbol",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1397,7 +1793,11 @@
     ],
     "correct": 0,
     "explanation": "A home run is a baseball scoring play.",
-    "source": "https://www.mlb.com/glossary/standard-stats/home-run"
+    "source": "https://www.mlb.com/glossary/standard-stats/home-run",
+    "id": "seed-d5f4b5d4201c9355",
+    "fact_key": "seed:which-sport-features-a-home-run",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1411,7 +1811,11 @@
     ],
     "correct": 0,
     "explanation": "Each basketball team has five players on court.",
-    "source": "https://official.nba.com/rule-no-3-players-substitutes-and-coaches/"
+    "source": "https://official.nba.com/rule-no-3-players-substitutes-and-coaches/",
+    "id": "seed-507e5c0d28b8a2be",
+    "fact_key": "seed:how-many-players-per-team-are-on-court-in-standard-basketball",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1425,7 +1829,11 @@
     ],
     "correct": 0,
     "explanation": "A birdie is one stroke under par.",
-    "source": "https://www.pga.com/"
+    "source": "https://www.pga.com/",
+    "id": "seed-ec14ff358e010846",
+    "fact_key": "seed:in-golf-what-is-one-stroke-under-par-on-a-hole-called",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1439,7 +1847,11 @@
     ],
     "correct": 0,
     "explanation": "Standard table-tennis games are played to eleven, with a two-point lead.",
-    "source": "https://www.ittf.com/handbook/"
+    "source": "https://www.ittf.com/handbook/",
+    "id": "seed-484191fc324b4da9",
+    "fact_key": "seed:how-many-points-usually-win-a-table-tennis-game-with-a-two-point-lead",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1453,7 +1865,11 @@
     ],
     "correct": 0,
     "explanation": "Butterfly uses the dolphin kick with simultaneous arm movement.",
-    "source": "https://www.worldaquatics.com/swimming"
+    "source": "https://www.worldaquatics.com/swimming",
+    "id": "seed-cfa25fb868d7e94f",
+    "fact_key": "seed:which-swimming-stroke-uses-a-simultaneous-dolphin-kick",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1467,7 +1883,11 @@
     ],
     "correct": 0,
     "explanation": "The standard marathon distance is 42.195 kilometres.",
-    "source": "https://worldathletics.org/disciplines/road-running/marathon"
+    "source": "https://worldathletics.org/disciplines/road-running/marathon",
+    "id": "seed-cb1ac7909309efa1",
+    "fact_key": "seed:what-is-the-official-marathon-distance",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1481,7 +1901,11 @@
     ],
     "correct": 0,
     "explanation": "A decathlon combines ten track-and-field events.",
-    "source": "https://worldathletics.org/disciplines/combined-events/decathlon"
+    "source": "https://worldathletics.org/disciplines/combined-events/decathlon",
+    "id": "seed-62e3d46cfa754133",
+    "fact_key": "seed:how-many-events-are-in-a-decathlon",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1495,7 +1919,11 @@
     ],
     "correct": 0,
     "explanation": "Three outs end a half-inning.",
-    "source": "https://www.mlb.com/glossary/rules/inning"
+    "source": "https://www.mlb.com/glossary/rules/inning",
+    "id": "seed-34f1f5be1a7e9d69",
+    "fact_key": "seed:in-baseball-how-many-outs-end-a-team-s-half-inning",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Sports",
@@ -1509,7 +1937,11 @@
     ],
     "correct": 0,
     "explanation": "Triple twenty scores sixty points.",
-    "source": "https://www.pdc.tv/players/rules-darts"
+    "source": "https://www.pdc.tv/players/rules-darts",
+    "id": "seed-844ea9e3fed55c0f",
+    "fact_key": "seed:what-is-the-maximum-score-from-one-dart-on-a-standard-dartboard",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1523,7 +1955,11 @@
     ],
     "correct": 0,
     "explanation": "Raisins are dried grapes.",
-    "source": "https://www.britannica.com/topic/raisin"
+    "source": "https://www.britannica.com/topic/raisin",
+    "id": "seed-6321a5543e2624ce",
+    "fact_key": "seed:which-fruit-is-traditionally-dried-to-make-raisins",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1537,7 +1973,11 @@
     ],
     "correct": 0,
     "explanation": "A spoon holds the liquid in soup.",
-    "source": "https://www.britannica.com/topic/spoon"
+    "source": "https://www.britannica.com/topic/spoon",
+    "id": "seed-66b4410c69130b3e",
+    "fact_key": "seed:which-utensil-is-typically-used-to-eat-soup",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1551,7 +1991,11 @@
     ],
     "correct": 0,
     "explanation": "Sushi is a Japanese dish based on seasoned rice.",
-    "source": "https://www.britannica.com/topic/sushi"
+    "source": "https://www.britannica.com/topic/sushi",
+    "id": "seed-473962b25034c4f5",
+    "fact_key": "seed:which-country-is-strongly-associated-with-the-traditional-dish-sushi",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1565,7 +2009,11 @@
     ],
     "correct": 0,
     "explanation": "Traditional hummus is made primarily from chickpeas.",
-    "source": "https://www.britannica.com/topic/hummus"
+    "source": "https://www.britannica.com/topic/hummus",
+    "id": "seed-e645f7eaf1fbc889",
+    "fact_key": "seed:what-is-the-main-ingredient-in-traditional-hummus",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1579,7 +2027,11 @@
     ],
     "correct": 0,
     "explanation": "Tofu is made by coagulating soy milk and pressing the curds.",
-    "source": "https://www.britannica.com/topic/tofu"
+    "source": "https://www.britannica.com/topic/tofu",
+    "id": "seed-b6584c7ab7b99e6f",
+    "fact_key": "seed:what-is-tofu-made-from",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1593,7 +2045,11 @@
     ],
     "correct": 0,
     "explanation": "Turmeric contains the yellow pigment curcumin.",
-    "source": "https://www.britannica.com/plant/turmeric"
+    "source": "https://www.britannica.com/plant/turmeric",
+    "id": "seed-d2c077c9566d1b04",
+    "fact_key": "seed:which-spice-gives-many-curries-a-bright-yellow-color",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1607,7 +2063,11 @@
     ],
     "correct": 0,
     "explanation": "Al dente describes pasta that remains firm to the bite.",
-    "source": "https://www.britannica.com/dictionary/al-dente"
+    "source": "https://www.britannica.com/dictionary/al-dente",
+    "id": "seed-8e6fcf5c2f00298d",
+    "fact_key": "seed:which-italian-word-describes-pasta-cooked-firm-to-the-bite",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1621,7 +2081,11 @@
     ],
     "correct": 0,
     "explanation": "Traditional couscous is made from durum-wheat semolina.",
-    "source": "https://www.britannica.com/topic/couscous"
+    "source": "https://www.britannica.com/topic/couscous",
+    "id": "seed-5d98d68232aab392",
+    "fact_key": "seed:which-grain-is-used-to-make-traditional-couscous",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1635,7 +2099,11 @@
     ],
     "correct": 0,
     "explanation": "Capsaicin produces the hot sensation from chili peppers.",
-    "source": "https://www.britannica.com/science/capsaicin"
+    "source": "https://www.britannica.com/science/capsaicin",
+    "id": "seed-16261ab3bef47a0f",
+    "fact_key": "seed:what-compound-gives-chili-peppers-their-heat",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1649,7 +2117,11 @@
     ],
     "correct": 0,
     "explanation": "The Maillard reaction involves amino acids and reducing sugars.",
-    "source": "https://www.britannica.com/science/Maillard-reaction"
+    "source": "https://www.britannica.com/science/Maillard-reaction",
+    "id": "seed-d2e884a44e2d355d",
+    "fact_key": "seed:what-reaction-produces-much-of-the-browning-on-seared-meat",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1663,7 +2135,11 @@
     ],
     "correct": 0,
     "explanation": "Yogurt cultures ferment lactose to lactic acid.",
-    "source": "https://www.britannica.com/topic/yogurt"
+    "source": "https://www.britannica.com/topic/yogurt",
+    "id": "seed-1e95e28d079ad320",
+    "fact_key": "seed:which-bacterium-group-is-essential-in-traditional-yogurt-fermentation",
+    "kind": "evergreen",
+    "expires_at": ""
   },
   {
     "category": "Culture & food",
@@ -1677,6 +2153,10 @@
     ],
     "correct": 0,
     "explanation": "Saffron is made from the dried stigmas of Crocus sativus.",
-    "source": "https://www.britannica.com/plant/saffron"
+    "source": "https://www.britannica.com/plant/saffron",
+    "id": "seed-76bb11fbb0fbe520",
+    "fact_key": "seed:which-part-of-the-crocus-flower-is-harvested-as-saffron",
+    "kind": "evergreen",
+    "expires_at": ""
   }
 ]

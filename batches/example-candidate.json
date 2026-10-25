@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-25",
+  "categories": [
+    "Science & space"
+  ],
+  "questions": [
+    {
+      "id": "nasa-clipper-launch-2024",
+      "fact_key": "europa-clipper:launch-date",
+      "category": "Science & space",
+      "difficulty": 0,
+      "question": "In which year did Europa Clipper leave Earth on its journey to Jupiter?",
+      "answers": [
+        "2024",
+        "2014",
+        "2004",
+        "1994"
+      ],
+      "correct": 0,
+      "explanation": "Europa Clipper launched on October 14, 2024.",
+      "source": "https://science.nasa.gov/mission/europa-clipper/",
+      "source_date": "2026-09-10",
+      "verified_at": "2026-10-25",
+      "kind": "evergreen",
+      "expires_at": "",
+      "evidence": "NASA records the launch date as October 14, 2024.",
+      "choice_notes": [
+        "2024 is the NASA-recorded launch year.",
+        "2014 is ten years before the launch.",
+        "2004 is twenty years before the launch.",
+        "1994 is thirty years before the launch."
+      ]
+    },
+    {
+      "id": "nasa-dragonfly-sim-20261023",
+      "fact_key": "dragonfly:2026-first-flight-test-environment",
+      "category": "Science & space",
+      "difficulty": 1,
+      "question": "NASA reported Dragonfly’s first simulated flight on October 23, 2026. Where did the test take place?",
+      "answers": [
+        "A computer testbed on Earth",
+        "The surface of Titan",
+        "A spacecraft orbiting Saturn",
+        "A lunar landing site"
+      ],
+      "correct": 0,
+      "explanation": "The test used flight-like avionics on a computer testbed at Johns Hopkins APL in Maryland.",
+      "source": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+      "source_date": "2026-10-23",
+      "verified_at": "2026-10-25",
+      "kind": "current",
+      "expires_at": "2026-11-08",
+      "evidence": "NASA describes a computer testbed at Johns Hopkins APL, rather than a flight on Titan.",
+      "choice_notes": [
+        "NASA identifies a computer testbed in Maryland.",
+        "Titan was the simulated setting, not the actual test location.",
+        "The test was in a terrestrial laboratory, not Saturn orbit.",
+        "Dragonfly’s test was not conducted on the Moon."
+      ]
+    },
+    {
+      "id": "nasa-clipper-gravity-experiment",
+      "fact_key": "europa-clipper:gravity-experiment-telecommunications",
+      "category": "Science & space",
+      "difficulty": 2,
+      "question": "Which Europa Clipper system also supports its gravity experiment?",
+      "answers": [
+        "Telecommunications system",
+        "Landing legs",
+        "Sample-return capsule",
+        "Surface drilling rig"
+      ],
+      "correct": 0,
+      "explanation": "NASA describes a gravity experiment that uses the spacecraft’s telecommunications system.",
+      "source": "https://science.nasa.gov/mission/europa-clipper/",
+      "source_date": "2026-09-10",
+      "verified_at": "2026-10-25",
+      "kind": "evergreen",
+      "expires_at": "",
+      "evidence": "NASA lists nine science instruments plus a gravity experiment using the telecommunications system.",
+      "choice_notes": [
+        "NASA names telecommunications as the gravity-experiment system.",
+        "Europa Clipper is an orbiter/flyby mission, with no landing legs.",
+        "This mission does not carry a sample-return capsule.",
+        "It conducts flybys and has no surface drilling rig."
+      ]
+    }
+  ]
+}

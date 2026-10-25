@@ -1,90 +1,179 @@
 import copy
+import datetime as dt
+import http.client
+import http.server
+import io
 import json
 from pathlib import Path
+import sqlite3
+import tempfile
+import threading
 import unittest
 from unittest.mock import patch
-from server import app
+from server import app, bank
+from tools import question_batch
 
-class QuestionValidationTests(unittest.TestCase):
+NOW = dt.date(2026, 10, 25)
+
+class BankTests(unittest.TestCase):
     def setUp(self):
-        self.questions = json.loads((Path(__file__).resolve().parents[1] / 'game/data/questions.json').read_text())
-        self.pack = {'questions': [copy.deepcopy(q) for d in range(3) for q in [x for x in self.questions if x['difficulty'] == d][:5]]}
-        self.urls = {q['source'] for q in self.questions}
+        self.batch = json.loads((bank.ROOT / 'batches/example-candidate.json').read_text())
+        self.existing = json.loads(bank.BANK_PATH.read_text())
 
-    def test_curated_bank_has_valid_unique_choices_and_tiers(self):
-        self.assertEqual(120, len(self.questions))
-        for category in app.CATEGORIES:
-            for difficulty in range(3):
-                self.assertEqual(5, sum(q['category'] == category and q['difficulty'] == difficulty for q in self.questions))
-        self.assertEqual(120, len({q['question'] for q in self.questions}))
-        for d in range(3): self.assertGreaterEqual(sum(q['difficulty'] == d for q in self.questions), 5)
-        app.validate_pack(self.pack, self.urls)
+    def test_seed_capacity_and_schema(self):
+        self.assertEqual(len(bank.load_bank()), 120)
+        self.assertEqual(len({q['fact_key'] for q in self.existing}), 120)
+        for q in self.existing: bank.validate_question(q, NOW, candidate=False)
+        report = bank.capacity(self.existing)
+        self.assertEqual(report['single_theme_target'], 1440)
+        self.assertTrue(all(v == [5, 5, 5] for v in report['cells'].values()))
 
-    def test_category_selection_is_canonical(self):
-        self.assertEqual(app.normalize_categories(['Music', 'Gaming', 'Music']), ('Gaming', 'Music'))
-        for value in [[], 'Gaming', ['Unknown'], [None]]:
-            with self.assertRaises(ValueError): app.normalize_categories(value)
+    def test_valid_balanced_candidate(self):
+        self.assertEqual(bank.validate_batch(self.batch, self.existing, NOW), self.batch)
 
-    def test_single_category_pack(self):
-        pack = {'questions': [copy.deepcopy(q) for q in self.questions if q['category'] == 'Gaming']}
-        pack['questions'].sort(key=lambda q: q['difficulty'])
-        app.validate_pack(pack, self.urls, ['Gaming'])
-        with self.assertRaises(ValueError): app.validate_pack(pack, self.urls, ['Music'])
-        with self.assertRaises(ValueError): app.validate_pack(pack, self.urls, ['Gaming', 'Music'])
+    def test_bad_answers_rejected(self):
+        for mutation in [lambda q: q.update(correct=True), lambda q: q.update(correct=4),
+                         lambda q: q['answers'].__setitem__(1, q['answers'][0].upper())]:
+            batch = copy.deepcopy(self.batch); mutation(batch['questions'][0])
+            with self.assertRaises(ValueError): bank.validate_batch(batch, self.existing, NOW)
 
-    @patch.object(app, 'trend_signals', return_value=([], []))
-    @patch.object(app, 'model_response')
-    def test_selected_categories_reach_model_and_share_cache(self, model, trends):
-        cats = ['Gaming', 'Music']
-        questions = []
-        for i in range(15):
-            options = [q for q in self.questions if q['category'] == cats[i % 2] and q['difficulty'] == i // 5 and q not in questions]
-            questions.append(copy.deepcopy(options[0]))
-        model.side_effect = [('evidence', self.urls), (json.dumps({'questions': questions}), set()), (json.dumps({'accepted': True}), set())]
-        app.cache.clear()
-        result = app.create_pack(cats)
-        self.assertEqual(set(cats), {q['category'] for q in result['questions']})
-        self.assertEqual(cats, json.loads(model.call_args_list[1].args[1])['categories'])
-        self.assertEqual(result, app.create_pack(list(reversed(cats))))
-        self.assertEqual(3, model.call_count)
-        app.cache.clear()
+    def test_paraphrase_key_and_text_dedup(self):
+        for key in ['id', 'fact_key', 'question']:
+            batch = copy.deepcopy(self.batch)
+            batch['questions'][0][key] = self.existing[0][key]
+            with self.assertRaises(ValueError): bank.validate_batch(batch, self.existing, NOW)
 
-    def test_rejects_fabricated_source(self):
-        self.pack['questions'][0]['source'] = 'https://invented.example/fact'
-        with self.assertRaises(ValueError): app.validate_pack(self.pack, self.urls)
+    def test_stale_invalid_source_and_relative_dates(self):
+        for fields in [{'verified_at': '2026-01-01'}, {'source_date': '2026-11-01'},
+                       {'source': 'http://example.com'}, {'expires_at': '2026-10-25'},
+                       {'verified_at': 'not-a-date'}, {'question': 'Who is currently in charge?'}]:
+            batch = copy.deepcopy(self.batch); batch['questions'][1].update(fields)
+            with self.assertRaises(ValueError): bank.validate_batch(batch, self.existing, NOW)
 
-    def test_rejects_ambiguous_duplicate_answers(self):
-        self.pack['questions'][0]['answers'][1] = self.pack['questions'][0]['answers'][0].upper()
-        with self.assertRaises(ValueError): app.validate_pack(self.pack, self.urls)
+    def test_missing_distractor_evidence_and_balance(self):
+        for fields in [{'choice_notes': []}, {'evidence': ''}, {'difficulty': 0}]:
+            batch = copy.deepcopy(self.batch); batch['questions'][1].update(fields)
+            with self.assertRaises(ValueError): bank.validate_batch(batch, self.existing, NOW)
 
-    def test_rejects_invalid_correct_index(self):
-        self.pack['questions'][0]['correct'] = -1
-        with self.assertRaises(ValueError): app.validate_pack(self.pack, self.urls)
+    def test_pending_review_and_edits_block_publication(self):
+        review = question_batch.review_template(self.batch)
+        with self.assertRaises(ValueError): bank.validate_review(self.batch, review)
+        for q in self.batch['questions']:
+            review['decisions'][q['id']].update(status='approved', correct=q['correct'], reviewer='Test fixture',
+                source_checked=True, one_correct=True, distractors_checked=True, canonical_fact_checked=True, original_wording=True)
+        bank.validate_review(self.batch, review)
+        self.batch['questions'][0]['question'] += ' Edited'
+        with self.assertRaises(ValueError): bank.validate_review(self.batch, review)
 
-    def test_rejects_duplicate_question(self):
-        self.pack['questions'][1] = copy.deepcopy(self.pack['questions'][0])
-        with self.assertRaises(ValueError): app.validate_pack(self.pack, self.urls)
+    def test_published_expired_entries_are_filtered(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'bank.json'
+            questions = copy.deepcopy(self.existing)
+            questions[0].update(kind='current', expires_at='2026-10-25')
+            path.write_text(json.dumps(questions))
+            self.assertEqual(len(bank.load_bank(path, NOW)), 119)
 
-    def test_rejects_wrong_difficulty_order(self):
-        self.pack['questions'][0]['difficulty'] = 2
-        with self.assertRaises(ValueError): app.validate_pack(self.pack, self.urls)
+    def test_staging_preserves_human_review(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'candidate.json'
+            question_batch.stage_candidate(path, self.batch)
+            review_path = Path(str(path) + '.review.json')
+            review = json.loads(review_path.read_text()); review['decisions'][self.batch['questions'][0]['id']]['reviewer'] = 'Keep human note'
+            review_path.write_text(json.dumps(review))
+            question_batch.stage_candidate(path, self.batch)
+            self.assertEqual(json.loads(review_path.read_text()), review)
+            self.batch['questions'][0]['question'] += ' Changed'
+            with self.assertRaises(ValueError): question_batch.stage_candidate(path, self.batch)
 
-    @patch.object(app, 'model_response')
-    def test_lifeline_does_not_receive_answer_key(self, model):
-        model.return_value = (json.dumps({'suggestion': 1, 'reasoning': 'I think B.', 'votes': [0, 60, 0, 40]}), set())
-        body = {'kind': 'audience', 'question': 'A test?', 'answers': ['A', 'B', 'C', 'D'], 'eliminated': [0, 2], 'correct': 3}
-        result = app.create_lifeline(body)
-        self.assertTrue(result['simulation'])
-        self.assertNotIn('correct', json.loads(model.call_args.args[1]))
+    def test_default_generation_gate_no_network(self):
+        with patch.dict('os.environ', {}, clear=True), patch('urllib.request.urlopen') as network:
+            with self.assertRaises(ValueError): question_batch.generate_candidate('/tmp/unused-candidate.json')
+            network.assert_not_called()
 
-    @patch.object(app, 'model_response')
-    def test_lifeline_rejects_eliminated_suggestion(self, model):
-        model.return_value = (json.dumps({'suggestion': 0, 'reasoning': 'A', 'votes': [0, 60, 0, 40]}), set())
-        with self.assertRaises(ValueError): app.create_lifeline({'kind': 'friend', 'question': 'A test?', 'answers': ['A', 'B', 'C', 'D'], 'eliminated': [0, 2]})
+    def test_generation_call_caps_and_weekly_ledger_with_mock_provider(self):
+        candidate = copy.deepcopy(self.batch)
+        candidate['categories'] = bank.CATEGORIES
+        candidate['questions'] = []
+        for category_index, category in enumerate(bank.CATEGORIES):
+            for source in self.batch['questions']:
+                q = copy.deepcopy(source)
+                q.update(id=f"fixture-{category_index}-{q['difficulty']}", fact_key=f"fixture:{category_index}:{q['difficulty']}",
+                         question=f"Fixture {category_index}: " + q['question'], category=category)
+                candidate['questions'].append(q)
+        urls = {q['source'] for q in candidate['questions']}
+        def response(text, citations=()):
+            return io.BytesIO(json.dumps({'status': 'completed', 'output': [{'content': [
+                {'type': 'output_text', 'text': text, 'annotations': [{'type': 'url_citation', 'url': u} for u in citations]}]}]}).encode())
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / 'candidate.json'; ledger = Path(directory) / 'attempts.json'
+            environment = {'TRIVIA_PAID_BATCH_APPROVAL': 'weekly-24-max3calls', 'OPENAI_MODEL': 'gpt-5.4-mini',
+                           'OPENAI_API_KEY': 'MOCK_ONLY_NOT_A_REAL_KEY', 'TRIVIA_BATCH_LEDGER': str(ledger)}
+            with patch.dict('os.environ', environment, clear=True), patch.object(bank, 'today', return_value=NOW), patch.object(question_batch, 'today', return_value=NOW):
+                with patch('urllib.request.urlopen', side_effect=[response('Test fixture evidence', urls), response(json.dumps(candidate)), response('{"accepted": true}')]) as network:
+                    question_batch.generate_candidate(output)
+                    self.assertEqual(network.call_count, 3)
+                    bodies = [json.loads(call.args[0].data) for call in network.call_args_list]
+                    self.assertEqual([b['max_output_tokens'] for b in bodies], [6000, 12000, 2000])
+                    self.assertTrue(all(b['max_tool_calls'] == 2 for b in bodies))
+                    self.assertEqual(len(json.loads(ledger.read_text())), 1)
+                    self.assertTrue(all(d['status'] == 'pending' for d in json.loads(Path(str(output) + '.review.json').read_text())['decisions'].values()))
+                    with self.assertRaises(ValueError): question_batch.generate_candidate(Path(directory) / 'second.json')
+                    self.assertEqual(network.call_count, 3)
 
-    @patch.object(app, 'model_response')
-    def test_lifeline_rejects_invalid_percentages(self, model):
-        model.return_value = (json.dumps({'suggestion': 1, 'reasoning': 'B', 'votes': [0, 60, 0, 50]}), set())
-        with self.assertRaises(ValueError): app.create_lifeline({'kind': 'audience', 'question': 'A test?', 'answers': ['A', 'B', 'C', 'D']})
+    def test_local_import_and_sql_require_exact_review(self):
+        review = question_batch.review_template(self.batch)
+        for q in self.batch['questions']:
+            review['decisions'][q['id']].update(status='approved', correct=q['correct'], reviewer='TEST FIXTURE ONLY',
+                source_checked=True, one_correct=True, distractors_checked=True, canonical_fact_checked=True, original_wording=True)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); bank_file = root / 'bank.json'; input_file = root / 'candidate.json'
+            review_file = root / 'review.json'; sql_file = root / 'batch.sql'
+            bank_file.write_text(json.dumps(self.existing)); input_file.write_text(json.dumps(self.batch)); review_file.write_text(json.dumps(review))
+            with patch.object(question_batch, 'BANK_PATH', bank_file), patch.object(bank, 'today', return_value=NOW):
+                with patch('sys.argv', ['batch', 'sql', '--input', str(input_file), '--review', str(review_file), '--output', str(sql_file)]):
+                    question_batch.main()
+                connection = sqlite3.connect(':memory:')
+                connection.executescript((bank.ROOT / 'server/migrations/001_questions.sql').read_text())
+                connection.executescript(sql_file.read_text())
+                self.assertEqual(connection.execute('SELECT COUNT(*) FROM questions').fetchone()[0], 3)
+                connection.close()
+                with patch('sys.argv', ['batch', 'publish', '--input', str(input_file), '--review', str(review_file)]):
+                    question_batch.main()
+                self.assertEqual(len(json.loads(bank_file.read_text())), 123)
+                with patch('sys.argv', ['batch', 'publish', '--input', str(input_file), '--review', str(review_file)]):
+                    with self.assertRaises(ValueError): question_batch.main()
+
+    def test_d1_schema_rejects_fact_duplicates(self):
+        connection = sqlite3.connect(':memory:')
+        connection.executescript((bank.ROOT / 'server/migrations/001_questions.sql').read_text())
+        connection.execute("INSERT INTO questions VALUES ('a','same','Gaming',0,'','{}')")
+        with self.assertRaises(sqlite3.IntegrityError):
+            connection.execute("INSERT INTO questions VALUES ('b','same','Gaming',0,'','{}')")
+        connection.close()
+
+class HTTPTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.server = http.server.ThreadingHTTPServer(('127.0.0.1', 0), app.Handler)
+        cls.thread = threading.Thread(target=cls.server.serve_forever, daemon=True); cls.thread.start()
+    @classmethod
+    def tearDownClass(cls):
+        cls.server.shutdown(); cls.server.server_close(); cls.thread.join()
+    def request(self, method, path, headers=None):
+        connection = http.client.HTTPConnection(*self.server.server_address)
+        connection.request(method, path, headers=headers or {})
+        response = connection.getresponse(); data = response.read()
+        result = response.status, dict(response.getheaders()), data
+        connection.close(); return result
+    def test_shared_bank_etag_and_no_generation_routes(self):
+        status, headers, data = self.request('GET', '/api/bank')
+        self.assertEqual(status, 200); self.assertEqual(len(json.loads(data)['questions']), 120)
+        self.assertEqual(headers['Cache-Control'], 'public, max-age=300')
+        self.assertEqual(self.request('GET', '/api/bank', {'If-None-Match': headers['ETag']})[0], 304)
+        for route in ['/api/pack', '/api/lifeline']:
+            self.assertEqual(self.request('POST', route)[0], 410)
+    def test_config_reports_job_disabled(self):
+        config = json.loads(self.request('GET', '/api/config')[2])
+        self.assertFalse(config['scheduled_refresh']); self.assertFalse(config['ai_available'])
 
 if __name__ == '__main__': unittest.main()

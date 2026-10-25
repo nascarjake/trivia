@@ -14,7 +14,7 @@ $GODOT_HEAD_INCLUDE
 <script src="$GODOT_URL"></script>
 <script>
 const engine = new Engine($GODOT_CONFIG);
-engine.startGame({canvas:document.getElementById('canvas'),onProgress:(current,total)=>{if(total){const p=document.getElementById('progress');p.max=total;p.value=current;}}}).then(()=>{document.getElementById('loading').remove();document.getElementById('canvas').focus();}).catch(()=>{document.getElementById('error').textContent='The studio could not load. Please use a browser with WebGL 2 enabled and reload.';});
+engine.startGame({canvas:document.getElementById('canvas'),onProgress:(current,total)=>{const p=document.getElementById('progress');if(total&&p){p.max=total;p.value=current;}}}).then(()=>{document.getElementById('loading').remove();document.getElementById('canvas').focus();}).catch(()=>{document.getElementById('error').textContent='The studio could not load. Please use a browser with WebGL 2 enabled and reload.';});
 </script>
 </body>
 </html>

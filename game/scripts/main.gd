@@ -58,13 +58,17 @@ var guarantee := 0
 var phase := "lobby"
 var used: Array = []
 var eliminated: Array = []
-var live_ai := false
-var ai_available := false
 var generation := 0
 var api := "http://127.0.0.1:8765"
 var audio_player: AudioStreamPlayer
 var muted := false
 var answer_styles := {}
+var recent_questions: Array = []
+var shared_bank: Array = []
+var rotation_repeats := 0
+var reduced_motion := false
+var motion_button: CheckButton
+var preference_path := "user://preferences.cfg"
 
 func _ready() -> void:
 	if OS.has_feature("web"):
@@ -72,18 +76,20 @@ func _ready() -> void:
 	studio = Studio.new()
 	add_child(studio)
 	load_preferences()
+	if OS.has_feature("web"):
+		reduced_motion = reduced_motion or bool(JavaScriptBridge.eval("window.matchMedia('(prefers-reduced-motion: reduce)').matches"))
+	studio.reduced_motion = reduced_motion
 	build_ui()
 	select_character(character_index)
 	audio_player = AudioStreamPlayer.new()
 	add_child(audio_player)
-	if OS.has_feature("github_pages"):
-		mode_button.text = "Practice edition · AI needs a hosted server"
-		mode_button.disabled = true
-		return
-	var config := await request("/api/config", {}, false)
-	ai_available = config.get("ai_available", false)
-	mode_button.disabled = not ai_available
-	mode_button.text = "AI questions + lifelines" if ai_available else "AI mode unavailable · practice ready"
+	mode_button.text = "120 curated questions · refresh not scheduled"
+	if OS.has_feature("github_pages") or not persist_enabled: return
+	var response := await request("/api/bank", {}, false)
+	if response.get("questions", []) is Array and not response.get("questions", []).is_empty():
+		shared_bank = response.questions
+		mode_button.text = "Shared bank · %d questions · refresh not scheduled" % shared_bank.size()
+	refresh_categories()
 
 func request(path: String, body: Dictionary = {}, post := true) -> Dictionary:
 	var http := HTTPRequest.new()
@@ -166,9 +172,19 @@ func build_ui() -> void:
 	panel(ui, Vector2.ZERO, Vector2(1600, 86), Color("070d20"))
 	label(ui, "MILLIONAIRE", Vector2(40, 12), Vector2(380, 36), 30, GOLD)
 	label(ui, "T R E N D I N G   E D I T I O N", Vector2(42, 53), Vector2(350, 18), 11, MUTED)
-	label(ui, "15 QUESTIONS   /   3 LIFELINES   /   YOUR MOMENT", Vector2(526, 29), Vector2(620, 28), 14, MUTED)
+	label(ui, "15 QUESTIONS   /   3 LIFELINES", Vector2(526, 29), Vector2(570, 28), 14, MUTED)
 	button(ui, "Sound: off" if muted else "Sound: on", Vector2(1300, 23), Vector2(122, 40), toggle_sound).name = "Sound"
 	button(ui, "Camera", Vector2(1434, 23), Vector2(126, 40), func(): studio.cycle_camera()).name = "Camera"
+	motion_button = CheckButton.new()
+	motion_button.position = Vector2(1070, 24)
+	motion_button.size = Vector2(218, 40)
+	motion_button.text = "Reduced motion"
+	motion_button.button_pressed = reduced_motion
+	motion_button.toggled.connect(func(value):
+		reduced_motion = value
+		studio.reduced_motion = value
+		save_preferences())
+	ui.add_child(motion_button)
 	ui.get_node("Camera").disabled = true
 	lobby = Control.new()
 	ui.add_child(lobby)
@@ -208,12 +224,12 @@ func build_ui() -> void:
 	mode_button = CheckButton.new()
 	mode_button.position = Vector2(1040, 673)
 	mode_button.size = Vector2(500, 40)
-	mode_button.text = "Checking AI connection…"
+	mode_button.text = "Cached question bank"
 	mode_button.disabled = true
 	mode_button.add_theme_font_size_override("font_size", 16)
 	lobby.add_child(mode_button)
-	label(lobby, "Classic mode gives you time to think.
-Lifelines pause the clock in timed mode.", Vector2(1046, 734), Vector2(492, 54), 15, MUTED)
+	label(lobby, "History stays on this device. Clearing storage resets it.
+Finite pools repeat oldest facts once exhausted.", Vector2(1046, 734), Vector2(492, 54), 15, MUTED)
 	best_label = label(lobby, "", Vector2(40, 839), Vector2(660, 35), 17, MUTED)
 	start_button = button(lobby, "TAKE THE HOT SEAT", Vector2(1020, 830), Vector2(552, 54), start_game)
 	start_button.add_theme_stylebox_override("normal", answer_style(Color("96621c"), GOLD))
@@ -271,6 +287,9 @@ Lifelines pause the clock in timed mode.", Vector2(1046, 734), Vector2(492, 54),
 		n.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		n.add_theme_font_size_override("font_size", 21)
 		n.add_theme_color_override("font_disabled_color", Color("dbe2f1"))
+		var feedback := label(n, "", Vector2(416, 1), Vector2(148, 14), 11, Color.WHITE)
+		feedback.name = "Feedback"
+		feedback.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 		answers.append(n)
 	status_label = label(play_ui, "", Vector2(40, 833), Vector2(884, 46), 17, MUTED)
 	status_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
@@ -313,7 +332,11 @@ func refresh_categories() -> void:
 		var active := selected_categories.has(QuestionBank.CATEGORIES[i])
 		category_buttons[i].add_theme_stylebox_override("normal", style(Color("17386b") if active else Color("0b142b"), GOLD if active else Color("344467"), 2 if active else 1))
 		category_buttons[i].get_node("Mark").text = "+" if active else ""
-	category_count.text = "%d OF 8 THEMES SELECTED  /  %d PRACTICE QUESTIONS" % [selected_categories.size(), selected_categories.size() * 15]
+	var bank_data := QuestionBank.active_bank() if shared_bank.is_empty() else shared_bank
+	var count := 0
+	for q in bank_data:
+		if selected_categories.has(q.category) and QuestionBank.available(q, Time.get_date_string_from_system(true)): count += 1
+	category_count.text = "%d OF 8 THEMES  /  %d CACHED QUESTIONS" % [selected_categories.size(), count]
 	start_button.disabled = selected_categories.is_empty() or phase == "preparing"
 	best_label.text = "PERSONAL BEST   %s     /     15 questions to a million" % money(best)
 
@@ -339,7 +362,7 @@ func select_character(index: int) -> void:
 func load_preferences() -> void:
 	if not persist_enabled: return
 	var config := ConfigFile.new()
-	if config.load("user://preferences.cfg") != OK: return
+	if config.load(preference_path) != OK: return
 	var saved = config.get_value("game", "categories", QuestionBank.CATEGORIES)
 	if saved is Array:
 		var valid: Array = saved.filter(func(c): return QuestionBank.CATEGORIES.has(c))
@@ -348,16 +371,23 @@ func load_preferences() -> void:
 	muted = bool(config.get_value("game", "muted", false))
 	timed = bool(config.get_value("game", "timed", false))
 	best = int(config.get_value("game", "best", 0))
+	reduced_motion = bool(config.get_value("game", "reduced_motion", false))
+	var history = config.get_value("game", "recent_questions", [])
+	if history is Array: recent_questions = history.slice(maxi(0, history.size() - QuestionBank.HISTORY_LIMIT))
 
 func save_preferences() -> void:
 	if not persist_enabled: return
 	var config := ConfigFile.new()
+	config.load(preference_path) # Keep unknown fields and older saves intact.
 	config.set_value("game", "categories", selected_categories)
 	config.set_value("game", "character", character_index)
 	config.set_value("game", "muted", muted)
 	config.set_value("game", "timed", timed)
 	config.set_value("game", "best", best)
-	config.save("user://preferences.cfg")
+	config.set_value("game", "recent_questions", recent_questions)
+	config.set_value("game", "reduced_motion", reduced_motion)
+	if config.save(preference_path) != OK:
+		push_warning("Local preferences/history could not be saved; rotation lasts this session.")
 
 func money(value: int) -> String:
 	var result := str(value)
@@ -371,24 +401,19 @@ func start_game() -> void:
 	if selected_categories.is_empty() or phase == "preparing": return
 	phase = "preparing"
 	generation += 1
-	var token := generation
-	live_ai = mode_button.button_pressed and ai_available
 	start_button.disabled = true
-	start_button.text = "Researching your questions…" if live_ai else "Opening the studio…"
+	start_button.text = "Opening the studio…"
 	timed = timed_button.button_pressed
+	var selection := QuestionBank.select_pack(selected_categories, recent_questions, shared_bank)
+	pack = selection.questions
+	rotation_repeats = int(selection.repeats)
+	if pack.size() != 15:
+		phase = "lobby"
+		start_button.disabled = false
+		start_button.text = "TAKE THE HOT SEAT"
+		show_modal("This mix needs more questions", str(selection.error) + " Choose more themes or import a reviewed batch.")
+		return
 	save_preferences()
-	if live_ai:
-		var response := await request("/api/pack", {"categories": selected_categories})
-		if token != generation: return
-		if response.has("error") or not response.get("questions", []) is Array or response.get("questions", []).size() != 15:
-			phase = "lobby"
-			start_button.disabled = false
-			start_button.text = "TAKE THE HOT SEAT"
-			show_modal("Questions aren't ready", "The AI service couldn't prepare a complete pack. Try again or switch off AI mode to play curated practice.")
-			return
-		pack = response.questions
-	else:
-		pack = QuestionBank.build(selected_categories)
 	start_button.disabled = false
 	start_button.text = "TAKE THE HOT SEAT"
 	for q in pack:
@@ -419,13 +444,21 @@ func load_question() -> void:
 	studio.shot = "wide"
 	studio.set_mood("question")
 	var q: Dictionary = pack[round_index]
-	meta_label.text = "QUESTION %02d / 15     •     %s     •     %s" % [round_index + 1, str(q.category).to_upper(), "AI GENERATED" if live_ai else "CURATED PRACTICE"]
+	if not QuestionBank.available(q, Time.get_date_string_from_system(true)):
+		finish_run("A question expired. Your bank is safe.")
+		return
+	recent_questions = QuestionBank.remember(recent_questions, q)
+	save_preferences()
+	meta_label.text = "QUESTION %02d / 15     •     %s     •     %s" % [round_index + 1, str(q.category).to_upper(), "CURATED BANK"]
 	question_label.text = q.question
 	status_label.text = "Playing for %s · Select an answer, then lock it in." % money(MONEY[round_index])
+	if rotation_repeats > 0:
+		status_label.text = "Pool exhausted: %d recent facts reused in this run. Oldest first." % rotation_repeats
 	for i in range(4):
+		answers[i].get_node("Feedback").text = ""
 		answers[i].text = "%s:    %s" % ["ABCD"[i], q.answers[i]]
 		var text_width := answers[i].get_theme_font("font").get_string_size(answers[i].text, HORIZONTAL_ALIGNMENT_LEFT, -1, 21).x
-		answers[i].add_theme_font_size_override("font_size", mini(21, int(21 * 528 / maxf(text_width, 1))))
+		answers[i].add_theme_font_size_override("font_size", clampi(int(21 * 528 / maxf(text_width, 1)), 17, 21))
 		answers[i].disabled = false
 		answers[i].add_theme_stylebox_override("normal", answer_style(Color("101a38"), Color("717dbe")))
 		answers[i].add_theme_stylebox_override("disabled", answer_style(Color("0b1023"), Color("242c46")))
@@ -465,16 +498,18 @@ func lock_answer() -> void:
 	for b in lifelines: b.disabled = true
 	status_label.text = "You've locked in %s…" % "ABCD"[selected]
 	var token := generation
-	await get_tree().create_timer(1.15).timeout
+	await get_tree().create_timer(0.12 if reduced_motion else 1.35 + round_index * 0.035).timeout
 	if token != generation or phase != "locked": return
 	var q: Dictionary = pack[round_index]
 	var correct := int(q.correct)
+	answers[correct].get_node("Feedback").text = "[correct]"
+	if selected != correct: answers[selected].get_node("Feedback").text = "[your answer]"
 	answers[correct].add_theme_stylebox_override("disabled", answer_style(Color("17604f"), Color("7ad4ae")))
 	for i in range(4):
 		if i != correct: answers[i].add_theme_stylebox_override("disabled", answer_style(Color("5d263c") if i == selected else Color("0b1023"), Color("c66679") if i == selected else Color("242c46")))
 	source_panel.show()
 	source_label.clear()
-	source_label.add_text(str(q.explanation) + "\n")
+	source_label.add_text(str(q.explanation) + (" · Checked " + str(q.verified_at) if q.has("verified_at") else "") + "\n")
 	source_label.push_meta(str(q.get("source", "")))
 	source_label.add_text("Read the source")
 	source_label.pop()
@@ -644,34 +679,24 @@ func use_lifeline(index: int) -> void:
 		status_label.text = "Two incorrect answers removed. Two possibilities remain."
 		return
 	var title_value := "Phone a friend" if index == 1 else "Ask the audience"
-	show_modal(title_value, "Your AI friend is thinking…" if index == 1 else "The simulated audience is voting…")
+	show_modal(title_value, "Your simulated friend is thinking…" if index == 1 else "The simulated audience is voting…")
 	modal_button.disabled = true
-	if live_ai:
-		var token := generation
-		var result := await request("/api/lifeline", {"kind": "friend" if index == 1 else "audience", "question": q.question, "answers": q.answers, "eliminated": eliminated})
-		if token != generation or phase != "question": return
-		if result.has("error"):
-			show_modal(title_value, "The AI connection is unavailable. Your lifeline has not been used. Close this panel and try again.")
-			return
-		show_modal(title_value + " · AI simulation", str(result.get("text", "No suggestion returned.")))
-		if index == 2 and result.get("votes", []).size() == 4: show_votes(result.votes)
+	var suggestion := int(q.correct)
+	if randf() < 0.24:
+		var choices := []
+		for i in range(4):
+			if not eliminated.has(i): choices.append(i)
+		suggestion = choices.pick_random()
+	if index == 1:
+		show_modal(title_value + " · practice", "I'd lean toward %s: %s. I could be wrong, so trust your own knowledge too.\n\nLifelines use local simulations and can be wrong." % ["ABCD"[suggestion], q.answers[suggestion]])
 	else:
-		var suggestion := int(q.correct)
-		if randf() < 0.24:
-			var choices := []
-			for i in range(4):
-				if not eliminated.has(i): choices.append(i)
-			suggestion = choices.pick_random()
-		if index == 1:
-			show_modal(title_value + " · practice", "I'd lean toward %s: %s. I could be wrong, so trust your own knowledge too.\n\nPractice uses a simulated hint. Connect AI mode for generated reasoning." % ["ABCD"[suggestion], q.answers[suggestion]])
-		else:
-			var votes := [0, 0, 0, 0]
-			var choices := []
-			for i in range(4):
-				if not eliminated.has(i): choices.append(i)
-			for i in range(100): votes[suggestion if randf() < 0.48 else choices.pick_random()] += 1
-			show_modal(title_value + " · practice", "")
-			show_votes(votes)
+		var votes := [0, 0, 0, 0]
+		var choices := []
+		for i in range(4):
+			if not eliminated.has(i): choices.append(i)
+		for i in range(100): votes[suggestion if randf() < 0.48 else choices.pick_random()] += 1
+		show_modal(title_value + " · practice", "")
+		show_votes(votes)
 	used.append(index)
 	lifelines[index].disabled = true
 

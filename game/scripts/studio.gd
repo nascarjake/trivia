@@ -10,6 +10,9 @@ var character_index := 0
 var contestant_root: Node3D
 var fill: OmniLight3D
 var mood := Color("a39dff")
+var reduced_motion := false
+var spots: Array[SpotLight3D] = []
+var stage_state := "question"
 
 func mat(color: String, glow := false) -> StandardMaterial3D:
 	var key := color + str(glow)
@@ -87,19 +90,30 @@ func _ready() -> void:
 	env.environment.background_color = Color("030611")
 	env.environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	env.environment.ambient_light_color = Color("9ca5e4")
-	env.environment.ambient_light_energy = 0.5
+	env.environment.ambient_light_energy = 0.32
 	add_child(env)
 	var key := DirectionalLight3D.new()
 	key.rotation_degrees = Vector3(-55, -25, 0)
 	key.light_color = Color("d5dfff")
-	key.light_energy = 1.15
+	key.light_energy = 0.95
 	add_child(key)
 	fill = OmniLight3D.new()
 	fill.position = Vector3(0, 4, 2)
 	fill.omni_range = 12
 	fill.light_color = Color("a39dff")
-	fill.light_energy = 2.0
+	fill.light_energy = 1.5
 	add_child(fill)
+	# Two focused pools of light, no sweep or strobe. Compatibility renderer friendly.
+	for side in [-1, 1]:
+		var spot := SpotLight3D.new()
+		spot.position = Vector3(side * 3.2, 6.0, 2.4)
+		spot.light_color = Color("c7dbff") if side == -1 else Color("d8c7ff")
+		spot.light_energy = 3.0
+		spot.spot_range = 12.0
+		spot.spot_angle = 25.0
+		add_child(spot)
+		spot.look_at(Vector3(side * 1.45, 1.2, 0))
+		spots.append(spot)
 	cylinder(self, Vector3(0, -0.16, 0), 13, 0.3, "080d20")
 	cylinder(self, Vector3(0, 0.12, 0), 4.4, 0.24, "111831")
 	cylinder(self, Vector3(0, 0.26, 0), 3.8, 0.12, "0a1228")
@@ -122,8 +136,8 @@ func _ready() -> void:
 				box(self, v + Vector3.UP * (2.7 + k * 0.15), Vector3(0.05, 0.065, 0.05), "637df9").material_override = mat("637df9", true)
 	ring(5.7, 6.2, "5556b4", 0.06)
 	# Light beams are translucent geometry, supported by the web renderer.
-	for i in range(10):
-		var a := i * TAU / 10.0
+	for i in range(6):
+		var a := i * TAU / 6.0
 		var top := Vector3(cos(a) * 5.6, 6.1, sin(a) * 5.6)
 		var end := Vector3(cos(a + 0.6) * 2.6, 0.3, sin(a + 0.6) * 2.6)
 		var s := CylinderMesh.new()
@@ -133,7 +147,7 @@ func _ready() -> void:
 		s.radial_segments = 12
 		var m := mat("6c65fa", true).duplicate() as StandardMaterial3D
 		m.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
-		m.albedo_color.a = 0.032
+		m.albedo_color.a = 0.024
 		m.cull_mode = BaseMaterial3D.CULL_DISABLED
 		var beam := mesh(self, s, (top + end) / 2, m)
 		beam.quaternion = Quaternion(Vector3.UP, (top - end).normalized())
@@ -229,6 +243,7 @@ func set_character(index: int) -> void:
 	create_person(contestant_root, true)
 
 func set_mood(value: String) -> void:
+	stage_state = value
 	mood = Color("ffbd68") if value == "locked" else Color("72deb6") if value == "correct" else Color("ef6d8d") if value == "wrong" else Color("a39dff")
 
 func cycle_camera() -> void:
@@ -253,11 +268,15 @@ func _process(delta: float) -> void:
 		target = Vector3(1.3, 2.8, 4.2)
 		focus = Vector3(-1.45, 1.95, 0)
 		offset = 0.75
-	target.x += sin(time * 0.12) * 0.1
-	camera.position = camera.position.lerp(target, minf(delta * 2.4, 1.0))
-	camera.h_offset = lerpf(camera.h_offset, offset, minf(delta * 2.4, 1.0))
+	if not reduced_motion: target.x += sin(time * 0.12) * 0.07
+	var blend := 1.0 if reduced_motion else minf(delta * 2.4, 1.0)
+	camera.position = camera.position.lerp(target, blend)
+	camera.h_offset = lerpf(camera.h_offset, offset, blend)
 	var facing := camera.global_transform.looking_at(focus, Vector3.UP).basis.get_rotation_quaternion()
-	camera.quaternion = camera.quaternion.slerp(facing, minf(delta * 2.4, 1.0))
-	fill.light_color = fill.light_color.lerp(mood, minf(delta * 2, 1.0))
+	camera.quaternion = camera.quaternion.slerp(facing, blend)
+	fill.light_color = fill.light_color.lerp(mood, 1.0 if reduced_motion else minf(delta * 2, 1.0))
+	fill.light_energy = lerpf(fill.light_energy, 0.6 if stage_state == "locked" else 1.5, blend)
+	for spot in spots:
+		spot.light_energy = lerpf(spot.light_energy, 4.0 if stage_state == "locked" else 3.0, blend)
 	for i in range(people.size()):
-		people[i].rotation.x = sin(time * 1.35 + i * 2) * 0.008
+		people[i].rotation.x = 0.0 if reduced_motion else sin(time * 1.35 + i * 2) * 0.008
