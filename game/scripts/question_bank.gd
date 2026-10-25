@@ -2,6 +2,7 @@ extends RefCounted
 
 const CATEGORIES = ["Internet & creators", "Gaming", "Music", "Film & TV", "Science & space", "Technology", "Sports", "Culture & food"]
 const HISTORY_LIMIT = 10080
+const RECENT_WINDOW = 180
 
 static func active_bank() -> Array:
 	var value = JSON.parse_string(FileAccess.get_file_as_string("res://data/questions.json"))
@@ -29,6 +30,7 @@ static func select_pack(selected_categories: Array, recent: Array = [], bank: Ar
 		if entry is Dictionary:
 			seen[str(entry.get("id", ""))] = i + 1
 			seen[str(entry.get("fact_key", ""))] = i + 1
+	var cutoff := maxi(0, recent.size() - RECENT_WINDOW)
 	var cells := {}
 	for q in all:
 		if not q is Dictionary or not available(q, today): continue
@@ -58,14 +60,18 @@ static func select_pack(selected_categories: Array, recent: Array = [], bank: Ar
 				category_options.clear()
 			if count == lowest_count:
 				var fresh := 0
+				var oldest_score := 2147483647
 				for q in options:
-					if not seen.has(q.id) and not seen.has(q.fact_key): fresh += 1
-				category_options.append({"category": category, "options": options, "fresh": fresh, "tier_count": tier_counts.get(category + str(difficulty), 0)})
+					var rank := maxi(int(seen.get(q.id, 0)), int(seen.get(q.fact_key, 0)))
+					if rank <= cutoff: fresh += 1
+					oldest_score = mini(oldest_score, rank)
+				category_options.append({"category": category, "options": options, "fresh": fresh, "oldest": oldest_score, "tier_count": tier_counts.get(category + str(difficulty), 0)})
 		if category_options.is_empty(): return failure
 		category_options.shuffle()
 		category_options.sort_custom(func(a, b):
 			if a.tier_count != b.tier_count: return a.tier_count < b.tier_count
-			return a.fresh > b.fresh)
+			if a.fresh != b.fresh: return a.fresh > b.fresh
+			return a.oldest < b.oldest)
 		var bucket: Dictionary = category_options[0]
 		var options: Array = bucket.options
 		options.shuffle()
@@ -76,7 +82,7 @@ static func select_pack(selected_categories: Array, recent: Array = [], bank: Ar
 			if age < oldest:
 				oldest = age
 				chosen = q
-		if oldest > 0: repeats += 1
+		if oldest > cutoff: repeats += 1
 		category_counts[chosen.category] += 1
 		var tier_key: String = chosen.category + str(difficulty)
 		tier_counts[tier_key] = int(tier_counts.get(tier_key, 0)) + 1

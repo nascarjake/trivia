@@ -94,11 +94,14 @@ func _ready() -> void:
 	if response.get("questions", []) is Array and not response.get("questions", []).is_empty():
 		shared_bank = response.questions
 		mode_button.text = "%d questions · bank checked %s" % [shared_bank.size(), str(response.get("updated_at", "unknown"))]
+	if response.is_empty() or response.has("error"):
+		mode_button.text = "%d bundled questions · offline fallback" % QuestionBank.active_bank().size()
 	refresh_categories()
 
 func request(path: String, body: Dictionary = {}, post := true) -> Dictionary:
 	var http := HTTPRequest.new()
 	add_child(http)
+	http.accept_gzip = not OS.has_feature("web") # Browser fetch already decodes Content-Encoding.
 	http.timeout = 150 if path == "/api/pack" else 35
 	var error := http.request(api + path, ["Content-Type: application/json"], HTTPClient.METHOD_POST if post else HTTPClient.METHOD_GET, JSON.stringify(body) if post else "")
 	if error != OK:

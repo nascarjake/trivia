@@ -6,7 +6,7 @@ Existing-bank review corrected the solo-developer attribution for Stardew Valley
 
 ## Rotation and capacity
 
-The actual bank supports twelve full-mix runs: 180 displayed facts with zero repeat slots in the gameplay check. Narrow pools still exhaust: any-single-theme coverage for twelve runs needs **1,440 total** (60 per tier/theme), and twelve daily runs for seven days needs **10,080** (420/cell). These are separate targets. Client history retains 10,080 distinct IDs/facts, is saved when displayed and survives bank publication. It is local to the browser/device/origin; clearing storage or changing origin loses it. No in-progress run save or account history is claimed.
+The actual bank supports twelve full-mix runs: 180 displayed facts with zero repeat slots. A rolling twelve-run window also passes across 36 runs. Selection avoids the recent 180 distinct facts and uses oldest-first tie breaking across theme pools; the longer 10,080-entry history preserves identities across bank changes. Narrow pools still exhaust: any-single-theme coverage for twelve runs needs **1,440 total** (60 per tier/theme), and twelve daily runs for seven days needs **10,080** (420/cell). These are separate targets. Client history retains 10,080 distinct IDs/facts, is saved when displayed and survives bank publication. It is local to the browser/device/origin; clearing storage or changing origin loses it. No in-progress run save or account history is claimed.
 
 ## Live weekly mechanism
 

@@ -42,14 +42,22 @@ func run() -> void:
 			q.difficulty = d
 			fixtures.append(q)
 	var actual_history := []
+	var actual_runs := []
 	var actual_repeats := 0
-	for run_index in range(12):
+	for run_index in range(36):
 		var actual: Dictionary = bank_builder.select_pack(bank_builder.CATEGORIES, actual_history, seed)
 		assert(actual.questions.size() == 15)
-		actual_repeats += int(actual.repeats)
-		for q in actual.questions: actual_history = bank_builder.remember(actual_history, q)
-	assert(actual_repeats == 0) # The actual balanced bank now supports twelve full-mix runs.
-	print("Actual bank / 12 full-mix runs: %d unique facts, %d repeat slots" % [actual_history.size(), actual_repeats])
+		var recent_facts := []
+		for past in actual_runs.slice(maxi(0, actual_runs.size() - 11)): recent_facts.append_array(past)
+		var run_facts := []
+		for q in actual.questions:
+			assert(not recent_facts.has(q.fact_key))
+			run_facts.append(q.fact_key)
+			actual_history = bank_builder.remember(actual_history, q)
+		actual_runs.append(run_facts)
+		if run_index < 12: actual_repeats += int(actual.repeats)
+	assert(actual_repeats == 0)
+	print("Actual bank: first 12 runs / 180 unique facts / zero repeats; rolling 12-run window passes across 36 runs")
 	var history := []
 	for run_index in range(12):
 		var rotation: Dictionary = bank_builder.select_pack(["Gaming"], history, fixtures)
