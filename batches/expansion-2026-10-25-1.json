@@ -1,0 +1,773 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-25",
+  "categories": [
+    "Internet & creators",
+    "Gaming",
+    "Music",
+    "Film & TV",
+    "Science & space",
+    "Technology",
+    "Sports",
+    "Culture & food"
+  ],
+  "questions": [
+    {
+      "id": "curated-aad923b3bd2f01f2",
+      "fact_key": "url:expanded-name",
+      "category": "Internet & creators",
+      "difficulty": 0,
+      "question": "What does URL stand for in a browser address?",
+      "answers": [
+        "Uniform Resource Locator",
+        "Universal Routing Language",
+        "Unified Reference List",
+        "User Request Link"
+      ],
+      "correct": 0,
+      "explanation": "URL expands to Uniform Resource Locator.",
+      "source": "https://developer.mozilla.org/en-US/docs/Glossary/URL",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "URL expands to Uniform Resource Locator.",
+      "source_terms": [
+        "Uniform Resource Locator"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Uniform Resource Locator.",
+        "This choice names a different concept and does not satisfy the stated fact: Universal Routing Language.",
+        "This choice names a different concept and does not satisfy the stated fact: Unified Reference List.",
+        "This choice names a different concept and does not satisfy the stated fact: User Request Link."
+      ]
+    },
+    {
+      "id": "curated-231ce543fe71fa07",
+      "fact_key": "cc:nc-noncommercial",
+      "category": "Internet & creators",
+      "difficulty": 1,
+      "question": "What does NC specify in a Creative Commons license?",
+      "answers": [
+        "Noncommercial use",
+        "No attribution",
+        "No copying",
+        "Network certification"
+      ],
+      "correct": 0,
+      "explanation": "NC limits licensed use to noncommercial purposes.",
+      "source": "https://creativecommons.org/cc-licenses/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "NC limits licensed use to noncommercial purposes.",
+      "source_terms": [
+        "NC",
+        "noncommercial"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Noncommercial use.",
+        "This choice names a different concept and does not satisfy the stated fact: No attribution.",
+        "This choice names a different answer and does not satisfy the stated fact: No copying.",
+        "This choice names a different concept and does not satisfy the stated fact: Network certification."
+      ]
+    },
+    {
+      "id": "curated-775212ee458cdb83",
+      "fact_key": "activitypub:protocol-purpose",
+      "category": "Internet & creators",
+      "difficulty": 2,
+      "question": "Which W3C protocol specifies decentralized social-network communication?",
+      "answers": [
+        "ActivityPub",
+        "SMTP",
+        "WebDAV",
+        "NTP"
+      ],
+      "correct": 0,
+      "explanation": "ActivityPub specifies decentralized social networking.",
+      "source": "https://www.w3.org/TR/activitypub/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "ActivityPub specifies decentralized social networking.",
+      "source_terms": [
+        "decentralized social networking protocol"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies ActivityPub.",
+        "This choice names a different answer and does not satisfy the stated fact: SMTP.",
+        "This choice names a different answer and does not satisfy the stated fact: WebDAV.",
+        "This choice names a different answer and does not satisfy the stated fact: NTP."
+      ]
+    },
+    {
+      "id": "curated-d78cc72a072443f3",
+      "fact_key": "kirby:copy-ability-inhale",
+      "category": "Gaming",
+      "difficulty": 0,
+      "question": "Which pink Nintendo hero can inhale enemies and copy their abilities?",
+      "answers": [
+        "Kirby",
+        "Yoshi",
+        "Toad",
+        "Pikachu"
+      ],
+      "correct": 0,
+      "explanation": "Kirby can inhale an enemy to copy its abilities.",
+      "source": "https://www.nintendo.com/my/switch/arzg/copy/index.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Kirby can inhale an enemy to copy its abilities.",
+      "source_terms": [
+        "Kirby",
+        "copy"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Kirby.",
+        "This choice names a different answer and does not satisfy the stated fact: Yoshi.",
+        "This choice names a different answer and does not satisfy the stated fact: Toad.",
+        "This choice names a different answer and does not satisfy the stated fact: Pikachu."
+      ]
+    },
+    {
+      "id": "curated-a513b175d2eb37f4",
+      "fact_key": "celeste:protagonist",
+      "category": "Gaming",
+      "difficulty": 1,
+      "question": "Who climbs Celeste Mountain in the game Celeste?",
+      "answers": [
+        "Madeline",
+        "Mae",
+        "Chara",
+        "Chell"
+      ],
+      "correct": 0,
+      "explanation": "Madeline is the climber at the center of Celeste.",
+      "source": "https://www.celestegame.com/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Madeline is the climber at the center of Celeste.",
+      "source_terms": [
+        "Madeline",
+        "Celeste Mountain"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Madeline.",
+        "This choice names a different answer and does not satisfy the stated fact: Mae.",
+        "This choice names a different answer and does not satisfy the stated fact: Chara.",
+        "This choice names a different answer and does not satisfy the stated fact: Chell."
+      ]
+    },
+    {
+      "id": "curated-d8b424464804ff40",
+      "fact_key": "chess:en-passant-immediate",
+      "category": "Gaming",
+      "difficulty": 2,
+      "question": "When must an eligible en passant capture be made in standard chess?",
+      "answers": [
+        "On the immediately following move",
+        "Any time before the next capture",
+        "Only after castling",
+        "After three more moves"
+      ],
+      "correct": 0,
+      "explanation": "En passant is legal only on the move immediately following the pawn’s two-square advance.",
+      "source": "https://handbook.fide.com/chapter/E012023",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "En passant is legal only on the move immediately following the pawn’s two-square advance.",
+      "source_terms": [
+        "only legal on the move following"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies On the immediately following move.",
+        "This choice names a different concept and does not satisfy the stated fact: Any time before the next capture.",
+        "This choice names a different concept and does not satisfy the stated fact: Only after castling.",
+        "This choice names a different concept and does not satisfy the stated fact: After three more moves."
+      ]
+    },
+    {
+      "id": "curated-4d6e03442b2861c1",
+      "fact_key": "trumpet:instrument-family",
+      "category": "Music",
+      "difficulty": 0,
+      "question": "The trumpet belongs to which orchestral instrument family?",
+      "answers": [
+        "Brass",
+        "Woodwind",
+        "Strings",
+        "Percussion"
+      ],
+      "correct": 0,
+      "explanation": "The trumpet is a brass instrument.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/trumpet/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The trumpet is a brass instrument.",
+      "source_terms": [
+        "trumpet",
+        "brass"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Brass.",
+        "This choice names a different answer and does not satisfy the stated fact: Woodwind.",
+        "This choice names a different answer and does not satisfy the stated fact: Strings.",
+        "This choice names a different answer and does not satisfy the stated fact: Percussion."
+      ]
+    },
+    {
+      "id": "curated-afb417338532484d",
+      "fact_key": "piano:hammer-action",
+      "category": "Music",
+      "difficulty": 1,
+      "question": "What strikes the strings inside an acoustic piano?",
+      "answers": [
+        "Hammers",
+        "Plectrums",
+        "Bows",
+        "Reeds"
+      ],
+      "correct": 0,
+      "explanation": "An acoustic piano produces sound when hammers strike its strings.",
+      "source": "https://usa.yamaha.com/products/contents/musical_instrument_guide/piano/index.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "An acoustic piano produces sound when hammers strike its strings.",
+      "source_terms": [
+        "striking strings with hammers"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Hammers.",
+        "This choice names a different answer and does not satisfy the stated fact: Plectrums.",
+        "This choice names a different answer and does not satisfy the stated fact: Bows.",
+        "This choice names a different answer and does not satisfy the stated fact: Reeds."
+      ]
+    },
+    {
+      "id": "curated-8b6469942d1f110b",
+      "fact_key": "saxophone:inventor",
+      "category": "Music",
+      "difficulty": 2,
+      "question": "Who invented the saxophone?",
+      "answers": [
+        "Adolphe Sax",
+        "Theobald Boehm",
+        "Bartolomeo Cristofori",
+        "Antonio Stradivari"
+      ],
+      "correct": 0,
+      "explanation": "Adolphe Sax invented the saxophone and patented it in Paris in 1846.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Adolphe Sax invented the saxophone and patented it in Paris in 1846.",
+      "source_terms": [
+        "Adolphe Sax",
+        "1846"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Adolphe Sax.",
+        "This choice names a different concept and does not satisfy the stated fact: Theobald Boehm.",
+        "This choice names a different concept and does not satisfy the stated fact: Bartolomeo Cristofori.",
+        "This choice names a different concept and does not satisfy the stated fact: Antonio Stradivari."
+      ]
+    },
+    {
+      "id": "curated-13f20c66464ce938",
+      "fact_key": "finding-nemo:species",
+      "category": "Film & TV",
+      "difficulty": 0,
+      "question": "What kind of fish are Nemo and his father Marlin?",
+      "answers": [
+        "Clownfish",
+        "Swordfish",
+        "Angelfish",
+        "Goldfish"
+      ],
+      "correct": 0,
+      "explanation": "Nemo and Marlin are clownfish.",
+      "source": "https://www.pixar.com/finding-nemo",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Nemo and Marlin are clownfish.",
+      "source_terms": [
+        "Clown Fish",
+        "Nemo"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Clownfish.",
+        "This choice names a different answer and does not satisfy the stated fact: Swordfish.",
+        "This choice names a different answer and does not satisfy the stated fact: Angelfish.",
+        "This choice names a different answer and does not satisfy the stated fact: Goldfish."
+      ]
+    },
+    {
+      "id": "curated-b8167f29be0c0120",
+      "fact_key": "ratatouille:city-setting",
+      "category": "Film & TV",
+      "difficulty": 1,
+      "question": "In which city is most of Ratatouille set?",
+      "answers": [
+        "Paris",
+        "Rome",
+        "Madrid",
+        "Vienna"
+      ],
+      "correct": 0,
+      "explanation": "Ratatouille’s story unfolds in Paris.",
+      "source": "https://www.pixar.com/ratatouille",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Ratatouille’s story unfolds in Paris.",
+      "source_terms": [
+        "Paris",
+        "story"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Paris.",
+        "This choice names a different answer and does not satisfy the stated fact: Rome.",
+        "This choice names a different answer and does not satisfy the stated fact: Madrid.",
+        "This choice names a different answer and does not satisfy the stated fact: Vienna."
+      ]
+    },
+    {
+      "id": "curated-9804df77537651ce",
+      "fact_key": "oscars:2020-best-picture",
+      "category": "Film & TV",
+      "difficulty": 2,
+      "question": "Which film won Best Picture at the 2020 Academy Awards?",
+      "answers": [
+        "Parasite",
+        "1917",
+        "Joker",
+        "The Irishman"
+      ],
+      "correct": 0,
+      "explanation": "Parasite won Best Picture at the 2020 ceremony.",
+      "source": "https://www.oscars.org/oscars/ceremonies/2020",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Parasite won Best Picture at the 2020 ceremony.",
+      "source_terms": [
+        "Best Picture",
+        "Parasite"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Parasite.",
+        "This choice names a different answer and does not satisfy the stated fact: 1917.",
+        "This choice names a different answer and does not satisfy the stated fact: Joker.",
+        "This choice names a different answer and does not satisfy the stated fact: The Irishman."
+      ]
+    },
+    {
+      "id": "curated-830e7b06f15387c4",
+      "fact_key": "jupiter:largest-planet",
+      "category": "Science & space",
+      "difficulty": 0,
+      "question": "Which planet is the largest in our solar system?",
+      "answers": [
+        "Jupiter",
+        "Saturn",
+        "Neptune",
+        "Earth"
+      ],
+      "correct": 0,
+      "explanation": "Jupiter is the largest planet in the solar system.",
+      "source": "https://science.nasa.gov/jupiter/jupiter-facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Jupiter is the largest planet in the solar system.",
+      "source_terms": [
+        "largest planet"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Jupiter.",
+        "This choice names a different answer and does not satisfy the stated fact: Saturn.",
+        "This choice names a different answer and does not satisfy the stated fact: Neptune.",
+        "This choice names a different answer and does not satisfy the stated fact: Earth."
+      ]
+    },
+    {
+      "id": "curated-f4421453fe2fadfb",
+      "fact_key": "mars:moon-names",
+      "category": "Science & space",
+      "difficulty": 1,
+      "question": "Which pair are the two moons of Mars?",
+      "answers": [
+        "Phobos and Deimos",
+        "Io and Europa",
+        "Titan and Rhea",
+        "Triton and Nereid"
+      ],
+      "correct": 0,
+      "explanation": "Mars’s two moons are Phobos and Deimos.",
+      "source": "https://science.nasa.gov/mars/facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Mars’s two moons are Phobos and Deimos.",
+      "source_terms": [
+        "Phobos",
+        "Deimos"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Phobos and Deimos.",
+        "This choice names a different concept and does not satisfy the stated fact: Io and Europa.",
+        "This choice names a different concept and does not satisfy the stated fact: Titan and Rhea.",
+        "This choice names a different concept and does not satisfy the stated fact: Triton and Nereid."
+      ]
+    },
+    {
+      "id": "curated-2f0712a105ddd0ff",
+      "fact_key": "neptune:mathematical-discovery",
+      "category": "Science & space",
+      "difficulty": 2,
+      "question": "Which planet was located in 1846 using mathematical predictions of its position?",
+      "answers": [
+        "Neptune",
+        "Uranus",
+        "Saturn",
+        "Venus"
+      ],
+      "correct": 0,
+      "explanation": "Mathematical predictions led astronomers to Neptune in 1846.",
+      "source": "https://science.nasa.gov/neptune/neptune-facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Mathematical predictions led astronomers to Neptune in 1846.",
+      "source_terms": [
+        "mathematical predictions",
+        "1846"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Neptune.",
+        "This choice names a different answer and does not satisfy the stated fact: Uranus.",
+        "This choice names a different answer and does not satisfy the stated fact: Saturn.",
+        "This choice names a different answer and does not satisfy the stated fact: Venus."
+      ]
+    },
+    {
+      "id": "curated-f40e60cc51cf9ed5",
+      "fact_key": "usb:expanded-name",
+      "category": "Technology",
+      "difficulty": 0,
+      "question": "What does USB stand for?",
+      "answers": [
+        "Universal Serial Bus",
+        "Unified System Board",
+        "User Storage Block",
+        "Universal Signal Bridge"
+      ],
+      "correct": 0,
+      "explanation": "USB expands to Universal Serial Bus.",
+      "source": "https://www.usb.org/front-page",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "USB expands to Universal Serial Bus.",
+      "source_terms": [
+        "Universal Serial Bus"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Universal Serial Bus.",
+        "This choice names a different concept and does not satisfy the stated fact: Unified System Board.",
+        "This choice names a different concept and does not satisfy the stated fact: User Storage Block.",
+        "This choice names a different concept and does not satisfy the stated fact: Universal Signal Bridge."
+      ]
+    },
+    {
+      "id": "curated-7b54dc63e302d768",
+      "fact_key": "json:expanded-name",
+      "category": "Technology",
+      "difficulty": 1,
+      "question": "What does JSON stand for?",
+      "answers": [
+        "JavaScript Object Notation",
+        "Java Source Object Network",
+        "Joined System Output Names",
+        "JavaScript Ordered Nodes"
+      ],
+      "correct": 0,
+      "explanation": "JSON expands to JavaScript Object Notation.",
+      "source": "https://www.rfc-editor.org/rfc/rfc8259",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "JSON expands to JavaScript Object Notation.",
+      "source_terms": [
+        "JavaScript Object Notation"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies JavaScript Object Notation.",
+        "This choice names a different concept and does not satisfy the stated fact: Java Source Object Network.",
+        "This choice names a different concept and does not satisfy the stated fact: Joined System Output Names.",
+        "This choice names a different concept and does not satisfy the stated fact: JavaScript Ordered Nodes."
+      ]
+    },
+    {
+      "id": "curated-09ad9571f6872ae1",
+      "fact_key": "ipv6:address-width",
+      "category": "Technology",
+      "difficulty": 2,
+      "question": "How many bits are in an IPv6 address?",
+      "answers": [
+        "128",
+        "32",
+        "64",
+        "256"
+      ],
+      "correct": 0,
+      "explanation": "IPv6 expands IP address size to 128 bits.",
+      "source": "https://www.rfc-editor.org/rfc/rfc8200",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "IPv6 expands IP address size to 128 bits.",
+      "source_terms": [
+        "128 bits"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 128.",
+        "This choice names a different answer and does not satisfy the stated fact: 32.",
+        "This choice names a different answer and does not satisfy the stated fact: 64.",
+        "This choice names a different answer and does not satisfy the stated fact: 256."
+      ]
+    },
+    {
+      "id": "curated-f9b787181af93e02",
+      "fact_key": "nba:outside-arc-score",
+      "category": "Sports",
+      "difficulty": 0,
+      "question": "In NBA basketball, how many points is a made field goal from outside the three-point line worth?",
+      "answers": [
+        "Three",
+        "One",
+        "Two",
+        "Four"
+      ],
+      "correct": 0,
+      "explanation": "An NBA field goal from outside the three-point line counts three points.",
+      "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "An NBA field goal from outside the three-point line counts three points.",
+      "source_terms": [
+        "outside",
+        "three points"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Three.",
+        "This choice names a different answer and does not satisfy the stated fact: One.",
+        "This choice names a different answer and does not satisfy the stated fact: Two.",
+        "This choice names a different answer and does not satisfy the stated fact: Four."
+      ]
+    },
+    {
+      "id": "curated-2c4d5ccda8da2675",
+      "fact_key": "nba:shot-clock-initial",
+      "category": "Sports",
+      "difficulty": 1,
+      "question": "What is the full shot-clock period for an NBA team to attempt a shot?",
+      "answers": [
+        "24 seconds",
+        "20 seconds",
+        "30 seconds",
+        "35 seconds"
+      ],
+      "correct": 0,
+      "explanation": "The NBA uses a 24-second shot clock, with separate reset rules in specified situations.",
+      "source": "https://official.nba.com/rule-no-7-24-second-clock/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The NBA uses a 24-second shot clock, with separate reset rules in specified situations.",
+      "source_terms": [
+        "24-second"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 24 seconds.",
+        "This choice names a different answer and does not satisfy the stated fact: 20 seconds.",
+        "This choice names a different answer and does not satisfy the stated fact: 30 seconds.",
+        "This choice names a different answer and does not satisfy the stated fact: 35 seconds."
+      ]
+    },
+    {
+      "id": "curated-46c0a17dce24b8e5",
+      "fact_key": "nba:overtime-period-length",
+      "category": "Sports",
+      "difficulty": 2,
+      "question": "How long is an NBA overtime period?",
+      "answers": [
+        "Five minutes",
+        "Three minutes",
+        "Six minutes",
+        "Ten minutes"
+      ],
+      "correct": 0,
+      "explanation": "NBA overtime periods last five minutes.",
+      "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "NBA overtime periods last five minutes.",
+      "source_terms": [
+        "overtime",
+        "five minutes"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Five minutes.",
+        "This choice names a different concept and does not satisfy the stated fact: Three minutes.",
+        "This choice names a different answer and does not satisfy the stated fact: Six minutes.",
+        "This choice names a different answer and does not satisfy the stated fact: Ten minutes."
+      ]
+    },
+    {
+      "id": "curated-6c74b1d59ff941b5",
+      "fact_key": "great-wall:country",
+      "category": "Culture & food",
+      "difficulty": 0,
+      "question": "In which country is the Great Wall World Heritage site?",
+      "answers": [
+        "China",
+        "Japan",
+        "India",
+        "Mongolia"
+      ],
+      "correct": 0,
+      "explanation": "UNESCO lists the Great Wall in China.",
+      "source": "https://whc.unesco.org/en/list/438/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "UNESCO lists the Great Wall in China.",
+      "source_terms": [
+        "China"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies China.",
+        "This choice names a different answer and does not satisfy the stated fact: Japan.",
+        "This choice names a different answer and does not satisfy the stated fact: India.",
+        "This choice names a different answer and does not satisfy the stated fact: Mongolia."
+      ]
+    },
+    {
+      "id": "curated-12be1dc5cff3d306",
+      "fact_key": "tea:plant-species",
+      "category": "Culture & food",
+      "difficulty": 1,
+      "question": "Black, green and oolong tea all come from which plant species?",
+      "answers": [
+        "Camellia sinensis",
+        "Coffea arabica",
+        "Mentha spicata",
+        "Hibiscus sabdariffa"
+      ],
+      "correct": 0,
+      "explanation": "Black, green and oolong tea are processed from Camellia sinensis.",
+      "source": "https://www.kew.org/plants/tea-plant",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Black, green and oolong tea are processed from Camellia sinensis.",
+      "source_terms": [
+        "Camellia sinensis",
+        "oolong"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Camellia sinensis.",
+        "This choice names a different concept and does not satisfy the stated fact: Coffea arabica.",
+        "This choice names a different concept and does not satisfy the stated fact: Mentha spicata.",
+        "This choice names a different concept and does not satisfy the stated fact: Hibiscus sabdariffa."
+      ]
+    },
+    {
+      "id": "curated-2ee2a719c68231c5",
+      "fact_key": "angkor:khmer-empire",
+      "category": "Culture & food",
+      "difficulty": 2,
+      "question": "The ruins at Angkor include capitals of which empire?",
+      "answers": [
+        "Khmer",
+        "Mughal",
+        "Ottoman",
+        "Inca"
+      ],
+      "correct": 0,
+      "explanation": "Angkor preserves capitals and temples of the Khmer Empire.",
+      "source": "https://whc.unesco.org/en/list/668/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Angkor preserves capitals and temples of the Khmer Empire.",
+      "source_terms": [
+        "Khmer Empire"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Khmer.",
+        "This choice names a different answer and does not satisfy the stated fact: Mughal.",
+        "This choice names a different answer and does not satisfy the stated fact: Ottoman.",
+        "This choice names a different answer and does not satisfy the stated fact: Inca."
+      ]
+    }
+  ]
+}

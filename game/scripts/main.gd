@@ -72,7 +72,7 @@ var preference_path := "user://preferences.cfg"
 
 func _ready() -> void:
 	if OS.has_feature("web"):
-		api = str(JavaScriptBridge.eval("window.location.origin"))
+		api = str(JavaScriptBridge.eval("new URL('.', window.location.href).href")).trim_suffix("/")
 	studio = Studio.new()
 	add_child(studio)
 	load_preferences()
@@ -83,12 +83,17 @@ func _ready() -> void:
 	select_character(character_index)
 	audio_player = AudioStreamPlayer.new()
 	add_child(audio_player)
-	mode_button.text = "120 curated questions · refresh not scheduled"
-	if OS.has_feature("github_pages") or not persist_enabled: return
-	var response := await request("/api/bank", {}, false)
+	mode_button.text = "%d curated questions · checking weekly bank…" % QuestionBank.active_bank().size()
+	if not persist_enabled: return
+	var manifest := await request("/bank/manifest.json", {}, false)
+	var response := {}
+	var snapshot_path: String = str(manifest.get("path", ""))
+	if snapshot_path.begins_with("versions/") and snapshot_path.ends_with(".json") and not snapshot_path.contains(".."):
+		response = await request("/bank/" + snapshot_path, {}, false)
+		if response.get("version", "") != manifest.get("active", "unavailable"): response = {}
 	if response.get("questions", []) is Array and not response.get("questions", []).is_empty():
 		shared_bank = response.questions
-		mode_button.text = "Shared bank · %d questions · refresh not scheduled" % shared_bank.size()
+		mode_button.text = "%d questions · bank checked %s" % [shared_bank.size(), str(response.get("updated_at", "unknown"))]
 	refresh_categories()
 
 func request(path: String, body: Dictionary = {}, post := true) -> Dictionary:
@@ -449,7 +454,7 @@ func load_question() -> void:
 		return
 	recent_questions = QuestionBank.remember(recent_questions, q)
 	save_preferences()
-	meta_label.text = "QUESTION %02d / 15     •     %s     •     %s" % [round_index + 1, str(q.category).to_upper(), "CURATED BANK"]
+	meta_label.text = "QUESTION %02d / 15     •     %s     •     %s" % [round_index + 1, str(q.category).to_upper(), "NASA HEADLINE / DATED" if q.get("kind", "evergreen") == "current" else "CURATED BANK"]
 	question_label.text = q.question
 	status_label.text = "Playing for %s · Select an answer, then lock it in." % money(MONEY[round_index])
 	if rotation_repeats > 0:

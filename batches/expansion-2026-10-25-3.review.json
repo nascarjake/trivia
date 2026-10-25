@@ -1,0 +1,269 @@
+{
+  "batch_sha256": "227c32db9219f7e6adbe5c17f42c7b5ab89316c979c9ff54c6b7dd13713aa035",
+  "decisions": {
+    "curated-9fa9632c4fd108a7": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-a0135de206822122": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-6305e53cdacf3eb1": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-3a827c8ef261f210": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-d94f16ea1516bc64": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-fdbbe6d3dcdd2222": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-fe2c2de37243e749": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-5614792ec656e2ef": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-f6824db785079294": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-0ff2d855aa8c575f": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-a6acfc47801360c8": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-5948ae6b3e95a311": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-6d551195ed9ea405": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-0d90b3e03423c923": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-941c1358e012b1ce": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-397fe8cbb8d1f61d": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-2dbd22e9ba34164f": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-b5deccb91af7903d": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-4271fdc6b341c6be": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-a282d8d4fa637e32": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-53a18bafd67635df": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-5abe9f5b925771cc": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-b718d38db3c3aac1": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    },
+    "curated-0b7fc0c484e581e7": {
+      "status": "approved",
+      "correct": 0,
+      "reviewer": "Codex: primary-source and distractor review",
+      "reviewed_at": "2026-10-25",
+      "source_checked": true,
+      "one_correct": true,
+      "distractors_checked": true,
+      "canonical_fact_checked": true,
+      "original_wording": true
+    }
+  }
+}

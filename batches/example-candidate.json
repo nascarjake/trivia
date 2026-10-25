@@ -6,31 +6,32 @@
   ],
   "questions": [
     {
-      "id": "nasa-clipper-launch-2024",
-      "fact_key": "europa-clipper:launch-date",
+      "id": "nasa-mercury-smallest",
+      "fact_key": "mercury:smallest-planet",
       "category": "Science & space",
       "difficulty": 0,
-      "question": "In which year did Europa Clipper leave Earth on its journey to Jupiter?",
+      "question": "Which planet is the smallest in our solar system?",
       "answers": [
-        "2024",
-        "2014",
-        "2004",
-        "1994"
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Neptune"
       ],
       "correct": 0,
-      "explanation": "Europa Clipper launched on October 14, 2024.",
-      "source": "https://science.nasa.gov/mission/europa-clipper/",
-      "source_date": "2026-09-10",
+      "explanation": "Mercury is the smallest planet in the solar system.",
+      "source": "https://science.nasa.gov/mercury/facts/",
+      "source_date": "2026-10-25",
       "verified_at": "2026-10-25",
       "kind": "evergreen",
       "expires_at": "",
-      "evidence": "NASA records the launch date as October 14, 2024.",
+      "evidence": "NASA identifies Mercury as the smallest planet in the solar system.",
       "choice_notes": [
-        "2024 is the NASA-recorded launch year.",
-        "2014 is ten years before the launch.",
-        "2004 is twenty years before the launch.",
-        "1994 is thirty years before the launch."
-      ]
+        "NASA identifies Mercury as the smallest planet.",
+        "Venus is larger than Mercury.",
+        "Mars is larger than Mercury.",
+        "Neptune is much larger than Mercury."
+      ],
+      "source_date_kind": "retrieved-undated-reference"
     },
     {
       "id": "nasa-dragonfly-sim-20261023",
@@ -60,31 +61,32 @@
       ]
     },
     {
-      "id": "nasa-clipper-gravity-experiment",
-      "fact_key": "europa-clipper:gravity-experiment-telecommunications",
+      "id": "nasa-neptune-orbit-length",
+      "fact_key": "neptune:orbital-period",
       "category": "Science & space",
       "difficulty": 2,
-      "question": "Which Europa Clipper system also supports its gravity experiment?",
+      "question": "About how many Earth years does Neptune take to orbit the Sun?",
       "answers": [
-        "Telecommunications system",
-        "Landing legs",
-        "Sample-return capsule",
-        "Surface drilling rig"
+        "165",
+        "84",
+        "29",
+        "12"
       ],
       "correct": 0,
-      "explanation": "NASA describes a gravity experiment that uses the spacecraft’s telecommunications system.",
-      "source": "https://science.nasa.gov/mission/europa-clipper/",
-      "source_date": "2026-09-10",
+      "explanation": "A year on Neptune lasts approximately 165 Earth years.",
+      "source": "https://science.nasa.gov/neptune/neptune-facts/",
+      "source_date": "2026-10-25",
       "verified_at": "2026-10-25",
       "kind": "evergreen",
       "expires_at": "",
-      "evidence": "NASA lists nine science instruments plus a gravity experiment using the telecommunications system.",
+      "evidence": "NASA states that Neptune orbits the Sun in about 165 Earth years.",
       "choice_notes": [
-        "NASA names telecommunications as the gravity-experiment system.",
-        "Europa Clipper is an orbiter/flyby mission, with no landing legs.",
-        "This mission does not carry a sample-return capsule.",
-        "It conducts flybys and has no surface drilling rig."
-      ]
+        "NASA gives approximately 165 Earth years.",
+        "84 years is closer to Uranus’s period.",
+        "29 years is closer to Saturn’s period.",
+        "12 years is closer to Jupiter’s period."
+      ],
+      "source_date_kind": "retrieved-undated-reference"
     }
   ]
 }

@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-25",
+  "categories": [
+    "Internet & creators",
+    "Gaming",
+    "Music",
+    "Film & TV",
+    "Science & space",
+    "Technology",
+    "Sports",
+    "Culture & food"
+  ],
+  "questions": [
+    {
+      "id": "curated-6db2d4021cc4b0b6",
+      "fact_key": "cc0:public-domain-purpose",
+      "category": "Internet & creators",
+      "difficulty": 0,
+      "question": "Which Creative Commons tool lets a creator dedicate a work to the public domain?",
+      "answers": [
+        "CC0",
+        "CC BY-SA",
+        "CC BY-NC",
+        "CC BY-ND"
+      ],
+      "correct": 0,
+      "explanation": "CC0 is a public-domain dedication tool.",
+      "source": "https://creativecommons.org/public-domain/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "CC0 is a public-domain dedication tool.",
+      "source_terms": [
+        "CC0",
+        "public domain"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies CC0.",
+        "This choice names a different answer and does not satisfy the stated fact: CC BY-SA.",
+        "This choice names a different answer and does not satisfy the stated fact: CC BY-NC.",
+        "This choice names a different answer and does not satisfy the stated fact: CC BY-ND."
+      ]
+    },
+    {
+      "id": "curated-45a5127c74235958",
+      "fact_key": "html:rel-ugc-purpose",
+      "category": "Internet & creators",
+      "difficulty": 1,
+      "question": "Which rel value does Google recommend for links in user comments or forum posts?",
+      "answers": [
+        "ugc",
+        "alternate",
+        "canonical",
+        "preload"
+      ],
+      "correct": 0,
+      "explanation": "Google recommends ugc for user-generated-content links.",
+      "source": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Google recommends ugc for user-generated-content links.",
+      "source_terms": [
+        "ugc",
+        "forum posts"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies ugc.",
+        "This choice names a different answer and does not satisfy the stated fact: alternate.",
+        "This choice names a different answer and does not satisfy the stated fact: canonical.",
+        "This choice names a different answer and does not satisfy the stated fact: preload."
+      ]
+    },
+    {
+      "id": "curated-472fbc66cfb23e24",
+      "fact_key": "robots:instructions-not-access-control",
+      "category": "Internet & creators",
+      "difficulty": 2,
+      "question": "What does a robots.txt file primarily tell cooperative crawlers?",
+      "answers": [
+        "Which URLs they may crawl",
+        "Which users can log in",
+        "How to decrypt files",
+        "Who owns the domain"
+      ],
+      "correct": 0,
+      "explanation": "robots.txt provides crawling instructions; it is not authentication or a security barrier.",
+      "source": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "robots.txt provides crawling instructions; it is not authentication or a security barrier.",
+      "source_terms": [
+        "crawlers",
+        "password"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Which URLs they may crawl.",
+        "This choice names a different concept and does not satisfy the stated fact: Which users can log in.",
+        "This choice names a different concept and does not satisfy the stated fact: How to decrypt files.",
+        "This choice names a different concept and does not satisfy the stated fact: Who owns the domain."
+      ]
+    },
+    {
+      "id": "curated-353967565385bc6a",
+      "fact_key": "metroid:protagonist",
+      "category": "Gaming",
+      "difficulty": 0,
+      "question": "Who is the bounty hunter played in Metroid Dread?",
+      "answers": [
+        "Samus Aran",
+        "Lara Croft",
+        "Aloy",
+        "Jill Valentine"
+      ],
+      "correct": 0,
+      "explanation": "Metroid Dread follows the bounty hunter Samus Aran.",
+      "source": "https://www.nintendo.com/us/store/products/metroid-dread-switch/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Metroid Dread follows the bounty hunter Samus Aran.",
+      "source_terms": [
+        "bounty hunter Samus Aran"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Samus Aran.",
+        "This choice names a different answer and does not satisfy the stated fact: Lara Croft.",
+        "This choice names a different answer and does not satisfy the stated fact: Aloy.",
+        "This choice names a different concept and does not satisfy the stated fact: Jill Valentine."
+      ]
+    },
+    {
+      "id": "curated-bf93cbfd81195418",
+      "fact_key": "hollow-knight:surface-town",
+      "category": "Gaming",
+      "difficulty": 1,
+      "question": "Which fading town stands above Hollow Knight’s underground kingdom?",
+      "answers": [
+        "Dirtmouth",
+        "Hyrule",
+        "Pelican Town",
+        "Ravenholm"
+      ],
+      "correct": 0,
+      "explanation": "Dirtmouth is the town above the ancient kingdom explored in Hollow Knight.",
+      "source": "https://www.hollowknight.com/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Dirtmouth is the town above the ancient kingdom explored in Hollow Knight.",
+      "source_terms": [
+        "Dirtmouth",
+        "kingdom"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Dirtmouth.",
+        "This choice names a different answer and does not satisfy the stated fact: Hyrule.",
+        "This choice names a different answer and does not satisfy the stated fact: Pelican Town.",
+        "This choice names a different answer and does not satisfy the stated fact: Ravenholm."
+      ]
+    },
+    {
+      "id": "curated-97132bf4af761a3b",
+      "fact_key": "chess:castling-king-distance",
+      "category": "Gaming",
+      "difficulty": 2,
+      "question": "How many squares does the king move when castling in standard chess?",
+      "answers": [
+        "Two",
+        "One",
+        "Three",
+        "Four"
+      ],
+      "correct": 0,
+      "explanation": "In standard castling the king moves two squares toward its rook.",
+      "source": "https://handbook.fide.com/chapter/E012023",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "In standard castling the king moves two squares toward its rook.",
+      "source_terms": [
+        "king is transferred",
+        "two squares"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Two.",
+        "This choice names a different answer and does not satisfy the stated fact: One.",
+        "This choice names a different answer and does not satisfy the stated fact: Three.",
+        "This choice names a different answer and does not satisfy the stated fact: Four."
+      ]
+    },
+    {
+      "id": "curated-5d06bba23d98792f",
+      "fact_key": "flute:embouchure-air",
+      "category": "Music",
+      "difficulty": 0,
+      "question": "How does a concert flutist begin producing sound?",
+      "answers": [
+        "Blow air across the embouchure hole",
+        "Strike a stretched string",
+        "Rub a drumhead",
+        "Vibrate a double reed"
+      ],
+      "correct": 0,
+      "explanation": "Air blown toward the edge of the embouchure hole starts the flute’s sound.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/flute/mechanism/mechanism002.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Air blown toward the edge of the embouchure hole starts the flute’s sound.",
+      "source_terms": [
+        "embouchure hole",
+        "edge"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Blow air across the embouchure hole.",
+        "This choice names a different concept and does not satisfy the stated fact: Strike a stretched string.",
+        "This choice names a different concept and does not satisfy the stated fact: Rub a drumhead.",
+        "This choice names a different concept and does not satisfy the stated fact: Vibrate a double reed."
+      ]
+    },
+    {
+      "id": "curated-b4b8bea0f5a0219a",
+      "fact_key": "trombone:slide-tube-length",
+      "category": "Music",
+      "difficulty": 1,
+      "question": "Moving a trombone’s slide changes what to alter its pitch?",
+      "answers": [
+        "The length of its air tube",
+        "The number of reeds",
+        "The width of the bell only",
+        "The tension of a drumhead"
+      ],
+      "correct": 0,
+      "explanation": "Extending the trombone slide lengthens the tube.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Extending the trombone slide lengthens the tube.",
+      "source_terms": [
+        "sliding the tube",
+        "lengthen"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies The length of its air tube.",
+        "This choice names a different concept and does not satisfy the stated fact: The number of reeds.",
+        "This choice names a different concept and does not satisfy the stated fact: The width of the bell only.",
+        "This choice names a different concept and does not satisfy the stated fact: The tension of a drumhead."
+      ]
+    },
+    {
+      "id": "curated-dc21524b318afeea",
+      "fact_key": "trombone:historical-english-name",
+      "category": "Music",
+      "difficulty": 2,
+      "question": "What was an early English name for the trombone?",
+      "answers": [
+        "Sackbut",
+        "Serpent",
+        "Crumhorn",
+        "Dulcian"
+      ],
+      "correct": 0,
+      "explanation": "Sackbut was an early English name for the trombone.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Sackbut was an early English name for the trombone.",
+      "source_terms": [
+        "sackbut"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Sackbut.",
+        "This choice names a different answer and does not satisfy the stated fact: Serpent.",
+        "This choice names a different answer and does not satisfy the stated fact: Crumhorn.",
+        "This choice names a different answer and does not satisfy the stated fact: Dulcian."
+      ]
+    },
+    {
+      "id": "curated-c7363323df82af5f",
+      "fact_key": "wall-e:robot-role",
+      "category": "Film & TV",
+      "difficulty": 0,
+      "question": "What kind of character is WALL-E?",
+      "answers": [
+        "A waste-compacting robot",
+        "A space pilot",
+        "A talking dinosaur",
+        "A marine biologist"
+      ],
+      "correct": 0,
+      "explanation": "WALL-E is a robot built to compact waste into cubes.",
+      "source": "https://www.pixar.com/wall-e",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "WALL-E is a robot built to compact waste into cubes.",
+      "source_terms": [
+        "robot",
+        "trash cube"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies A waste-compacting robot.",
+        "This choice names a different concept and does not satisfy the stated fact: A space pilot.",
+        "This choice names a different concept and does not satisfy the stated fact: A talking dinosaur.",
+        "This choice names a different concept and does not satisfy the stated fact: A marine biologist."
+      ]
+    },
+    {
+      "id": "curated-e30f64de775a7de2",
+      "fact_key": "wall-e:eve-name",
+      "category": "Film & TV",
+      "difficulty": 1,
+      "question": "Which sleek search robot does WALL-E follow into space?",
+      "answers": [
+        "EVE",
+        "AUTO",
+        "M-O",
+        "BURN-E"
+      ],
+      "correct": 0,
+      "explanation": "WALL-E meets EVE, the search robot, and follows her into space.",
+      "source": "https://www.pixar.com/wall-e",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "WALL-E meets EVE, the search robot, and follows her into space.",
+      "source_terms": [
+        "search robot named EVE"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies EVE.",
+        "This choice names a different answer and does not satisfy the stated fact: AUTO.",
+        "This choice names a different answer and does not satisfy the stated fact: M-O.",
+        "This choice names a different answer and does not satisfy the stated fact: BURN-E."
+      ]
+    },
+    {
+      "id": "curated-4e421b6581d0e994",
+      "fact_key": "oscars:1998-director",
+      "category": "Film & TV",
+      "difficulty": 2,
+      "question": "Who won the directing Oscar for Titanic at the 1998 ceremony?",
+      "answers": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Peter Jackson",
+        "Ridley Scott"
+      ],
+      "correct": 0,
+      "explanation": "James Cameron won the 1998 directing Oscar for Titanic.",
+      "source": "https://www.oscars.org/oscars/ceremonies/1998",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "James Cameron won the 1998 directing Oscar for Titanic.",
+      "source_terms": [
+        "Directing",
+        "Titanic",
+        "James Cameron"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies James Cameron.",
+        "This choice names a different concept and does not satisfy the stated fact: Steven Spielberg.",
+        "This choice names a different concept and does not satisfy the stated fact: Peter Jackson.",
+        "This choice names a different answer and does not satisfy the stated fact: Ridley Scott."
+      ]
+    },
+    {
+      "id": "curated-2923ca95c8a85389",
+      "fact_key": "mercury:closest-sun",
+      "category": "Science & space",
+      "difficulty": 0,
+      "question": "Which planet orbits closest to the Sun?",
+      "answers": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "correct": 0,
+      "explanation": "Mercury is the closest planet to the Sun.",
+      "source": "https://science.nasa.gov/mercury/facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Mercury is the closest planet to the Sun.",
+      "source_terms": [
+        "Mercury",
+        "Sun"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Mercury.",
+        "This choice names a different answer and does not satisfy the stated fact: Venus.",
+        "This choice names a different answer and does not satisfy the stated fact: Earth.",
+        "This choice names a different answer and does not satisfy the stated fact: Mars."
+      ]
+    },
+    {
+      "id": "curated-bc26feba37fa3dab",
+      "fact_key": "venus:retrograde-spin",
+      "category": "Science & space",
+      "difficulty": 1,
+      "question": "On which planet would the Sun rise in the west because of its slow reverse rotation?",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Earth"
+      ],
+      "correct": 0,
+      "explanation": "Venus rotates in the opposite direction to most planets, making the Sun rise in the west.",
+      "source": "https://science.nasa.gov/venus/venus-facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Venus rotates in the opposite direction to most planets, making the Sun rise in the west.",
+      "source_terms": [
+        "west",
+        "rotat"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Venus.",
+        "This choice names a different answer and does not satisfy the stated fact: Mars.",
+        "This choice names a different answer and does not satisfy the stated fact: Jupiter.",
+        "This choice names a different answer and does not satisfy the stated fact: Earth."
+      ]
+    },
+    {
+      "id": "curated-71391abf65f0f736",
+      "fact_key": "neptune:triton-retrograde",
+      "category": "Science & space",
+      "difficulty": 2,
+      "question": "Which large moon of Neptune orbits opposite to its planet’s rotation?",
+      "answers": [
+        "Triton",
+        "Titan",
+        "Callisto",
+        "Ganymede"
+      ],
+      "correct": 0,
+      "explanation": "Triton has a retrograde orbit around Neptune.",
+      "source": "https://science.nasa.gov/neptune/neptune-facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Triton has a retrograde orbit around Neptune.",
+      "source_terms": [
+        "Triton",
+        "retrograde"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Triton.",
+        "This choice names a different answer and does not satisfy the stated fact: Titan.",
+        "This choice names a different answer and does not satisfy the stated fact: Callisto.",
+        "This choice names a different answer and does not satisfy the stated fact: Ganymede."
+      ]
+    },
+    {
+      "id": "curated-bf51b78667ef2645",
+      "fact_key": "cpu:expanded-name",
+      "category": "Technology",
+      "difficulty": 0,
+      "question": "What does CPU stand for?",
+      "answers": [
+        "Central Processing Unit",
+        "Computer Power Utility",
+        "Core Program Upload",
+        "Central Peripheral Unit"
+      ],
+      "correct": 0,
+      "explanation": "CPU expands to Central Processing Unit.",
+      "source": "https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "CPU expands to Central Processing Unit.",
+      "source_terms": [
+        "central processing unit"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Central Processing Unit.",
+        "This choice names a different concept and does not satisfy the stated fact: Computer Power Utility.",
+        "This choice names a different concept and does not satisfy the stated fact: Core Program Upload.",
+        "This choice names a different concept and does not satisfy the stated fact: Central Peripheral Unit."
+      ]
+    },
+    {
+      "id": "curated-323d020aa3aac4b9",
+      "fact_key": "dns:expanded-name",
+      "category": "Technology",
+      "difficulty": 1,
+      "question": "What does DNS stand for in internet networking?",
+      "answers": [
+        "Domain Name System",
+        "Digital Network Storage",
+        "Dynamic Node Service",
+        "Direct Number Switch"
+      ],
+      "correct": 0,
+      "explanation": "DNS is the Domain Name System.",
+      "source": "https://www.rfc-editor.org/rfc/rfc1034",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "DNS is the Domain Name System.",
+      "source_terms": [
+        "DOMAIN NAME SYSTEM"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Domain Name System.",
+        "This choice names a different concept and does not satisfy the stated fact: Digital Network Storage.",
+        "This choice names a different concept and does not satisfy the stated fact: Dynamic Node Service.",
+        "This choice names a different concept and does not satisfy the stated fact: Direct Number Switch."
+      ]
+    },
+    {
+      "id": "curated-e40b1a96968b7974",
+      "fact_key": "utf8:maximum-codepoint-bytes",
+      "category": "Technology",
+      "difficulty": 2,
+      "question": "How many bytes can UTF-8 use to encode one Unicode scalar value?",
+      "answers": [
+        "One to four",
+        "Always one",
+        "Always two",
+        "Eight to sixteen"
+      ],
+      "correct": 0,
+      "explanation": "UTF-8 represents a Unicode scalar value using one to four bytes.",
+      "source": "https://www.unicode.org/faq/utf_bom.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "UTF-8 represents a Unicode scalar value using one to four bytes.",
+      "source_terms": [
+        "one to four",
+        "bytes"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies One to four.",
+        "This choice names a different answer and does not satisfy the stated fact: Always one.",
+        "This choice names a different answer and does not satisfy the stated fact: Always two.",
+        "This choice names a different concept and does not satisfy the stated fact: Eight to sixteen."
+      ]
+    },
+    {
+      "id": "curated-d865f150a44b6ed9",
+      "fact_key": "nba:regulation-period-length",
+      "category": "Sports",
+      "difficulty": 0,
+      "question": "How long is a regulation NBA period?",
+      "answers": [
+        "12 minutes",
+        "10 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "correct": 0,
+      "explanation": "Regulation NBA periods are twelve minutes long.",
+      "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Regulation NBA periods are twelve minutes long.",
+      "source_terms": [
+        "twelve minutes"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 12 minutes.",
+        "This choice names a different answer and does not satisfy the stated fact: 10 minutes.",
+        "This choice names a different answer and does not satisfy the stated fact: 15 minutes.",
+        "This choice names a different answer and does not satisfy the stated fact: 20 minutes."
+      ]
+    },
+    {
+      "id": "curated-1e90d8489f98cb3d",
+      "fact_key": "football:penalty-mark-distance",
+      "category": "Sports",
+      "difficulty": 1,
+      "question": "How far is the penalty mark from the midpoint between the goalposts in association football?",
+      "answers": [
+        "11 m (12 yd)",
+        "9.15 m (10 yd)",
+        "16.5 m (18 yd)",
+        "5.5 m (6 yd)"
+      ],
+      "correct": 0,
+      "explanation": "The penalty mark is 11 metres, or 12 yards, from the midpoint between the posts.",
+      "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The penalty mark is 11 metres, or 12 yards, from the midpoint between the posts.",
+      "source_terms": [
+        "11 m",
+        "12 yds"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 11 m (12 yd).",
+        "This choice names a different concept and does not satisfy the stated fact: 9.15 m (10 yd).",
+        "This choice names a different concept and does not satisfy the stated fact: 16.5 m (18 yd).",
+        "This choice names a different answer and does not satisfy the stated fact: 5.5 m (6 yd)."
+      ]
+    },
+    {
+      "id": "curated-30ef077792b2c05a",
+      "fact_key": "football:goal-width",
+      "category": "Sports",
+      "difficulty": 2,
+      "question": "What is the distance between the inside edges of a regulation association-football goal’s posts?",
+      "answers": [
+        "7.32 m",
+        "6.32 m",
+        "8.32 m",
+        "9.32 m"
+      ],
+      "correct": 0,
+      "explanation": "The inside distance between the posts is 7.32 metres.",
+      "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The inside distance between the posts is 7.32 metres.",
+      "source_terms": [
+        "7.32 m"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 7.32 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 6.32 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 8.32 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 9.32 m."
+      ]
+    },
+    {
+      "id": "curated-ff68c5dcee9d3c1f",
+      "fact_key": "machu-picchu:country",
+      "category": "Culture & food",
+      "difficulty": 0,
+      "question": "In which country is Machu Picchu?",
+      "answers": [
+        "Peru",
+        "Bolivia",
+        "Ecuador",
+        "Chile"
+      ],
+      "correct": 0,
+      "explanation": "UNESCO lists the Historic Sanctuary of Machu Picchu in Peru.",
+      "source": "https://whc.unesco.org/en/list/274/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "UNESCO lists the Historic Sanctuary of Machu Picchu in Peru.",
+      "source_terms": [
+        "Peru"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Peru.",
+        "This choice names a different answer and does not satisfy the stated fact: Bolivia.",
+        "This choice names a different answer and does not satisfy the stated fact: Ecuador.",
+        "This choice names a different answer and does not satisfy the stated fact: Chile."
+      ]
+    },
+    {
+      "id": "curated-0201be77ec38869f",
+      "fact_key": "vanilla:plant-family",
+      "category": "Culture & food",
+      "difficulty": 1,
+      "question": "Vanilla pods are produced by plants in which family?",
+      "answers": [
+        "Orchids",
+        "Grasses",
+        "Roses",
+        "Palms"
+      ],
+      "correct": 0,
+      "explanation": "Vanilla belongs to the orchid family.",
+      "source": "https://www.kew.org/read-and-watch/vanilla-digitisation",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Vanilla belongs to the orchid family.",
+      "source_terms": [
+        "Vanilla orchids"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Orchids.",
+        "This choice names a different answer and does not satisfy the stated fact: Grasses.",
+        "This choice names a different answer and does not satisfy the stated fact: Roses.",
+        "This choice names a different answer and does not satisfy the stated fact: Palms."
+      ]
+    },
+    {
+      "id": "curated-c36ebe2efa1e4d88",
+      "fact_key": "petra:nabataean-city",
+      "category": "Culture & food",
+      "difficulty": 2,
+      "question": "Petra was a major caravan city of which ancient people?",
+      "answers": [
+        "Nabataeans",
+        "Etruscans",
+        "Minoans",
+        "Hittites"
+      ],
+      "correct": 0,
+      "explanation": "UNESCO describes Petra as a Nabataean caravan city.",
+      "source": "https://whc.unesco.org/en/list/326/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "UNESCO describes Petra as a Nabataean caravan city.",
+      "source_terms": [
+        "Nabataean caravan"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Nabataeans.",
+        "This choice names a different answer and does not satisfy the stated fact: Etruscans.",
+        "This choice names a different answer and does not satisfy the stated fact: Minoans.",
+        "This choice names a different answer and does not satisfy the stated fact: Hittites."
+      ]
+    }
+  ]
+}

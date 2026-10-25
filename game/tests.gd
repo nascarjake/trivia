@@ -48,8 +48,8 @@ func run() -> void:
 		assert(actual.questions.size() == 15)
 		actual_repeats += int(actual.repeats)
 		for q in actual.questions: actual_history = bank_builder.remember(actual_history, q)
-	assert(actual_repeats >= 60) # 180 slots cannot be filled by 120 distinct facts.
-	print("Actual 120-question bank / 12 full-mix runs: %d unique facts, %d repeat slots" % [actual_history.size(), actual_repeats])
+	assert(actual_repeats == 0) # The actual balanced bank now supports twelve full-mix runs.
+	print("Actual bank / 12 full-mix runs: %d unique facts, %d repeat slots" % [actual_history.size(), actual_repeats])
 	var history := []
 	for run_index in range(12):
 		var rotation: Dictionary = bank_builder.select_pack(["Gaming"], history, fixtures)

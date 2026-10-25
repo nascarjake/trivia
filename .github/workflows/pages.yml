@@ -4,6 +4,13 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      refresh_bank:
+        description: Refresh source-backed NASA questions before publishing
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 8 * * 1'
 
 permissions:
   contents: read
@@ -18,6 +25,15 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Confirm free public-repository execution
+        run: test '${{ github.event.repository.private }}' = 'false'
+      - name: Restore last published bank and retained versions
+        run: python3 tools/refresh_bank.py hydrate
+      - name: Weekly source-backed refresh
+        if: github.event_name == 'schedule' || inputs.refresh_bank
+        run: python3 tools/refresh_bank.py refresh
+      - name: Prepare validated immutable bank snapshot
+        run: python3 tools/refresh_bank.py bootstrap
       - name: Test question service
         run: python3 -m unittest discover -s tests -v
       - name: Install Godot 4.7.2
@@ -40,6 +56,7 @@ jobs:
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: builds/pages
+          retention-days: 1
 
   deploy:
     needs: build

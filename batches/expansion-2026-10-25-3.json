@@ -1,0 +1,773 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-25",
+  "categories": [
+    "Internet & creators",
+    "Gaming",
+    "Music",
+    "Film & TV",
+    "Science & space",
+    "Technology",
+    "Sports",
+    "Culture & food"
+  ],
+  "questions": [
+    {
+      "id": "curated-9fa9632c4fd108a7",
+      "fact_key": "youtube:unlisted-link-access",
+      "category": "Internet & creators",
+      "difficulty": 0,
+      "question": "Which YouTube visibility setting lets anyone with the link watch, without making the video public?",
+      "answers": [
+        "Unlisted",
+        "Private",
+        "Members-only",
+        "Draft"
+      ],
+      "correct": 0,
+      "explanation": "Unlisted videos can be watched and shared by anyone with their link.",
+      "source": "https://support.google.com/youtube/answer/157177",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Unlisted videos can be watched and shared by anyone with their link.",
+      "source_terms": [
+        "Unlisted",
+        "anyone with the link"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Unlisted.",
+        "This choice names a different answer and does not satisfy the stated fact: Private.",
+        "This choice names a different answer and does not satisfy the stated fact: Members-only.",
+        "This choice names a different answer and does not satisfy the stated fact: Draft."
+      ]
+    },
+    {
+      "id": "curated-a0135de206822122",
+      "fact_key": "rss:xml-format",
+      "category": "Internet & creators",
+      "difficulty": 1,
+      "question": "RSS 2.0 uses which markup format?",
+      "answers": [
+        "XML",
+        "YAML",
+        "CSV",
+        "INI"
+      ],
+      "correct": 0,
+      "explanation": "RSS is an XML-based format for distributing content.",
+      "source": "https://www.rssboard.org/rss-specification",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "RSS is an XML-based format for distributing content.",
+      "source_terms": [
+        "XML",
+        "RSS"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies XML.",
+        "This choice names a different answer and does not satisfy the stated fact: YAML.",
+        "This choice names a different answer and does not satisfy the stated fact: CSV.",
+        "This choice names a different answer and does not satisfy the stated fact: INI."
+      ]
+    },
+    {
+      "id": "curated-6305e53cdacf3eb1",
+      "fact_key": "http:301-permanent-redirect",
+      "category": "Internet & creators",
+      "difficulty": 2,
+      "question": "Which HTTP status code indicates that a resource has moved permanently?",
+      "answers": [
+        "301",
+        "202",
+        "401",
+        "503"
+      ],
+      "correct": 0,
+      "explanation": "HTTP 301 is a permanent redirection response.",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/301",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "HTTP 301 is a permanent redirection response.",
+      "source_terms": [
+        "301",
+        "permanently moved"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 301.",
+        "This choice names a different answer and does not satisfy the stated fact: 202.",
+        "This choice names a different answer and does not satisfy the stated fact: 401.",
+        "This choice names a different answer and does not satisfy the stated fact: 503."
+      ]
+    },
+    {
+      "id": "curated-3a827c8ef261f210",
+      "fact_key": "animal-crossing:currency-bells",
+      "category": "Gaming",
+      "difficulty": 0,
+      "question": "Which currency can you earn by selling items in Animal Crossing: New Horizons?",
+      "answers": [
+        "Bells",
+        "Rupees",
+        "Gil",
+        "Zenny"
+      ],
+      "correct": 0,
+      "explanation": "Selling items at Nook’s Cranny earns Bells.",
+      "source": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Selling items at Nook’s Cranny earns Bells.",
+      "source_terms": [
+        "Bells",
+        "selling"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Bells.",
+        "This choice names a different answer and does not satisfy the stated fact: Rupees.",
+        "This choice names a different answer and does not satisfy the stated fact: Gil.",
+        "This choice names a different answer and does not satisfy the stated fact: Zenny."
+      ]
+    },
+    {
+      "id": "curated-d94f16ea1516bc64",
+      "fact_key": "minecraft:obsidian-natural-material",
+      "category": "Gaming",
+      "difficulty": 1,
+      "question": "Minecraft’s obsidian takes its name from what kind of natural material?",
+      "answers": [
+        "Volcanic glass",
+        "Compressed limestone",
+        "A metal alloy",
+        "Fossilized wood"
+      ],
+      "correct": 0,
+      "explanation": "Natural obsidian is glass formed by rapidly cooling lava.",
+      "source": "https://www.minecraft.net/en-us/article/block-week-obsidian",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Natural obsidian is glass formed by rapidly cooling lava.",
+      "source_terms": [
+        "obsidian is glass",
+        "lava"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Volcanic glass.",
+        "This choice names a different concept and does not satisfy the stated fact: Compressed limestone.",
+        "This choice names a different concept and does not satisfy the stated fact: A metal alloy.",
+        "This choice names a different concept and does not satisfy the stated fact: Fossilized wood."
+      ]
+    },
+    {
+      "id": "curated-fdbbe6d3dcdd2222",
+      "fact_key": "chess:promotion-options",
+      "category": "Gaming",
+      "difficulty": 2,
+      "question": "Which piece cannot be chosen when a pawn promotes in standard chess?",
+      "answers": [
+        "King",
+        "Queen",
+        "Rook",
+        "Knight"
+      ],
+      "correct": 0,
+      "explanation": "A pawn can promote to a queen, rook, bishop or knight, but never a king.",
+      "source": "https://handbook.fide.com/chapter/E012023",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The permitted promotion pieces are queen, rook, bishop and knight; king is excluded.",
+      "source_terms": [
+        "new queen, rook, bishop or knight"
+      ],
+      "choice_notes": [
+        "The FIDE promotion list excludes the king.",
+        "A queen is an allowed promotion choice.",
+        "A rook is an allowed promotion choice.",
+        "A knight is an allowed promotion choice."
+      ]
+    },
+    {
+      "id": "curated-fe2c2de37243e749",
+      "fact_key": "saxophone:instrument-family",
+      "category": "Music",
+      "difficulty": 0,
+      "question": "Despite its metal body, the saxophone belongs to which family?",
+      "answers": [
+        "Woodwind",
+        "Brass",
+        "Percussion",
+        "Bowed strings"
+      ],
+      "correct": 0,
+      "explanation": "The saxophone is classified as a woodwind because of how it produces sound.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The saxophone is classified as a woodwind because of how it produces sound.",
+      "source_terms": [
+        "classified as a woodwind"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Woodwind.",
+        "This choice names a different answer and does not satisfy the stated fact: Brass.",
+        "This choice names a different answer and does not satisfy the stated fact: Percussion.",
+        "This choice names a different concept and does not satisfy the stated fact: Bowed strings."
+      ]
+    },
+    {
+      "id": "curated-5614792ec656e2ef",
+      "fact_key": "bassoon:double-reed",
+      "category": "Music",
+      "difficulty": 1,
+      "question": "Which type of reed produces the bassoon’s sound?",
+      "answers": [
+        "Double reed",
+        "Single reed",
+        "Free metal reed",
+        "No reed"
+      ],
+      "correct": 0,
+      "explanation": "A bassoon is a low-register woodwind that uses a double reed.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/bassoon/structure/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A bassoon is a low-register woodwind that uses a double reed.",
+      "source_terms": [
+        "double reed"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Double reed.",
+        "This choice names a different answer and does not satisfy the stated fact: Single reed.",
+        "This choice names a different concept and does not satisfy the stated fact: Free metal reed.",
+        "This choice names a different answer and does not satisfy the stated fact: No reed."
+      ]
+    },
+    {
+      "id": "curated-f6824db785079294",
+      "fact_key": "flute:lip-plate-boehm",
+      "category": "Music",
+      "difficulty": 2,
+      "question": "Which instrument maker proposed adding a lip plate to metal flutes?",
+      "answers": [
+        "Theobald Boehm",
+        "Adolphe Sax",
+        "Bartolomeo Cristofori",
+        "Antonio Stradivari"
+      ],
+      "correct": 0,
+      "explanation": "Theobald Boehm proposed the lip plate for the metal flute.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/flute/trivia/trivia003.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Theobald Boehm proposed the lip plate for the metal flute.",
+      "source_terms": [
+        "Theobald Boehm",
+        "lip plate"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Theobald Boehm.",
+        "This choice names a different answer and does not satisfy the stated fact: Adolphe Sax.",
+        "This choice names a different concept and does not satisfy the stated fact: Bartolomeo Cristofori.",
+        "This choice names a different concept and does not satisfy the stated fact: Antonio Stradivari."
+      ]
+    },
+    {
+      "id": "curated-0ff2d855aa8c575f",
+      "fact_key": "coco:young-protagonist",
+      "category": "Film & TV",
+      "difficulty": 0,
+      "question": "What is the name of Coco’s young aspiring musician?",
+      "answers": [
+        "Miguel",
+        "Luca",
+        "Hiro",
+        "Alberto"
+      ],
+      "correct": 0,
+      "explanation": "Miguel is the young musician in Coco.",
+      "source": "https://www.pixar.com/coco",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Miguel is the young musician in Coco.",
+      "source_terms": [
+        "Miguel",
+        "music"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Miguel.",
+        "This choice names a different answer and does not satisfy the stated fact: Luca.",
+        "This choice names a different answer and does not satisfy the stated fact: Hiro.",
+        "This choice names a different answer and does not satisfy the stated fact: Alberto."
+      ]
+    },
+    {
+      "id": "curated-a6acfc47801360c8",
+      "fact_key": "finding-nemo:reef-setting",
+      "category": "Film & TV",
+      "difficulty": 1,
+      "question": "Which Australian reef is home to Nemo and Marlin?",
+      "answers": [
+        "Great Barrier Reef",
+        "Ningaloo Reef",
+        "Belize Barrier Reef",
+        "New Caledonia Barrier Reef"
+      ],
+      "correct": 0,
+      "explanation": "Nemo and Marlin live at Australia’s Great Barrier Reef.",
+      "source": "https://www.pixar.com/finding-nemo",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Nemo and Marlin live at Australia’s Great Barrier Reef.",
+      "source_terms": [
+        "Great Barrier Reef",
+        "Marlin"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Great Barrier Reef.",
+        "This choice names a different concept and does not satisfy the stated fact: Ningaloo Reef.",
+        "This choice names a different concept and does not satisfy the stated fact: Belize Barrier Reef.",
+        "This choice names a different concept and does not satisfy the stated fact: New Caledonia Barrier Reef."
+      ]
+    },
+    {
+      "id": "curated-5948ae6b3e95a311",
+      "fact_key": "coco:rivera-family-trade",
+      "category": "Film & TV",
+      "difficulty": 2,
+      "question": "What trade does Miguel’s family practice in Coco?",
+      "answers": [
+        "Shoemaking",
+        "Glassblowing",
+        "Pottery",
+        "Fishing"
+      ],
+      "correct": 0,
+      "explanation": "The Rivera family’s traditional business is shoemaking.",
+      "source": "https://www.pixar.com/coco",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The Rivera family’s traditional business is shoemaking.",
+      "source_terms": [
+        "shoemaking",
+        "Rivera"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Shoemaking.",
+        "This choice names a different answer and does not satisfy the stated fact: Glassblowing.",
+        "This choice names a different answer and does not satisfy the stated fact: Pottery.",
+        "This choice names a different answer and does not satisfy the stated fact: Fishing."
+      ]
+    },
+    {
+      "id": "curated-6d551195ed9ea405",
+      "fact_key": "earth:single-natural-moon",
+      "category": "Science & space",
+      "difficulty": 0,
+      "question": "How many natural moons does Earth have?",
+      "answers": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "correct": 0,
+      "explanation": "Earth has one natural moon.",
+      "source": "https://science.nasa.gov/earth/facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Earth has one natural moon.",
+      "source_terms": [
+        "one moon"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies One.",
+        "This choice names a different answer and does not satisfy the stated fact: Two.",
+        "This choice names a different answer and does not satisfy the stated fact: Three.",
+        "This choice names a different answer and does not satisfy the stated fact: None."
+      ]
+    },
+    {
+      "id": "curated-0d90b3e03423c923",
+      "fact_key": "uranus:sideways-axis",
+      "category": "Science & space",
+      "difficulty": 1,
+      "question": "Which planet is famous for rotating almost on its side?",
+      "answers": [
+        "Uranus",
+        "Mercury",
+        "Earth",
+        "Mars"
+      ],
+      "correct": 0,
+      "explanation": "Uranus has an extreme axial tilt and rotates almost on its side.",
+      "source": "https://science.nasa.gov/uranus/facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Uranus has an extreme axial tilt and rotates almost on its side.",
+      "source_terms": [
+        "side",
+        "tilt"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Uranus.",
+        "This choice names a different answer and does not satisfy the stated fact: Mercury.",
+        "This choice names a different answer and does not satisfy the stated fact: Earth.",
+        "This choice names a different answer and does not satisfy the stated fact: Mars."
+      ]
+    },
+    {
+      "id": "curated-941c1358e012b1ce",
+      "fact_key": "mercury:orbital-resonance",
+      "category": "Science & space",
+      "difficulty": 2,
+      "question": "Mercury rotates three times on its axis for every how many trips around the Sun?",
+      "answers": [
+        "Two",
+        "One",
+        "Three",
+        "Four"
+      ],
+      "correct": 0,
+      "explanation": "Mercury rotates three times during every two orbits of the Sun.",
+      "source": "https://science.nasa.gov/mercury/facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Mercury rotates three times during every two orbits of the Sun.",
+      "source_terms": [
+        "three",
+        "two"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Two.",
+        "This choice names a different answer and does not satisfy the stated fact: One.",
+        "This choice names a different answer and does not satisfy the stated fact: Three.",
+        "This choice names a different answer and does not satisfy the stated fact: Four."
+      ]
+    },
+    {
+      "id": "curated-397fe8cbb8d1f61d",
+      "fact_key": "android:aosp-name",
+      "category": "Technology",
+      "difficulty": 0,
+      "question": "AOSP is the open-source project behind which mobile operating system?",
+      "answers": [
+        "Android",
+        "iOS",
+        "HarmonyOS",
+        "Windows Phone"
+      ],
+      "correct": 0,
+      "explanation": "AOSP stands for Android Open Source Project.",
+      "source": "https://source.android.com/docs/setup/about",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "AOSP stands for Android Open Source Project.",
+      "source_terms": [
+        "Android Open Source Project"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Android.",
+        "This choice names a different answer and does not satisfy the stated fact: iOS.",
+        "This choice names a different answer and does not satisfy the stated fact: HarmonyOS.",
+        "This choice names a different concept and does not satisfy the stated fact: Windows Phone."
+      ]
+    },
+    {
+      "id": "curated-2dbd22e9ba34164f",
+      "fact_key": "ssd:expanded-name",
+      "category": "Technology",
+      "difficulty": 1,
+      "question": "What does SSD stand for in computer storage?",
+      "answers": [
+        "Solid State Drive",
+        "Serial Storage Disk",
+        "System Software Device",
+        "Secure Signal Decoder"
+      ],
+      "correct": 0,
+      "explanation": "SSD expands to Solid State Drive.",
+      "source": "https://semiconductor.samsung.com/ssd/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "SSD expands to Solid State Drive.",
+      "source_terms": [
+        "Solid State Drive"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Solid State Drive.",
+        "This choice names a different concept and does not satisfy the stated fact: Serial Storage Disk.",
+        "This choice names a different concept and does not satisfy the stated fact: System Software Device.",
+        "This choice names a different concept and does not satisfy the stated fact: Secure Signal Decoder."
+      ]
+    },
+    {
+      "id": "curated-b5deccb91af7903d",
+      "fact_key": "binary-search:sorted-input",
+      "category": "Technology",
+      "difficulty": 2,
+      "question": "A standard binary search requires the searched array to be what?",
+      "answers": [
+        "Sorted",
+        "Encrypted",
+        "Compressed",
+        "Randomly shuffled"
+      ],
+      "correct": 0,
+      "explanation": "Binary search repeatedly halves a search interval in a sorted array.",
+      "source": "https://xlinux.nist.gov/dads/HTML/binarySearch.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Binary search repeatedly halves a search interval in a sorted array.",
+      "source_terms": [
+        "sorted array"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Sorted.",
+        "This choice names a different answer and does not satisfy the stated fact: Encrypted.",
+        "This choice names a different answer and does not satisfy the stated fact: Compressed.",
+        "This choice names a different concept and does not satisfy the stated fact: Randomly shuffled."
+      ]
+    },
+    {
+      "id": "curated-4271fdc6b341c6be",
+      "fact_key": "football:ball-shape",
+      "category": "Sports",
+      "difficulty": 0,
+      "question": "What shape must an association-football ball have under IFAB Law 2?",
+      "answers": [
+        "Spherical",
+        "Oval",
+        "Cylindrical",
+        "Cubical"
+      ],
+      "correct": 0,
+      "explanation": "IFAB specifies that the ball must be spherical.",
+      "source": "https://www.theifab.com/laws/latest/the-ball/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "IFAB specifies that the ball must be spherical.",
+      "source_terms": [
+        "spherical"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Spherical.",
+        "This choice names a different answer and does not satisfy the stated fact: Oval.",
+        "This choice names a different answer and does not satisfy the stated fact: Cylindrical.",
+        "This choice names a different answer and does not satisfy the stated fact: Cubical."
+      ]
+    },
+    {
+      "id": "curated-a282d8d4fa637e32",
+      "fact_key": "football:centre-circle-radius",
+      "category": "Sports",
+      "difficulty": 1,
+      "question": "What is the radius of an association-football centre circle?",
+      "answers": [
+        "9.15 m (10 yd)",
+        "5.5 m (6 yd)",
+        "11 m (12 yd)",
+        "16.5 m (18 yd)"
+      ],
+      "correct": 0,
+      "explanation": "The centre circle has a radius of 9.15 metres, or 10 yards.",
+      "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The centre circle has a radius of 9.15 metres, or 10 yards.",
+      "source_terms": [
+        "radius of 9.15 m"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 9.15 m (10 yd).",
+        "This choice names a different answer and does not satisfy the stated fact: 5.5 m (6 yd).",
+        "This choice names a different answer and does not satisfy the stated fact: 11 m (12 yd).",
+        "This choice names a different concept and does not satisfy the stated fact: 16.5 m (18 yd)."
+      ]
+    },
+    {
+      "id": "curated-53a18bafd67635df",
+      "fact_key": "football:crossbar-height",
+      "category": "Sports",
+      "difficulty": 2,
+      "question": "How high is the lower edge of a regulation association-football crossbar above the ground?",
+      "answers": [
+        "2.44 m",
+        "2.14 m",
+        "2.74 m",
+        "3.05 m"
+      ],
+      "correct": 0,
+      "explanation": "The lower edge of the crossbar is 2.44 metres above the ground.",
+      "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The lower edge of the crossbar is 2.44 metres above the ground.",
+      "source_terms": [
+        "2.44 m"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 2.44 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 2.14 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 2.74 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 3.05 m."
+      ]
+    },
+    {
+      "id": "curated-5abe9f5b925771cc",
+      "fact_key": "taj-mahal:country",
+      "category": "Culture & food",
+      "difficulty": 0,
+      "question": "In which country is the Taj Mahal?",
+      "answers": [
+        "India",
+        "Pakistan",
+        "Bangladesh",
+        "Iran"
+      ],
+      "correct": 0,
+      "explanation": "The Taj Mahal stands in Agra, India.",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The Taj Mahal stands in Agra, India.",
+      "source_terms": [
+        "India",
+        "Agra"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies India.",
+        "This choice names a different answer and does not satisfy the stated fact: Pakistan.",
+        "This choice names a different answer and does not satisfy the stated fact: Bangladesh.",
+        "This choice names a different answer and does not satisfy the stated fact: Iran."
+      ]
+    },
+    {
+      "id": "curated-b718d38db3c3aac1",
+      "fact_key": "chocolate:cacao-source",
+      "category": "Culture & food",
+      "difficulty": 1,
+      "question": "Chocolate is made from the seeds of which tree?",
+      "answers": [
+        "Cacao",
+        "Coffee",
+        "Carob",
+        "Coconut"
+      ],
+      "correct": 0,
+      "explanation": "Chocolate comes from the cacao tree, Theobroma cacao.",
+      "source": "https://www.kew.org/read-and-watch/kew-gardens-cacao-how-to-make-chocolate",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Chocolate comes from the cacao tree, Theobroma cacao.",
+      "source_terms": [
+        "Theobroma cacao",
+        "Chocolate"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Cacao.",
+        "This choice names a different answer and does not satisfy the stated fact: Coffee.",
+        "This choice names a different answer and does not satisfy the stated fact: Carob.",
+        "This choice names a different answer and does not satisfy the stated fact: Coconut."
+      ]
+    },
+    {
+      "id": "curated-0b7fc0c484e581e7",
+      "fact_key": "taj-mahal:commissioning-emperor",
+      "category": "Culture & food",
+      "difficulty": 2,
+      "question": "Which Mughal emperor ordered the construction of the Taj Mahal?",
+      "answers": [
+        "Shah Jahan",
+        "Akbar",
+        "Babur",
+        "Aurangzeb"
+      ],
+      "correct": 0,
+      "explanation": "Shah Jahan commissioned the Taj Mahal in memory of his wife.",
+      "source": "https://whc.unesco.org/en/list/252/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Shah Jahan commissioned the Taj Mahal in memory of his wife.",
+      "source_terms": [
+        "Shah Jahan"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Shah Jahan.",
+        "This choice names a different answer and does not satisfy the stated fact: Akbar.",
+        "This choice names a different answer and does not satisfy the stated fact: Babur.",
+        "This choice names a different answer and does not satisfy the stated fact: Aurangzeb."
+      ]
+    }
+  ]
+}

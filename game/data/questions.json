@@ -272,16 +272,16 @@
   {
     "category": "Technology",
     "difficulty": 0,
-    "question": "What does the W in Wi-Fi stand for officially?",
+    "question": "Wi-Fi co-founder Phil Belanger said the brand name Wi-Fi was what?",
     "answers": [
-      "It is not an acronym",
-      "Wireless",
-      "World",
-      "Wide"
+      "An invented name, not an acronym",
+      "Short for Wireless Firewall",
+      "Short for Wide Fiber",
+      "A unit of radio frequency"
     ],
     "correct": 0,
-    "explanation": "Wi-Fi is a brand name, not an official abbreviation for Wireless Fidelity.",
-    "source": "https://www.wi-fi.org/",
+    "explanation": "Wi-Fi Alliance co-founder Phil Belanger described Wi-Fi as an invented brand name rather than an acronym.",
+    "source": "https://boingboing.net/2005/11/08/wifi-isnt-short-for.html",
     "id": "seed-9dc4a38dade08442",
     "fact_key": "seed:what-does-the-w-in-wi-fi-stand-for-officially",
     "kind": "evergreen",
@@ -776,20 +776,21 @@
   {
     "category": "Gaming",
     "difficulty": 1,
-    "question": "Which studio developed Stardew Valley under the name ConcernedApe?",
+    "question": "Which developer created Stardew Valley 1.0 under the name ConcernedApe?",
     "answers": [
-      "Eric Barone’s studio",
-      "Valve",
-      "Mojang",
-      "Bungie"
+      "Eric Barone",
+      "Toby Fox",
+      "Markus Persson",
+      "Jonathan Blow"
     ],
     "correct": 0,
-    "explanation": "Eric Barone, known as ConcernedApe, created Stardew Valley.",
+    "explanation": "The official FAQ credits Eric Barone, known as ConcernedApe, as the sole developer of version 1.0.",
     "source": "https://www.stardewvalley.net/faq/",
     "id": "seed-9e71bdf323d9b81a",
     "fact_key": "seed:which-studio-developed-stardew-valley-under-the-name-concernedape",
     "kind": "evergreen",
-    "expires_at": ""
+    "expires_at": "",
+    "verified_at": "2026-10-25"
   },
   {
     "category": "Gaming",
@@ -848,15 +849,15 @@
   {
     "category": "Gaming",
     "difficulty": 2,
-    "question": "What is the smallest number of moves in a chess game ending in Fool’s Mate?",
+    "question": "In Fool’s Mate, checkmate occurs on which numbered move by Black?",
     "answers": [
-      "Two moves by each side",
-      "Three moves by each side",
-      "One move by each side",
-      "Four moves by each side"
+      "Second",
+      "First",
+      "Third",
+      "Fourth"
     ],
     "correct": 0,
-    "explanation": "Fool’s Mate ends on Black’s second move.",
+    "explanation": "Fool’s Mate ends with Black’s second move, after two moves by each side.",
     "source": "https://www.chess.com/terms/fools-mate",
     "id": "seed-28026b78d73e87c7",
     "fact_key": "seed:what-is-the-smallest-number-of-moves-in-a-chess-game-ending-in-fool-s-mate",
@@ -2158,5 +2159,2426 @@
     "fact_key": "seed:which-part-of-the-crocus-flower-is-harvested-as-saffron",
     "kind": "evergreen",
     "expires_at": ""
+  },
+  {
+    "id": "curated-aad923b3bd2f01f2",
+    "fact_key": "url:expanded-name",
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "What does URL stand for in a browser address?",
+    "answers": [
+      "Uniform Resource Locator",
+      "Universal Routing Language",
+      "Unified Reference List",
+      "User Request Link"
+    ],
+    "correct": 0,
+    "explanation": "URL expands to Uniform Resource Locator.",
+    "source": "https://developer.mozilla.org/en-US/docs/Glossary/URL",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Uniform Resource Locator"
+    ]
+  },
+  {
+    "id": "curated-231ce543fe71fa07",
+    "fact_key": "cc:nc-noncommercial",
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "What does NC specify in a Creative Commons license?",
+    "answers": [
+      "Noncommercial use",
+      "No attribution",
+      "No copying",
+      "Network certification"
+    ],
+    "correct": 0,
+    "explanation": "NC limits licensed use to noncommercial purposes.",
+    "source": "https://creativecommons.org/cc-licenses/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "NC",
+      "noncommercial"
+    ]
+  },
+  {
+    "id": "curated-775212ee458cdb83",
+    "fact_key": "activitypub:protocol-purpose",
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "Which W3C protocol specifies decentralized social-network communication?",
+    "answers": [
+      "ActivityPub",
+      "SMTP",
+      "WebDAV",
+      "NTP"
+    ],
+    "correct": 0,
+    "explanation": "ActivityPub specifies decentralized social networking.",
+    "source": "https://www.w3.org/TR/activitypub/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "decentralized social networking protocol"
+    ]
+  },
+  {
+    "id": "curated-d78cc72a072443f3",
+    "fact_key": "kirby:copy-ability-inhale",
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "Which pink Nintendo hero can inhale enemies and copy their abilities?",
+    "answers": [
+      "Kirby",
+      "Yoshi",
+      "Toad",
+      "Pikachu"
+    ],
+    "correct": 0,
+    "explanation": "Kirby can inhale an enemy to copy its abilities.",
+    "source": "https://www.nintendo.com/my/switch/arzg/copy/index.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Kirby",
+      "copy"
+    ]
+  },
+  {
+    "id": "curated-a513b175d2eb37f4",
+    "fact_key": "celeste:protagonist",
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Who climbs Celeste Mountain in the game Celeste?",
+    "answers": [
+      "Madeline",
+      "Mae",
+      "Chara",
+      "Chell"
+    ],
+    "correct": 0,
+    "explanation": "Madeline is the climber at the center of Celeste.",
+    "source": "https://www.celestegame.com/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Madeline",
+      "Celeste Mountain"
+    ]
+  },
+  {
+    "id": "curated-d8b424464804ff40",
+    "fact_key": "chess:en-passant-immediate",
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "When must an eligible en passant capture be made in standard chess?",
+    "answers": [
+      "On the immediately following move",
+      "Any time before the next capture",
+      "Only after castling",
+      "After three more moves"
+    ],
+    "correct": 0,
+    "explanation": "En passant is legal only on the move immediately following the pawn’s two-square advance.",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "only legal on the move following"
+    ]
+  },
+  {
+    "id": "curated-4d6e03442b2861c1",
+    "fact_key": "trumpet:instrument-family",
+    "category": "Music",
+    "difficulty": 0,
+    "question": "The trumpet belongs to which orchestral instrument family?",
+    "answers": [
+      "Brass",
+      "Woodwind",
+      "Strings",
+      "Percussion"
+    ],
+    "correct": 0,
+    "explanation": "The trumpet is a brass instrument.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/trumpet/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "trumpet",
+      "brass"
+    ]
+  },
+  {
+    "id": "curated-afb417338532484d",
+    "fact_key": "piano:hammer-action",
+    "category": "Music",
+    "difficulty": 1,
+    "question": "What strikes the strings inside an acoustic piano?",
+    "answers": [
+      "Hammers",
+      "Plectrums",
+      "Bows",
+      "Reeds"
+    ],
+    "correct": 0,
+    "explanation": "An acoustic piano produces sound when hammers strike its strings.",
+    "source": "https://usa.yamaha.com/products/contents/musical_instrument_guide/piano/index.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "striking strings with hammers"
+    ]
+  },
+  {
+    "id": "curated-8b6469942d1f110b",
+    "fact_key": "saxophone:inventor",
+    "category": "Music",
+    "difficulty": 2,
+    "question": "Who invented the saxophone?",
+    "answers": [
+      "Adolphe Sax",
+      "Theobald Boehm",
+      "Bartolomeo Cristofori",
+      "Antonio Stradivari"
+    ],
+    "correct": 0,
+    "explanation": "Adolphe Sax invented the saxophone and patented it in Paris in 1846.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Adolphe Sax",
+      "1846"
+    ]
+  },
+  {
+    "id": "curated-13f20c66464ce938",
+    "fact_key": "finding-nemo:species",
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "What kind of fish are Nemo and his father Marlin?",
+    "answers": [
+      "Clownfish",
+      "Swordfish",
+      "Angelfish",
+      "Goldfish"
+    ],
+    "correct": 0,
+    "explanation": "Nemo and Marlin are clownfish.",
+    "source": "https://www.pixar.com/finding-nemo",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Clown Fish",
+      "Nemo"
+    ]
+  },
+  {
+    "id": "curated-b8167f29be0c0120",
+    "fact_key": "ratatouille:city-setting",
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "In which city is most of Ratatouille set?",
+    "answers": [
+      "Paris",
+      "Rome",
+      "Madrid",
+      "Vienna"
+    ],
+    "correct": 0,
+    "explanation": "Ratatouille’s story unfolds in Paris.",
+    "source": "https://www.pixar.com/ratatouille",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Paris",
+      "story"
+    ]
+  },
+  {
+    "id": "curated-9804df77537651ce",
+    "fact_key": "oscars:2020-best-picture",
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Which film won Best Picture at the 2020 Academy Awards?",
+    "answers": [
+      "Parasite",
+      "1917",
+      "Joker",
+      "The Irishman"
+    ],
+    "correct": 0,
+    "explanation": "Parasite won Best Picture at the 2020 ceremony.",
+    "source": "https://www.oscars.org/oscars/ceremonies/2020",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Best Picture",
+      "Parasite"
+    ]
+  },
+  {
+    "id": "curated-830e7b06f15387c4",
+    "fact_key": "jupiter:largest-planet",
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "Which planet is the largest in our solar system?",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Earth"
+    ],
+    "correct": 0,
+    "explanation": "Jupiter is the largest planet in the solar system.",
+    "source": "https://science.nasa.gov/jupiter/jupiter-facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "largest planet"
+    ]
+  },
+  {
+    "id": "curated-f4421453fe2fadfb",
+    "fact_key": "mars:moon-names",
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "Which pair are the two moons of Mars?",
+    "answers": [
+      "Phobos and Deimos",
+      "Io and Europa",
+      "Titan and Rhea",
+      "Triton and Nereid"
+    ],
+    "correct": 0,
+    "explanation": "Mars’s two moons are Phobos and Deimos.",
+    "source": "https://science.nasa.gov/mars/facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Phobos",
+      "Deimos"
+    ]
+  },
+  {
+    "id": "curated-2f0712a105ddd0ff",
+    "fact_key": "neptune:mathematical-discovery",
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "Which planet was located in 1846 using mathematical predictions of its position?",
+    "answers": [
+      "Neptune",
+      "Uranus",
+      "Saturn",
+      "Venus"
+    ],
+    "correct": 0,
+    "explanation": "Mathematical predictions led astronomers to Neptune in 1846.",
+    "source": "https://science.nasa.gov/neptune/neptune-facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "mathematical predictions",
+      "1846"
+    ]
+  },
+  {
+    "id": "curated-f40e60cc51cf9ed5",
+    "fact_key": "usb:expanded-name",
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "What does USB stand for?",
+    "answers": [
+      "Universal Serial Bus",
+      "Unified System Board",
+      "User Storage Block",
+      "Universal Signal Bridge"
+    ],
+    "correct": 0,
+    "explanation": "USB expands to Universal Serial Bus.",
+    "source": "https://www.usb.org/front-page",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Universal Serial Bus"
+    ]
+  },
+  {
+    "id": "curated-7b54dc63e302d768",
+    "fact_key": "json:expanded-name",
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "What does JSON stand for?",
+    "answers": [
+      "JavaScript Object Notation",
+      "Java Source Object Network",
+      "Joined System Output Names",
+      "JavaScript Ordered Nodes"
+    ],
+    "correct": 0,
+    "explanation": "JSON expands to JavaScript Object Notation.",
+    "source": "https://www.rfc-editor.org/rfc/rfc8259",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "JavaScript Object Notation"
+    ]
+  },
+  {
+    "id": "curated-09ad9571f6872ae1",
+    "fact_key": "ipv6:address-width",
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "How many bits are in an IPv6 address?",
+    "answers": [
+      "128",
+      "32",
+      "64",
+      "256"
+    ],
+    "correct": 0,
+    "explanation": "IPv6 expands IP address size to 128 bits.",
+    "source": "https://www.rfc-editor.org/rfc/rfc8200",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "128 bits"
+    ]
+  },
+  {
+    "id": "curated-f9b787181af93e02",
+    "fact_key": "nba:outside-arc-score",
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "In NBA basketball, how many points is a made field goal from outside the three-point line worth?",
+    "answers": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "correct": 0,
+    "explanation": "An NBA field goal from outside the three-point line counts three points.",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "outside",
+      "three points"
+    ]
+  },
+  {
+    "id": "curated-2c4d5ccda8da2675",
+    "fact_key": "nba:shot-clock-initial",
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "What is the full shot-clock period for an NBA team to attempt a shot?",
+    "answers": [
+      "24 seconds",
+      "20 seconds",
+      "30 seconds",
+      "35 seconds"
+    ],
+    "correct": 0,
+    "explanation": "The NBA uses a 24-second shot clock, with separate reset rules in specified situations.",
+    "source": "https://official.nba.com/rule-no-7-24-second-clock/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "24-second"
+    ]
+  },
+  {
+    "id": "curated-46c0a17dce24b8e5",
+    "fact_key": "nba:overtime-period-length",
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "How long is an NBA overtime period?",
+    "answers": [
+      "Five minutes",
+      "Three minutes",
+      "Six minutes",
+      "Ten minutes"
+    ],
+    "correct": 0,
+    "explanation": "NBA overtime periods last five minutes.",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "overtime",
+      "five minutes"
+    ]
+  },
+  {
+    "id": "curated-6c74b1d59ff941b5",
+    "fact_key": "great-wall:country",
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "In which country is the Great Wall World Heritage site?",
+    "answers": [
+      "China",
+      "Japan",
+      "India",
+      "Mongolia"
+    ],
+    "correct": 0,
+    "explanation": "UNESCO lists the Great Wall in China.",
+    "source": "https://whc.unesco.org/en/list/438/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "China"
+    ]
+  },
+  {
+    "id": "curated-12be1dc5cff3d306",
+    "fact_key": "tea:plant-species",
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Black, green and oolong tea all come from which plant species?",
+    "answers": [
+      "Camellia sinensis",
+      "Coffea arabica",
+      "Mentha spicata",
+      "Hibiscus sabdariffa"
+    ],
+    "correct": 0,
+    "explanation": "Black, green and oolong tea are processed from Camellia sinensis.",
+    "source": "https://www.kew.org/plants/tea-plant",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Camellia sinensis",
+      "oolong"
+    ]
+  },
+  {
+    "id": "curated-2ee2a719c68231c5",
+    "fact_key": "angkor:khmer-empire",
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "The ruins at Angkor include capitals of which empire?",
+    "answers": [
+      "Khmer",
+      "Mughal",
+      "Ottoman",
+      "Inca"
+    ],
+    "correct": 0,
+    "explanation": "Angkor preserves capitals and temples of the Khmer Empire.",
+    "source": "https://whc.unesco.org/en/list/668/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Khmer Empire"
+    ]
+  },
+  {
+    "id": "curated-6db2d4021cc4b0b6",
+    "fact_key": "cc0:public-domain-purpose",
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "Which Creative Commons tool lets a creator dedicate a work to the public domain?",
+    "answers": [
+      "CC0",
+      "CC BY-SA",
+      "CC BY-NC",
+      "CC BY-ND"
+    ],
+    "correct": 0,
+    "explanation": "CC0 is a public-domain dedication tool.",
+    "source": "https://creativecommons.org/public-domain/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "CC0",
+      "public domain"
+    ]
+  },
+  {
+    "id": "curated-45a5127c74235958",
+    "fact_key": "html:rel-ugc-purpose",
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "Which rel value does Google recommend for links in user comments or forum posts?",
+    "answers": [
+      "ugc",
+      "alternate",
+      "canonical",
+      "preload"
+    ],
+    "correct": 0,
+    "explanation": "Google recommends ugc for user-generated-content links.",
+    "source": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "ugc",
+      "forum posts"
+    ]
+  },
+  {
+    "id": "curated-472fbc66cfb23e24",
+    "fact_key": "robots:instructions-not-access-control",
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "What does a robots.txt file primarily tell cooperative crawlers?",
+    "answers": [
+      "Which URLs they may crawl",
+      "Which users can log in",
+      "How to decrypt files",
+      "Who owns the domain"
+    ],
+    "correct": 0,
+    "explanation": "robots.txt provides crawling instructions; it is not authentication or a security barrier.",
+    "source": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "crawlers",
+      "password"
+    ]
+  },
+  {
+    "id": "curated-353967565385bc6a",
+    "fact_key": "metroid:protagonist",
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "Who is the bounty hunter played in Metroid Dread?",
+    "answers": [
+      "Samus Aran",
+      "Lara Croft",
+      "Aloy",
+      "Jill Valentine"
+    ],
+    "correct": 0,
+    "explanation": "Metroid Dread follows the bounty hunter Samus Aran.",
+    "source": "https://www.nintendo.com/us/store/products/metroid-dread-switch/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "bounty hunter Samus Aran"
+    ]
+  },
+  {
+    "id": "curated-bf93cbfd81195418",
+    "fact_key": "hollow-knight:surface-town",
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Which fading town stands above Hollow Knight’s underground kingdom?",
+    "answers": [
+      "Dirtmouth",
+      "Hyrule",
+      "Pelican Town",
+      "Ravenholm"
+    ],
+    "correct": 0,
+    "explanation": "Dirtmouth is the town above the ancient kingdom explored in Hollow Knight.",
+    "source": "https://www.hollowknight.com/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Dirtmouth",
+      "kingdom"
+    ]
+  },
+  {
+    "id": "curated-97132bf4af761a3b",
+    "fact_key": "chess:castling-king-distance",
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "How many squares does the king move when castling in standard chess?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "correct": 0,
+    "explanation": "In standard castling the king moves two squares toward its rook.",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "king is transferred",
+      "two squares"
+    ]
+  },
+  {
+    "id": "curated-5d06bba23d98792f",
+    "fact_key": "flute:embouchure-air",
+    "category": "Music",
+    "difficulty": 0,
+    "question": "How does a concert flutist begin producing sound?",
+    "answers": [
+      "Blow air across the embouchure hole",
+      "Strike a stretched string",
+      "Rub a drumhead",
+      "Vibrate a double reed"
+    ],
+    "correct": 0,
+    "explanation": "Air blown toward the edge of the embouchure hole starts the flute’s sound.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/flute/mechanism/mechanism002.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "embouchure hole",
+      "edge"
+    ]
+  },
+  {
+    "id": "curated-b4b8bea0f5a0219a",
+    "fact_key": "trombone:slide-tube-length",
+    "category": "Music",
+    "difficulty": 1,
+    "question": "Moving a trombone’s slide changes what to alter its pitch?",
+    "answers": [
+      "The length of its air tube",
+      "The number of reeds",
+      "The width of the bell only",
+      "The tension of a drumhead"
+    ],
+    "correct": 0,
+    "explanation": "Extending the trombone slide lengthens the tube.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "sliding the tube",
+      "lengthen"
+    ]
+  },
+  {
+    "id": "curated-dc21524b318afeea",
+    "fact_key": "trombone:historical-english-name",
+    "category": "Music",
+    "difficulty": 2,
+    "question": "What was an early English name for the trombone?",
+    "answers": [
+      "Sackbut",
+      "Serpent",
+      "Crumhorn",
+      "Dulcian"
+    ],
+    "correct": 0,
+    "explanation": "Sackbut was an early English name for the trombone.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "sackbut"
+    ]
+  },
+  {
+    "id": "curated-c7363323df82af5f",
+    "fact_key": "wall-e:robot-role",
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "What kind of character is WALL-E?",
+    "answers": [
+      "A waste-compacting robot",
+      "A space pilot",
+      "A talking dinosaur",
+      "A marine biologist"
+    ],
+    "correct": 0,
+    "explanation": "WALL-E is a robot built to compact waste into cubes.",
+    "source": "https://www.pixar.com/wall-e",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "robot",
+      "trash cube"
+    ]
+  },
+  {
+    "id": "curated-e30f64de775a7de2",
+    "fact_key": "wall-e:eve-name",
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "Which sleek search robot does WALL-E follow into space?",
+    "answers": [
+      "EVE",
+      "AUTO",
+      "M-O",
+      "BURN-E"
+    ],
+    "correct": 0,
+    "explanation": "WALL-E meets EVE, the search robot, and follows her into space.",
+    "source": "https://www.pixar.com/wall-e",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "search robot named EVE"
+    ]
+  },
+  {
+    "id": "curated-4e421b6581d0e994",
+    "fact_key": "oscars:1998-director",
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "Who won the directing Oscar for Titanic at the 1998 ceremony?",
+    "answers": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Peter Jackson",
+      "Ridley Scott"
+    ],
+    "correct": 0,
+    "explanation": "James Cameron won the 1998 directing Oscar for Titanic.",
+    "source": "https://www.oscars.org/oscars/ceremonies/1998",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Directing",
+      "Titanic",
+      "James Cameron"
+    ]
+  },
+  {
+    "id": "curated-2923ca95c8a85389",
+    "fact_key": "mercury:closest-sun",
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "Which planet orbits closest to the Sun?",
+    "answers": [
+      "Mercury",
+      "Venus",
+      "Earth",
+      "Mars"
+    ],
+    "correct": 0,
+    "explanation": "Mercury is the closest planet to the Sun.",
+    "source": "https://science.nasa.gov/mercury/facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Mercury",
+      "Sun"
+    ]
+  },
+  {
+    "id": "curated-bc26feba37fa3dab",
+    "fact_key": "venus:retrograde-spin",
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "On which planet would the Sun rise in the west because of its slow reverse rotation?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Earth"
+    ],
+    "correct": 0,
+    "explanation": "Venus rotates in the opposite direction to most planets, making the Sun rise in the west.",
+    "source": "https://science.nasa.gov/venus/venus-facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "west",
+      "rotat"
+    ]
+  },
+  {
+    "id": "curated-71391abf65f0f736",
+    "fact_key": "neptune:triton-retrograde",
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "Which large moon of Neptune orbits opposite to its planet’s rotation?",
+    "answers": [
+      "Triton",
+      "Titan",
+      "Callisto",
+      "Ganymede"
+    ],
+    "correct": 0,
+    "explanation": "Triton has a retrograde orbit around Neptune.",
+    "source": "https://science.nasa.gov/neptune/neptune-facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Triton",
+      "retrograde"
+    ]
+  },
+  {
+    "id": "curated-bf51b78667ef2645",
+    "fact_key": "cpu:expanded-name",
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "What does CPU stand for?",
+    "answers": [
+      "Central Processing Unit",
+      "Computer Power Utility",
+      "Core Program Upload",
+      "Central Peripheral Unit"
+    ],
+    "correct": 0,
+    "explanation": "CPU expands to Central Processing Unit.",
+    "source": "https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "central processing unit"
+    ]
+  },
+  {
+    "id": "curated-323d020aa3aac4b9",
+    "fact_key": "dns:expanded-name",
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "What does DNS stand for in internet networking?",
+    "answers": [
+      "Domain Name System",
+      "Digital Network Storage",
+      "Dynamic Node Service",
+      "Direct Number Switch"
+    ],
+    "correct": 0,
+    "explanation": "DNS is the Domain Name System.",
+    "source": "https://www.rfc-editor.org/rfc/rfc1034",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "DOMAIN NAME SYSTEM"
+    ]
+  },
+  {
+    "id": "curated-e40b1a96968b7974",
+    "fact_key": "utf8:maximum-codepoint-bytes",
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "How many bytes can UTF-8 use to encode one Unicode scalar value?",
+    "answers": [
+      "One to four",
+      "Always one",
+      "Always two",
+      "Eight to sixteen"
+    ],
+    "correct": 0,
+    "explanation": "UTF-8 represents a Unicode scalar value using one to four bytes.",
+    "source": "https://www.unicode.org/faq/utf_bom.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "one to four",
+      "bytes"
+    ]
+  },
+  {
+    "id": "curated-d865f150a44b6ed9",
+    "fact_key": "nba:regulation-period-length",
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "How long is a regulation NBA period?",
+    "answers": [
+      "12 minutes",
+      "10 minutes",
+      "15 minutes",
+      "20 minutes"
+    ],
+    "correct": 0,
+    "explanation": "Regulation NBA periods are twelve minutes long.",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "twelve minutes"
+    ]
+  },
+  {
+    "id": "curated-1e90d8489f98cb3d",
+    "fact_key": "football:penalty-mark-distance",
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "How far is the penalty mark from the midpoint between the goalposts in association football?",
+    "answers": [
+      "11 m (12 yd)",
+      "9.15 m (10 yd)",
+      "16.5 m (18 yd)",
+      "5.5 m (6 yd)"
+    ],
+    "correct": 0,
+    "explanation": "The penalty mark is 11 metres, or 12 yards, from the midpoint between the posts.",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "11 m",
+      "12 yds"
+    ]
+  },
+  {
+    "id": "curated-30ef077792b2c05a",
+    "fact_key": "football:goal-width",
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "What is the distance between the inside edges of a regulation association-football goal’s posts?",
+    "answers": [
+      "7.32 m",
+      "6.32 m",
+      "8.32 m",
+      "9.32 m"
+    ],
+    "correct": 0,
+    "explanation": "The inside distance between the posts is 7.32 metres.",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "7.32 m"
+    ]
+  },
+  {
+    "id": "curated-ff68c5dcee9d3c1f",
+    "fact_key": "machu-picchu:country",
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "In which country is Machu Picchu?",
+    "answers": [
+      "Peru",
+      "Bolivia",
+      "Ecuador",
+      "Chile"
+    ],
+    "correct": 0,
+    "explanation": "UNESCO lists the Historic Sanctuary of Machu Picchu in Peru.",
+    "source": "https://whc.unesco.org/en/list/274/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Peru"
+    ]
+  },
+  {
+    "id": "curated-0201be77ec38869f",
+    "fact_key": "vanilla:plant-family",
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Vanilla pods are produced by plants in which family?",
+    "answers": [
+      "Orchids",
+      "Grasses",
+      "Roses",
+      "Palms"
+    ],
+    "correct": 0,
+    "explanation": "Vanilla belongs to the orchid family.",
+    "source": "https://www.kew.org/read-and-watch/vanilla-digitisation",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Vanilla orchids"
+    ]
+  },
+  {
+    "id": "curated-c36ebe2efa1e4d88",
+    "fact_key": "petra:nabataean-city",
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "Petra was a major caravan city of which ancient people?",
+    "answers": [
+      "Nabataeans",
+      "Etruscans",
+      "Minoans",
+      "Hittites"
+    ],
+    "correct": 0,
+    "explanation": "UNESCO describes Petra as a Nabataean caravan city.",
+    "source": "https://whc.unesco.org/en/list/326/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Nabataean caravan"
+    ]
+  },
+  {
+    "id": "curated-9fa9632c4fd108a7",
+    "fact_key": "youtube:unlisted-link-access",
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "Which YouTube visibility setting lets anyone with the link watch, without making the video public?",
+    "answers": [
+      "Unlisted",
+      "Private",
+      "Members-only",
+      "Draft"
+    ],
+    "correct": 0,
+    "explanation": "Unlisted videos can be watched and shared by anyone with their link.",
+    "source": "https://support.google.com/youtube/answer/157177",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Unlisted",
+      "anyone with the link"
+    ]
+  },
+  {
+    "id": "curated-a0135de206822122",
+    "fact_key": "rss:xml-format",
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "RSS 2.0 uses which markup format?",
+    "answers": [
+      "XML",
+      "YAML",
+      "CSV",
+      "INI"
+    ],
+    "correct": 0,
+    "explanation": "RSS is an XML-based format for distributing content.",
+    "source": "https://www.rssboard.org/rss-specification",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "XML",
+      "RSS"
+    ]
+  },
+  {
+    "id": "curated-6305e53cdacf3eb1",
+    "fact_key": "http:301-permanent-redirect",
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "Which HTTP status code indicates that a resource has moved permanently?",
+    "answers": [
+      "301",
+      "202",
+      "401",
+      "503"
+    ],
+    "correct": 0,
+    "explanation": "HTTP 301 is a permanent redirection response.",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/301",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "301",
+      "permanently moved"
+    ]
+  },
+  {
+    "id": "curated-3a827c8ef261f210",
+    "fact_key": "animal-crossing:currency-bells",
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "Which currency can you earn by selling items in Animal Crossing: New Horizons?",
+    "answers": [
+      "Bells",
+      "Rupees",
+      "Gil",
+      "Zenny"
+    ],
+    "correct": 0,
+    "explanation": "Selling items at Nook’s Cranny earns Bells.",
+    "source": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Bells",
+      "selling"
+    ]
+  },
+  {
+    "id": "curated-d94f16ea1516bc64",
+    "fact_key": "minecraft:obsidian-natural-material",
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Minecraft’s obsidian takes its name from what kind of natural material?",
+    "answers": [
+      "Volcanic glass",
+      "Compressed limestone",
+      "A metal alloy",
+      "Fossilized wood"
+    ],
+    "correct": 0,
+    "explanation": "Natural obsidian is glass formed by rapidly cooling lava.",
+    "source": "https://www.minecraft.net/en-us/article/block-week-obsidian",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "obsidian is glass",
+      "lava"
+    ]
+  },
+  {
+    "id": "curated-fdbbe6d3dcdd2222",
+    "fact_key": "chess:promotion-options",
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "Which piece cannot be chosen when a pawn promotes in standard chess?",
+    "answers": [
+      "King",
+      "Queen",
+      "Rook",
+      "Knight"
+    ],
+    "correct": 0,
+    "explanation": "A pawn can promote to a queen, rook, bishop or knight, but never a king.",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "new queen, rook, bishop or knight"
+    ]
+  },
+  {
+    "id": "curated-fe2c2de37243e749",
+    "fact_key": "saxophone:instrument-family",
+    "category": "Music",
+    "difficulty": 0,
+    "question": "Despite its metal body, the saxophone belongs to which family?",
+    "answers": [
+      "Woodwind",
+      "Brass",
+      "Percussion",
+      "Bowed strings"
+    ],
+    "correct": 0,
+    "explanation": "The saxophone is classified as a woodwind because of how it produces sound.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "classified as a woodwind"
+    ]
+  },
+  {
+    "id": "curated-5614792ec656e2ef",
+    "fact_key": "bassoon:double-reed",
+    "category": "Music",
+    "difficulty": 1,
+    "question": "Which type of reed produces the bassoon’s sound?",
+    "answers": [
+      "Double reed",
+      "Single reed",
+      "Free metal reed",
+      "No reed"
+    ],
+    "correct": 0,
+    "explanation": "A bassoon is a low-register woodwind that uses a double reed.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/bassoon/structure/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "double reed"
+    ]
+  },
+  {
+    "id": "curated-f6824db785079294",
+    "fact_key": "flute:lip-plate-boehm",
+    "category": "Music",
+    "difficulty": 2,
+    "question": "Which instrument maker proposed adding a lip plate to metal flutes?",
+    "answers": [
+      "Theobald Boehm",
+      "Adolphe Sax",
+      "Bartolomeo Cristofori",
+      "Antonio Stradivari"
+    ],
+    "correct": 0,
+    "explanation": "Theobald Boehm proposed the lip plate for the metal flute.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/flute/trivia/trivia003.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Theobald Boehm",
+      "lip plate"
+    ]
+  },
+  {
+    "id": "curated-0ff2d855aa8c575f",
+    "fact_key": "coco:young-protagonist",
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "What is the name of Coco’s young aspiring musician?",
+    "answers": [
+      "Miguel",
+      "Luca",
+      "Hiro",
+      "Alberto"
+    ],
+    "correct": 0,
+    "explanation": "Miguel is the young musician in Coco.",
+    "source": "https://www.pixar.com/coco",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Miguel",
+      "music"
+    ]
+  },
+  {
+    "id": "curated-a6acfc47801360c8",
+    "fact_key": "finding-nemo:reef-setting",
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "Which Australian reef is home to Nemo and Marlin?",
+    "answers": [
+      "Great Barrier Reef",
+      "Ningaloo Reef",
+      "Belize Barrier Reef",
+      "New Caledonia Barrier Reef"
+    ],
+    "correct": 0,
+    "explanation": "Nemo and Marlin live at Australia’s Great Barrier Reef.",
+    "source": "https://www.pixar.com/finding-nemo",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Great Barrier Reef",
+      "Marlin"
+    ]
+  },
+  {
+    "id": "curated-5948ae6b3e95a311",
+    "fact_key": "coco:rivera-family-trade",
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "What trade does Miguel’s family practice in Coco?",
+    "answers": [
+      "Shoemaking",
+      "Glassblowing",
+      "Pottery",
+      "Fishing"
+    ],
+    "correct": 0,
+    "explanation": "The Rivera family’s traditional business is shoemaking.",
+    "source": "https://www.pixar.com/coco",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "shoemaking",
+      "Rivera"
+    ]
+  },
+  {
+    "id": "curated-6d551195ed9ea405",
+    "fact_key": "earth:single-natural-moon",
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "How many natural moons does Earth have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+    ],
+    "correct": 0,
+    "explanation": "Earth has one natural moon.",
+    "source": "https://science.nasa.gov/earth/facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "one moon"
+    ]
+  },
+  {
+    "id": "curated-0d90b3e03423c923",
+    "fact_key": "uranus:sideways-axis",
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "Which planet is famous for rotating almost on its side?",
+    "answers": [
+      "Uranus",
+      "Mercury",
+      "Earth",
+      "Mars"
+    ],
+    "correct": 0,
+    "explanation": "Uranus has an extreme axial tilt and rotates almost on its side.",
+    "source": "https://science.nasa.gov/uranus/facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "side",
+      "tilt"
+    ]
+  },
+  {
+    "id": "curated-941c1358e012b1ce",
+    "fact_key": "mercury:orbital-resonance",
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "Mercury rotates three times on its axis for every how many trips around the Sun?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "correct": 0,
+    "explanation": "Mercury rotates three times during every two orbits of the Sun.",
+    "source": "https://science.nasa.gov/mercury/facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "three",
+      "two"
+    ]
+  },
+  {
+    "id": "curated-397fe8cbb8d1f61d",
+    "fact_key": "android:aosp-name",
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "AOSP is the open-source project behind which mobile operating system?",
+    "answers": [
+      "Android",
+      "iOS",
+      "HarmonyOS",
+      "Windows Phone"
+    ],
+    "correct": 0,
+    "explanation": "AOSP stands for Android Open Source Project.",
+    "source": "https://source.android.com/docs/setup/about",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Android Open Source Project"
+    ]
+  },
+  {
+    "id": "curated-2dbd22e9ba34164f",
+    "fact_key": "ssd:expanded-name",
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "What does SSD stand for in computer storage?",
+    "answers": [
+      "Solid State Drive",
+      "Serial Storage Disk",
+      "System Software Device",
+      "Secure Signal Decoder"
+    ],
+    "correct": 0,
+    "explanation": "SSD expands to Solid State Drive.",
+    "source": "https://semiconductor.samsung.com/ssd/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Solid State Drive"
+    ]
+  },
+  {
+    "id": "curated-b5deccb91af7903d",
+    "fact_key": "binary-search:sorted-input",
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "A standard binary search requires the searched array to be what?",
+    "answers": [
+      "Sorted",
+      "Encrypted",
+      "Compressed",
+      "Randomly shuffled"
+    ],
+    "correct": 0,
+    "explanation": "Binary search repeatedly halves a search interval in a sorted array.",
+    "source": "https://xlinux.nist.gov/dads/HTML/binarySearch.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "sorted array"
+    ]
+  },
+  {
+    "id": "curated-4271fdc6b341c6be",
+    "fact_key": "football:ball-shape",
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "What shape must an association-football ball have under IFAB Law 2?",
+    "answers": [
+      "Spherical",
+      "Oval",
+      "Cylindrical",
+      "Cubical"
+    ],
+    "correct": 0,
+    "explanation": "IFAB specifies that the ball must be spherical.",
+    "source": "https://www.theifab.com/laws/latest/the-ball/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "spherical"
+    ]
+  },
+  {
+    "id": "curated-a282d8d4fa637e32",
+    "fact_key": "football:centre-circle-radius",
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "What is the radius of an association-football centre circle?",
+    "answers": [
+      "9.15 m (10 yd)",
+      "5.5 m (6 yd)",
+      "11 m (12 yd)",
+      "16.5 m (18 yd)"
+    ],
+    "correct": 0,
+    "explanation": "The centre circle has a radius of 9.15 metres, or 10 yards.",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "radius of 9.15 m"
+    ]
+  },
+  {
+    "id": "curated-53a18bafd67635df",
+    "fact_key": "football:crossbar-height",
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "How high is the lower edge of a regulation association-football crossbar above the ground?",
+    "answers": [
+      "2.44 m",
+      "2.14 m",
+      "2.74 m",
+      "3.05 m"
+    ],
+    "correct": 0,
+    "explanation": "The lower edge of the crossbar is 2.44 metres above the ground.",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "2.44 m"
+    ]
+  },
+  {
+    "id": "curated-5abe9f5b925771cc",
+    "fact_key": "taj-mahal:country",
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "In which country is the Taj Mahal?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Iran"
+    ],
+    "correct": 0,
+    "explanation": "The Taj Mahal stands in Agra, India.",
+    "source": "https://whc.unesco.org/en/list/252/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "India",
+      "Agra"
+    ]
+  },
+  {
+    "id": "curated-b718d38db3c3aac1",
+    "fact_key": "chocolate:cacao-source",
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Chocolate is made from the seeds of which tree?",
+    "answers": [
+      "Cacao",
+      "Coffee",
+      "Carob",
+      "Coconut"
+    ],
+    "correct": 0,
+    "explanation": "Chocolate comes from the cacao tree, Theobroma cacao.",
+    "source": "https://www.kew.org/read-and-watch/kew-gardens-cacao-how-to-make-chocolate",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Theobroma cacao",
+      "Chocolate"
+    ]
+  },
+  {
+    "id": "curated-0b7fc0c484e581e7",
+    "fact_key": "taj-mahal:commissioning-emperor",
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "Which Mughal emperor ordered the construction of the Taj Mahal?",
+    "answers": [
+      "Shah Jahan",
+      "Akbar",
+      "Babur",
+      "Aurangzeb"
+    ],
+    "correct": 0,
+    "explanation": "Shah Jahan commissioned the Taj Mahal in memory of his wife.",
+    "source": "https://whc.unesco.org/en/list/252/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Shah Jahan"
+    ]
+  },
+  {
+    "id": "curated-3b30014b382adb12",
+    "fact_key": "rss:channel-title-element",
+    "category": "Internet & creators",
+    "difficulty": 0,
+    "question": "In RSS 2.0, which channel element gives the feed its name?",
+    "answers": [
+      "title",
+      "image",
+      "cloud",
+      "category"
+    ],
+    "correct": 0,
+    "explanation": "The required RSS channel title element names the channel.",
+    "source": "https://www.rssboard.org/rss-specification",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "title",
+      "channel"
+    ]
+  },
+  {
+    "id": "curated-ee6982db13e62e46",
+    "fact_key": "cc:sa-adaptations-terms",
+    "category": "Internet & creators",
+    "difficulty": 1,
+    "question": "Which Creative Commons element requires adaptations to use the same or a compatible license?",
+    "answers": [
+      "SA",
+      "NC",
+      "ND",
+      "CC0"
+    ],
+    "correct": 0,
+    "explanation": "ShareAlike governs the license used for adaptations.",
+    "source": "https://creativecommons.org/cc-licenses/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "SA",
+      "compatible license"
+    ]
+  },
+  {
+    "id": "curated-cc1dc8ca64b3c58e",
+    "fact_key": "wayback:operator",
+    "category": "Internet & creators",
+    "difficulty": 2,
+    "question": "Which organization operates the Wayback Machine?",
+    "answers": [
+      "Internet Archive",
+      "Internet Engineering Task Force",
+      "Mozilla Foundation",
+      "W3C"
+    ],
+    "correct": 0,
+    "explanation": "The Wayback Machine is an Internet Archive service.",
+    "source": "https://help.archive.org/help/using-the-wayback-machine/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Internet Archive",
+      "Wayback"
+    ]
+  },
+  {
+    "id": "curated-bb0efc6ba04964cc",
+    "fact_key": "rocket-league:vehicle-soccer",
+    "category": "Gaming",
+    "difficulty": 0,
+    "question": "Rocket League combines driving cars with a game resembling which sport?",
+    "answers": [
+      "Soccer",
+      "Cricket",
+      "Golf",
+      "Tennis"
+    ],
+    "correct": 0,
+    "explanation": "Rocket League combines arcade-style soccer with vehicles.",
+    "source": "https://store.epicgames.com/en-US/p/rocket-league",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "soccer",
+      "vehicular"
+    ]
+  },
+  {
+    "id": "curated-7e52766f4d846189",
+    "fact_key": "chess:bishop-movement",
+    "category": "Gaming",
+    "difficulty": 1,
+    "question": "Which chess piece stays on one square color while moving diagonally?",
+    "answers": [
+      "Bishop",
+      "Rook",
+      "Knight",
+      "King"
+    ],
+    "correct": 0,
+    "explanation": "A bishop moves along diagonals and therefore remains on its starting square color.",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "bishop",
+      "diagonal"
+    ]
+  },
+  {
+    "id": "curated-a5ee2dba0dd64dc2",
+    "fact_key": "chess:stalemate-condition",
+    "category": "Gaming",
+    "difficulty": 2,
+    "question": "What is the result when a player has no legal move but their king is not in check?",
+    "answers": [
+      "A draw by stalemate",
+      "A win for that player",
+      "Checkmate",
+      "Automatic resignation"
+    ],
+    "correct": 0,
+    "explanation": "A position with no legal move and no check is stalemate and is drawn.",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "no legal move",
+      "stalemate"
+    ]
+  },
+  {
+    "id": "curated-9caaf485364ca1fe",
+    "fact_key": "timpani:pitched-drums",
+    "category": "Music",
+    "difficulty": 0,
+    "question": "Which orchestral drums can produce definite pitches and even a melody?",
+    "answers": [
+      "Timpani",
+      "Snare drums",
+      "Bass drums",
+      "Tom-toms"
+    ],
+    "correct": 0,
+    "explanation": "Timpani can produce accurate pitches and play melodies.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/timpani/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "accurate pitches",
+      "melody"
+    ]
+  },
+  {
+    "id": "curated-4549672700d9cd25",
+    "fact_key": "violin:bow-hair-material",
+    "category": "Music",
+    "difficulty": 1,
+    "question": "Traditional violin bow hair is usually made from which animal’s hair?",
+    "answers": [
+      "Horse",
+      "Sheep",
+      "Goat",
+      "Alpaca"
+    ],
+    "correct": 0,
+    "explanation": "Traditional violin bows use horsehair.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "horsehair"
+    ]
+  },
+  {
+    "id": "curated-408beb744ec5f922",
+    "fact_key": "clarinet:bb-written-c-sounds-bb",
+    "category": "Music",
+    "difficulty": 2,
+    "question": "On a B-flat clarinet, a written C sounds as which concert pitch?",
+    "answers": [
+      "B-flat",
+      "C",
+      "D",
+      "A"
+    ],
+    "correct": 0,
+    "explanation": "A B-flat clarinet sounds B-flat when its score calls for C.",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "B♭ clarinet",
+      "C, D, E"
+    ]
+  },
+  {
+    "id": "curated-400a14fb7ada221a",
+    "fact_key": "ratatouille:remy-species",
+    "category": "Film & TV",
+    "difficulty": 0,
+    "question": "Remy, the aspiring chef in Ratatouille, is which animal?",
+    "answers": [
+      "Rat",
+      "Mouse",
+      "Rabbit",
+      "Hamster"
+    ],
+    "correct": 0,
+    "explanation": "Remy is the rat who dreams of becoming a chef.",
+    "source": "https://www.pixar.com/ratatouille",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Remy",
+      "rat"
+    ]
+  },
+  {
+    "id": "curated-9ee5c2f0b40b9408",
+    "fact_key": "coco:dante-animal",
+    "category": "Film & TV",
+    "difficulty": 1,
+    "question": "What kind of animal is Miguel’s companion Dante in Coco?",
+    "answers": [
+      "Dog",
+      "Cat",
+      "Fox",
+      "Iguana"
+    ],
+    "correct": 0,
+    "explanation": "Dante is a Xolo dog, short for Xoloitzcuintli.",
+    "source": "https://www.pixar.com/coco",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Dante",
+      "dog"
+    ]
+  },
+  {
+    "id": "curated-1d5414110923094d",
+    "fact_key": "wall-e:axiom-autopilot",
+    "category": "Film & TV",
+    "difficulty": 2,
+    "question": "What is the name of the Axiom’s autopilot in WALL-E?",
+    "answers": [
+      "AUTO",
+      "EVE",
+      "M-O",
+      "GO-4"
+    ],
+    "correct": 0,
+    "explanation": "AUTO is the autopilot aboard the Axiom.",
+    "source": "https://www.pixar.com/wall-e",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Auto",
+      "autopilot"
+    ]
+  },
+  {
+    "id": "curated-b9bc5b6b8a76a03a",
+    "fact_key": "europa-clipper:launch-date",
+    "category": "Science & space",
+    "difficulty": 0,
+    "question": "In which year did Europa Clipper leave Earth on its journey to Jupiter?",
+    "answers": [
+      "2024",
+      "2014",
+      "2004",
+      "1994"
+    ],
+    "correct": 0,
+    "explanation": "Europa Clipper launched on October 14, 2024.",
+    "source": "https://science.nasa.gov/mission/europa-clipper/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Oct. 14, 2024"
+    ]
+  },
+  {
+    "id": "curated-60022820c853558c",
+    "fact_key": "jupiter:great-red-spot",
+    "category": "Science & space",
+    "difficulty": 1,
+    "question": "Jupiter’s Great Red Spot is what kind of feature?",
+    "answers": [
+      "A giant storm",
+      "A volcano",
+      "A solid continent",
+      "An impact crater"
+    ],
+    "correct": 0,
+    "explanation": "The Great Red Spot is a giant long-lived storm in Jupiter’s atmosphere.",
+    "source": "https://science.nasa.gov/jupiter/jupiter-facts/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Great Red Spot",
+      "storm"
+    ]
+  },
+  {
+    "id": "curated-9aa50d09b52e1188",
+    "fact_key": "europa-clipper:gravity-experiment-telecommunications",
+    "category": "Science & space",
+    "difficulty": 2,
+    "question": "Which Europa Clipper system also supports its gravity experiment?",
+    "answers": [
+      "Telecommunications system",
+      "Landing legs",
+      "Sample-return capsule",
+      "Surface drilling rig"
+    ],
+    "correct": 0,
+    "explanation": "The gravity experiment uses Europa Clipper’s telecommunications system.",
+    "source": "https://science.nasa.gov/mission/europa-clipper/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "gravity experiment",
+      "telecommunications"
+    ]
+  },
+  {
+    "id": "curated-7dae89715a80dcca",
+    "fact_key": "bluetooth:royal-name-origin",
+    "category": "Technology",
+    "difficulty": 0,
+    "question": "Bluetooth technology takes its name from which historical king?",
+    "answers": [
+      "Harald Bluetooth",
+      "Richard the Lionheart",
+      "Louis XIV",
+      "Alfred the Great"
+    ],
+    "correct": 0,
+    "explanation": "Bluetooth’s name refers to King Harald Bluetooth Gormsson.",
+    "source": "https://www.bluetooth.com/about-us/bluetooth-origin/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Harald",
+      "Gormsson"
+    ]
+  },
+  {
+    "id": "curated-e3ea7c22408ee511",
+    "fact_key": "open-source:source-code-distribution",
+    "category": "Technology",
+    "difficulty": 1,
+    "question": "Under the Open Source Definition, software must allow distribution in which form as well as compiled form?",
+    "answers": [
+      "Source code",
+      "Printed screenshots",
+      "Encrypted archives only",
+      "Audio narration"
+    ],
+    "correct": 0,
+    "explanation": "The Open Source Definition requires distribution in source-code form as well as compiled form.",
+    "source": "https://opensource.org/osd",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "source code as well as compiled form"
+    ]
+  },
+  {
+    "id": "curated-f9ea8e73a00657c4",
+    "fact_key": "database:atomic-transaction",
+    "category": "Technology",
+    "difficulty": 2,
+    "question": "What does an atomic database transaction guarantee about its changes?",
+    "answers": [
+      "All happen or none happen",
+      "Only one column can change",
+      "Every query is sorted",
+      "Data is automatically encrypted"
+    ],
+    "correct": 0,
+    "explanation": "An atomic commit makes all transaction changes together or none of them.",
+    "source": "https://www.sqlite.org/atomiccommit.html",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "all",
+      "none",
+      "atomic"
+    ]
+  },
+  {
+    "id": "curated-e2ad30e1a4044da2",
+    "fact_key": "football:goalkeeper-handling-area",
+    "category": "Sports",
+    "difficulty": 0,
+    "question": "Where may a goalkeeper handle the ball, subject to the other handling rules?",
+    "answers": [
+      "Inside their own penalty area",
+      "Anywhere in their own half",
+      "Only inside the centre circle",
+      "Inside either penalty area"
+    ],
+    "correct": 0,
+    "explanation": "A goalkeeper’s special handling permission applies inside their own penalty area.",
+    "source": "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "goalkeeper",
+      "own penalty area"
+    ]
+  },
+  {
+    "id": "curated-bd5ed235726f2982",
+    "fact_key": "football:ball-circumference",
+    "category": "Sports",
+    "difficulty": 1,
+    "question": "What circumference range does IFAB specify for the match ball?",
+    "answers": [
+      "68–70 cm",
+      "58–60 cm",
+      "78–80 cm",
+      "88–90 cm"
+    ],
+    "correct": 0,
+    "explanation": "A regulation ball’s circumference is between 68 and 70 centimetres.",
+    "source": "https://www.theifab.com/laws/latest/the-ball/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "68 cm",
+      "70 cm"
+    ]
+  },
+  {
+    "id": "curated-c3b8aea5209d6279",
+    "fact_key": "football:corner-flag-height",
+    "category": "Sports",
+    "difficulty": 2,
+    "question": "What is the minimum height of a corner flagpost under IFAB Law 1?",
+    "answers": [
+      "1.5 m",
+      "1.0 m",
+      "2.0 m",
+      "2.5 m"
+    ],
+    "correct": 0,
+    "explanation": "A corner flagpost must be at least 1.5 metres high and must have a non-pointed top.",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "1.5 m"
+    ]
+  },
+  {
+    "id": "curated-ade1d84f4eb20fd2",
+    "fact_key": "acropolis:country",
+    "category": "Culture & food",
+    "difficulty": 0,
+    "question": "The Acropolis of Athens is a World Heritage site in which country?",
+    "answers": [
+      "Greece",
+      "Italy",
+      "Turkey",
+      "Cyprus"
+    ],
+    "correct": 0,
+    "explanation": "UNESCO lists the Acropolis of Athens in Greece.",
+    "source": "https://whc.unesco.org/en/list/404/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Greece"
+    ]
+  },
+  {
+    "id": "curated-4744da552a4311f6",
+    "fact_key": "quinoa:andean-origin",
+    "category": "Culture & food",
+    "difficulty": 1,
+    "question": "Quinoa is a traditional crop native to which South American mountain region?",
+    "answers": [
+      "The Andes",
+      "The Guiana Highlands",
+      "The Brazilian Highlands",
+      "The Serra do Mar"
+    ],
+    "correct": 0,
+    "explanation": "Quinoa is native to the Andean region.",
+    "source": "https://agris.fao.org/search/en/providers/122436/records/6878dba25d9ad5f58d60287b",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "Andean region"
+    ]
+  },
+  {
+    "id": "curated-7b43b1e623307013",
+    "fact_key": "humayun-tomb:garden-tomb-date",
+    "category": "Culture & food",
+    "difficulty": 2,
+    "question": "UNESCO dates the construction of Humayun’s Tomb in Delhi to which year?",
+    "answers": [
+      "1570",
+      "1470",
+      "1670",
+      "1770"
+    ],
+    "correct": 0,
+    "explanation": "UNESCO dates Humayun’s Tomb to 1570.",
+    "source": "https://whc.unesco.org/en/list/232/",
+    "kind": "evergreen",
+    "expires_at": "",
+    "verified_at": "2026-10-25",
+    "source_date": "2026-10-25",
+    "source_date_kind": "retrieved-undated-reference",
+    "source_terms": [
+      "built in 1570"
+    ]
+  },
+  {
+    "id": "nasa-report:452bf28ae114f7dcaeafc6cf",
+    "fact_key": "nasa-report:452bf28ae114f7dcaeafc6cf",
+    "question": "Which mission fills the blank in NASA’s 2026-10-23 headline: “NASA’s ____ III Mission to Test Future Moon Lander Operations”?",
+    "answers": [
+      "Artemis",
+      "Hubble",
+      "Webb",
+      "Roman"
+    ],
+    "correct": 0,
+    "category": "Science & space",
+    "difficulty": 0,
+    "explanation": "NASA’s dated report names Artemis. This is a headline-identification question.",
+    "source": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+    "source_date": "2026-10-23",
+    "source_date_kind": "publisher-rss-publication-date",
+    "verified_at": "2026-10-25",
+    "kind": "current",
+    "expires_at": "2026-11-08",
+    "evidence": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+    "choice_notes": [
+      "The verified publisher headline names Artemis.",
+      "Hubble is a different mission and is not named in this headline.",
+      "Webb is a different mission and is not named in this headline.",
+      "Roman is a different mission and is not named in this headline."
+    ],
+    "source_sha256": "0332ba2bd90a1bc271de4555bec84e5efc3f6ab88d00cb84c48d7adb5a8f5da8"
+  },
+  {
+    "id": "nasa-report:e6e32e1c0407b5f795182fdf",
+    "fact_key": "nasa-report:e6e32e1c0407b5f795182fdf",
+    "question": "Which mission fills the blank in NASA’s 2026-10-23 headline: “NASA’s ____ Mission Ends, Leaves Behind Scientific Bonanza”?",
+    "answers": [
+      "Swift",
+      "Artemis",
+      "Hubble",
+      "Webb"
+    ],
+    "correct": 0,
+    "category": "Science & space",
+    "difficulty": 2,
+    "explanation": "NASA’s dated report names Swift. This is a headline-identification question.",
+    "source": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+    "source_date": "2026-10-23",
+    "source_date_kind": "publisher-rss-publication-date",
+    "verified_at": "2026-10-25",
+    "kind": "current",
+    "expires_at": "2026-11-08",
+    "evidence": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+    "choice_notes": [
+      "The verified publisher headline names Swift.",
+      "Artemis is a different mission and is not named in this headline.",
+      "Hubble is a different mission and is not named in this headline.",
+      "Webb is a different mission and is not named in this headline."
+    ],
+    "source_sha256": "d9c18f00b5ed630d538f1635b7c5f9c566b4c1efd3cd542d40e8071eb0c68c4d"
   }
 ]

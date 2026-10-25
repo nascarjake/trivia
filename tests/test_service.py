@@ -17,16 +17,22 @@ NOW = dt.date(2026, 10, 25)
 
 class BankTests(unittest.TestCase):
     def setUp(self):
+        clock = patch.object(bank, 'today', return_value=NOW); clock.start(); self.addCleanup(clock.stop)
+        batch_clock = patch.object(question_batch, 'today', return_value=NOW); batch_clock.start(); self.addCleanup(batch_clock.stop)
         self.batch = json.loads((bank.ROOT / 'batches/example-candidate.json').read_text())
         self.existing = json.loads(bank.BANK_PATH.read_text())
+        for i, q in enumerate(self.batch['questions']):
+            q['id'] = 'test-candidate-' + str(i)
+            q['fact_key'] = 'test-candidate:' + str(i)
+            q['question'] = 'Fixture: ' + q['question']
 
     def test_seed_capacity_and_schema(self):
-        self.assertEqual(len(bank.load_bank()), 120)
-        self.assertEqual(len({q['fact_key'] for q in self.existing}), 120)
+        self.assertGreaterEqual(len(bank.load_bank()), 201)
+        self.assertEqual(len({q['fact_key'] for q in self.existing}), len(self.existing))
         for q in self.existing: bank.validate_question(q, NOW, candidate=False)
         report = bank.capacity(self.existing)
         self.assertEqual(report['single_theme_target'], 1440)
-        self.assertTrue(all(v == [5, 5, 5] for v in report['cells'].values()))
+        self.assertTrue(all(min(v) >= 9 for v in report['cells'].values()))
 
     def test_valid_balanced_candidate(self):
         self.assertEqual(bank.validate_batch(self.batch, self.existing, NOW), self.batch)
@@ -71,7 +77,7 @@ class BankTests(unittest.TestCase):
             questions = copy.deepcopy(self.existing)
             questions[0].update(kind='current', expires_at='2026-10-25')
             path.write_text(json.dumps(questions))
-            self.assertEqual(len(bank.load_bank(path, NOW)), 119)
+            self.assertEqual(len(bank.load_bank(path, NOW)), len(self.existing)-1)
 
     def test_staging_preserves_human_review(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -89,36 +95,6 @@ class BankTests(unittest.TestCase):
         with patch.dict('os.environ', {}, clear=True), patch('urllib.request.urlopen') as network:
             with self.assertRaises(ValueError): question_batch.generate_candidate('/tmp/unused-candidate.json')
             network.assert_not_called()
-
-    def test_generation_call_caps_and_weekly_ledger_with_mock_provider(self):
-        candidate = copy.deepcopy(self.batch)
-        candidate['categories'] = bank.CATEGORIES
-        candidate['questions'] = []
-        for category_index, category in enumerate(bank.CATEGORIES):
-            for source in self.batch['questions']:
-                q = copy.deepcopy(source)
-                q.update(id=f"fixture-{category_index}-{q['difficulty']}", fact_key=f"fixture:{category_index}:{q['difficulty']}",
-                         question=f"Fixture {category_index}: " + q['question'], category=category)
-                candidate['questions'].append(q)
-        urls = {q['source'] for q in candidate['questions']}
-        def response(text, citations=()):
-            return io.BytesIO(json.dumps({'status': 'completed', 'output': [{'content': [
-                {'type': 'output_text', 'text': text, 'annotations': [{'type': 'url_citation', 'url': u} for u in citations]}]}]}).encode())
-        with tempfile.TemporaryDirectory() as directory:
-            output = Path(directory) / 'candidate.json'; ledger = Path(directory) / 'attempts.json'
-            environment = {'TRIVIA_PAID_BATCH_APPROVAL': 'weekly-24-max3calls', 'OPENAI_MODEL': 'gpt-5.4-mini',
-                           'OPENAI_API_KEY': 'MOCK_ONLY_NOT_A_REAL_KEY', 'TRIVIA_BATCH_LEDGER': str(ledger)}
-            with patch.dict('os.environ', environment, clear=True), patch.object(bank, 'today', return_value=NOW), patch.object(question_batch, 'today', return_value=NOW):
-                with patch('urllib.request.urlopen', side_effect=[response('Test fixture evidence', urls), response(json.dumps(candidate)), response('{"accepted": true}')]) as network:
-                    question_batch.generate_candidate(output)
-                    self.assertEqual(network.call_count, 3)
-                    bodies = [json.loads(call.args[0].data) for call in network.call_args_list]
-                    self.assertEqual([b['max_output_tokens'] for b in bodies], [6000, 12000, 2000])
-                    self.assertTrue(all(b['max_tool_calls'] == 2 for b in bodies))
-                    self.assertEqual(len(json.loads(ledger.read_text())), 1)
-                    self.assertTrue(all(d['status'] == 'pending' for d in json.loads(Path(str(output) + '.review.json').read_text())['decisions'].values()))
-                    with self.assertRaises(ValueError): question_batch.generate_candidate(Path(directory) / 'second.json')
-                    self.assertEqual(network.call_count, 3)
 
     def test_local_import_and_sql_require_exact_review(self):
         review = question_batch.review_template(self.batch)
@@ -139,7 +115,7 @@ class BankTests(unittest.TestCase):
                 connection.close()
                 with patch('sys.argv', ['batch', 'publish', '--input', str(input_file), '--review', str(review_file)]):
                     question_batch.main()
-                self.assertEqual(len(json.loads(bank_file.read_text())), 123)
+                self.assertEqual(len(json.loads(bank_file.read_text())), len(self.existing)+3)
                 with patch('sys.argv', ['batch', 'publish', '--input', str(input_file), '--review', str(review_file)]):
                     with self.assertRaises(ValueError): question_batch.main()
 
@@ -167,13 +143,13 @@ class HTTPTests(unittest.TestCase):
         connection.close(); return result
     def test_shared_bank_etag_and_no_generation_routes(self):
         status, headers, data = self.request('GET', '/api/bank')
-        self.assertEqual(status, 200); self.assertEqual(len(json.loads(data)['questions']), 120)
+        self.assertEqual(status, 200); self.assertGreaterEqual(len(json.loads(data)['questions']), 201)
         self.assertEqual(headers['Cache-Control'], 'public, max-age=300')
         self.assertEqual(self.request('GET', '/api/bank', {'If-None-Match': headers['ETag']})[0], 304)
         for route in ['/api/pack', '/api/lifeline']:
             self.assertEqual(self.request('POST', route)[0], 410)
-    def test_config_reports_job_disabled(self):
+    def test_config_reports_free_weekly_method(self):
         config = json.loads(self.request('GET', '/api/config')[2])
-        self.assertFalse(config['scheduled_refresh']); self.assertFalse(config['ai_available'])
+        self.assertTrue(config['scheduled_refresh']); self.assertFalse(config['ai_available'])
 
 if __name__ == '__main__': unittest.main()

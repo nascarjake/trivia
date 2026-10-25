@@ -1,0 +1,962 @@
+[
+  {
+    "id": "curated-aad923b3bd2f01f2",
+    "fact_key": "url:expanded-name",
+    "source": "https://developer.mozilla.org/en-US/docs/Glossary/URL",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c8e340957aafc1efafa662d25d4be4bcce19ae0961b34705c8327ce739b87081",
+    "claim": "URL expands to Uniform Resource Locator."
+  },
+  {
+    "id": "curated-231ce543fe71fa07",
+    "fact_key": "cc:nc-noncommercial",
+    "source": "https://creativecommons.org/cc-licenses/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "5c00c365e553ebb21ae3ba11b941e6d1572f87f9a7aad6cfb560cecb38a27252",
+    "claim": "NC limits licensed use to noncommercial purposes."
+  },
+  {
+    "id": "curated-775212ee458cdb83",
+    "fact_key": "activitypub:protocol-purpose",
+    "source": "https://www.w3.org/TR/activitypub/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "a909bcb86559b6412ae993569f2790a23b7ac4f393f8b96fbff09b9453c65109",
+    "claim": "ActivityPub specifies decentralized social networking."
+  },
+  {
+    "id": "curated-d78cc72a072443f3",
+    "fact_key": "kirby:copy-ability-inhale",
+    "source": "https://www.nintendo.com/my/switch/arzg/copy/index.html",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": 200,
+    "sha256": "399361f135378507a22a89507965e07c9834e8e63474c8a1e7dbdd452213fc07",
+    "claim": "Kirby can inhale an enemy to copy its abilities."
+  },
+  {
+    "id": "curated-a513b175d2eb37f4",
+    "fact_key": "celeste:protagonist",
+    "source": "https://www.celestegame.com/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "52d6249ef40d4d9ede676342bf9d6d1828cbaee3685c0741a341d757bca93851",
+    "claim": "Madeline is the climber at the center of Celeste."
+  },
+  {
+    "id": "curated-d8b424464804ff40",
+    "fact_key": "chess:en-passant-immediate",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c5b1692a0614d4bd93fe9238287b9ab7d1f47320934d5df3be113523906c476f",
+    "claim": "En passant is legal only on the move immediately following the pawn’s two-square advance."
+  },
+  {
+    "id": "curated-4d6e03442b2861c1",
+    "fact_key": "trumpet:instrument-family",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/trumpet/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "bb44c5239079a08cbba2da6d1d37be9a611d4834fc79701e6cfe268eefdee9d0",
+    "claim": "The trumpet is a brass instrument."
+  },
+  {
+    "id": "curated-afb417338532484d",
+    "fact_key": "piano:hammer-action",
+    "source": "https://usa.yamaha.com/products/contents/musical_instrument_guide/piano/index.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c8eabc566816d2cf44c60e0ee23ceade1720d4a9b39a4cb093a0b86929831c3f",
+    "claim": "An acoustic piano produces sound when hammers strike its strings."
+  },
+  {
+    "id": "curated-8b6469942d1f110b",
+    "fact_key": "saxophone:inventor",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "66abcbf7e36560353e43c4202bf6d629e99f4a3ff52ba548ad06bb0db5341a6f",
+    "claim": "Adolphe Sax invented the saxophone and patented it in Paris in 1846."
+  },
+  {
+    "id": "curated-13f20c66464ce938",
+    "fact_key": "finding-nemo:species",
+    "source": "https://www.pixar.com/finding-nemo",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "6af9b8e401b05c8c0e3e084cce35a67fcf29a15d92aaea11114086dfe4ab1553",
+    "claim": "Nemo and Marlin are clownfish."
+  },
+  {
+    "id": "curated-b8167f29be0c0120",
+    "fact_key": "ratatouille:city-setting",
+    "source": "https://www.pixar.com/ratatouille",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d8e9d04d893b9f5a900c34abb39e93f7ed588291e4e69a60bf66cc5272eed694",
+    "claim": "Ratatouille’s story unfolds in Paris."
+  },
+  {
+    "id": "curated-9804df77537651ce",
+    "fact_key": "oscars:2020-best-picture",
+    "source": "https://www.oscars.org/oscars/ceremonies/2020",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Parasite won Best Picture at the 2020 ceremony."
+  },
+  {
+    "id": "curated-830e7b06f15387c4",
+    "fact_key": "jupiter:largest-planet",
+    "source": "https://science.nasa.gov/jupiter/jupiter-facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "76f825159f7543f462c36548a56e8ecf8161b658b6546925499b04ad377e56c1",
+    "claim": "Jupiter is the largest planet in the solar system."
+  },
+  {
+    "id": "curated-f4421453fe2fadfb",
+    "fact_key": "mars:moon-names",
+    "source": "https://science.nasa.gov/mars/facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "5be292dcd6679f74a11b00f2da4966add9961433b77a93ef8ec4369f0867eeb5",
+    "claim": "Mars’s two moons are Phobos and Deimos."
+  },
+  {
+    "id": "curated-2f0712a105ddd0ff",
+    "fact_key": "neptune:mathematical-discovery",
+    "source": "https://science.nasa.gov/neptune/neptune-facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "6f19a8cd24b7d4ec8fad4fe3b4bef0fb446cc6794b33f34a4e707073da73069b",
+    "claim": "Mathematical predictions led astronomers to Neptune in 1846."
+  },
+  {
+    "id": "curated-f40e60cc51cf9ed5",
+    "fact_key": "usb:expanded-name",
+    "source": "https://www.usb.org/front-page",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "73c9b6688335ebafbfa646a3711b83134fc2d1ef1467a73c6d95fe3650f63f0e",
+    "claim": "USB expands to Universal Serial Bus."
+  },
+  {
+    "id": "curated-7b54dc63e302d768",
+    "fact_key": "json:expanded-name",
+    "source": "https://www.rfc-editor.org/rfc/rfc8259",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "6fd09811202d477f54aa65ef3f3e9d4caba2cf6ab4ab8b235b2ca774da419f4c",
+    "claim": "JSON expands to JavaScript Object Notation."
+  },
+  {
+    "id": "curated-09ad9571f6872ae1",
+    "fact_key": "ipv6:address-width",
+    "source": "https://www.rfc-editor.org/rfc/rfc8200",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "1a641715322216a798517d89709968b757c1c18c22e88084a07c087a3bef6263",
+    "claim": "IPv6 expands IP address size to 128 bits."
+  },
+  {
+    "id": "curated-f9b787181af93e02",
+    "fact_key": "nba:outside-arc-score",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "a853f868acb1d179ea62bded9dae0a048abf3e4c2baadf702176d4005501f54a",
+    "claim": "An NBA field goal from outside the three-point line counts three points."
+  },
+  {
+    "id": "curated-2c4d5ccda8da2675",
+    "fact_key": "nba:shot-clock-initial",
+    "source": "https://official.nba.com/rule-no-7-24-second-clock/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "7e3e375cb0742f65e8bbf73ad88369356d8d75cd04c2aac6a531a1c28f06581d",
+    "claim": "The NBA uses a 24-second shot clock, with separate reset rules in specified situations."
+  },
+  {
+    "id": "curated-46c0a17dce24b8e5",
+    "fact_key": "nba:overtime-period-length",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "a853f868acb1d179ea62bded9dae0a048abf3e4c2baadf702176d4005501f54a",
+    "claim": "NBA overtime periods last five minutes."
+  },
+  {
+    "id": "curated-6c74b1d59ff941b5",
+    "fact_key": "great-wall:country",
+    "source": "https://whc.unesco.org/en/list/438/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "UNESCO lists the Great Wall in China."
+  },
+  {
+    "id": "curated-12be1dc5cff3d306",
+    "fact_key": "tea:plant-species",
+    "source": "https://www.kew.org/plants/tea-plant",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Black, green and oolong tea are processed from Camellia sinensis."
+  },
+  {
+    "id": "curated-2ee2a719c68231c5",
+    "fact_key": "angkor:khmer-empire",
+    "source": "https://whc.unesco.org/en/list/668/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Angkor preserves capitals and temples of the Khmer Empire."
+  },
+  {
+    "id": "curated-6db2d4021cc4b0b6",
+    "fact_key": "cc0:public-domain-purpose",
+    "source": "https://creativecommons.org/public-domain/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "7861201bbda20d796d22b5a6812d37e176e2be75a37568d7e1369445a2dd6d6d",
+    "claim": "CC0 is a public-domain dedication tool."
+  },
+  {
+    "id": "curated-45a5127c74235958",
+    "fact_key": "html:rel-ugc-purpose",
+    "source": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "8ad83328b3bea2b6dee336d185a598b3b7272f1ca32d3be6486c6f9ff91b65d2",
+    "claim": "Google recommends ugc for user-generated-content links."
+  },
+  {
+    "id": "curated-472fbc66cfb23e24",
+    "fact_key": "robots:instructions-not-access-control",
+    "source": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "6ba94b038720b6e72dcae2941ecf420d26c73c3c2ab686f3a31e413be373def5",
+    "claim": "robots.txt provides crawling instructions; it is not authentication or a security barrier."
+  },
+  {
+    "id": "curated-353967565385bc6a",
+    "fact_key": "metroid:protagonist",
+    "source": "https://www.nintendo.com/us/store/products/metroid-dread-switch/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "698942f5855c0fc7d788329bddb544e4c9ce3e8c003363de11769263279a54a5",
+    "claim": "Metroid Dread follows the bounty hunter Samus Aran."
+  },
+  {
+    "id": "curated-bf93cbfd81195418",
+    "fact_key": "hollow-knight:surface-town",
+    "source": "https://www.hollowknight.com/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "79e5a2fe3863acaa897ab23b4255549e519bd18f30d06262e8141f8ba1d50ce8",
+    "claim": "Dirtmouth is the town above the ancient kingdom explored in Hollow Knight."
+  },
+  {
+    "id": "curated-97132bf4af761a3b",
+    "fact_key": "chess:castling-king-distance",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c5b1692a0614d4bd93fe9238287b9ab7d1f47320934d5df3be113523906c476f",
+    "claim": "In standard castling the king moves two squares toward its rook."
+  },
+  {
+    "id": "curated-5d06bba23d98792f",
+    "fact_key": "flute:embouchure-air",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/flute/mechanism/mechanism002.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "8a8c3d96ace909bf287b36e4b40e319c4ec687914dfaa26382ac6ece297feab0",
+    "claim": "Air blown toward the edge of the embouchure hole starts the flute’s sound."
+  },
+  {
+    "id": "curated-b4b8bea0f5a0219a",
+    "fact_key": "trombone:slide-tube-length",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "eb270ab3694b21091ce9c7b32d8eabda400d15fa8dea9922df8236d63304fc51",
+    "claim": "Extending the trombone slide lengthens the tube."
+  },
+  {
+    "id": "curated-dc21524b318afeea",
+    "fact_key": "trombone:historical-english-name",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "eb270ab3694b21091ce9c7b32d8eabda400d15fa8dea9922df8236d63304fc51",
+    "claim": "Sackbut was an early English name for the trombone."
+  },
+  {
+    "id": "curated-c7363323df82af5f",
+    "fact_key": "wall-e:robot-role",
+    "source": "https://www.pixar.com/wall-e",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "cf4275da9c356c2bc020d3f0086c92f73b2fe231ed66f5046786c6a6e1ead5b3",
+    "claim": "WALL-E is a robot built to compact waste into cubes."
+  },
+  {
+    "id": "curated-e30f64de775a7de2",
+    "fact_key": "wall-e:eve-name",
+    "source": "https://www.pixar.com/wall-e",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "cf4275da9c356c2bc020d3f0086c92f73b2fe231ed66f5046786c6a6e1ead5b3",
+    "claim": "WALL-E meets EVE, the search robot, and follows her into space."
+  },
+  {
+    "id": "curated-4e421b6581d0e994",
+    "fact_key": "oscars:1998-director",
+    "source": "https://www.oscars.org/oscars/ceremonies/1998",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "James Cameron won the 1998 directing Oscar for Titanic."
+  },
+  {
+    "id": "curated-2923ca95c8a85389",
+    "fact_key": "mercury:closest-sun",
+    "source": "https://science.nasa.gov/mercury/facts/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": 200,
+    "sha256": "4ea4631e5243b5d9a06b85d5d143de0df6d1adbc1ac31559009392946da92be3",
+    "claim": "Mercury is the closest planet to the Sun."
+  },
+  {
+    "id": "curated-bc26feba37fa3dab",
+    "fact_key": "venus:retrograde-spin",
+    "source": "https://science.nasa.gov/venus/venus-facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "bd09a9f2ed1c309778a7578046ef54c7c162cbc0f7648518a668f556c83be436",
+    "claim": "Venus rotates in the opposite direction to most planets, making the Sun rise in the west."
+  },
+  {
+    "id": "curated-71391abf65f0f736",
+    "fact_key": "neptune:triton-retrograde",
+    "source": "https://science.nasa.gov/neptune/neptune-facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "6f19a8cd24b7d4ec8fad4fe3b4bef0fb446cc6794b33f34a4e707073da73069b",
+    "claim": "Triton has a retrograde orbit around Neptune."
+  },
+  {
+    "id": "curated-bf51b78667ef2645",
+    "fact_key": "cpu:expanded-name",
+    "source": "https://www.intel.com/content/www/us/en/products/docs/processors/cpu-vs-gpu.html",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "CPU expands to Central Processing Unit."
+  },
+  {
+    "id": "curated-323d020aa3aac4b9",
+    "fact_key": "dns:expanded-name",
+    "source": "https://www.rfc-editor.org/rfc/rfc1034",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c81246a0a4dce08286101b22904f91d78376b6e5e7e020ac87fbe69a33584ba3",
+    "claim": "DNS is the Domain Name System."
+  },
+  {
+    "id": "curated-e40b1a96968b7974",
+    "fact_key": "utf8:maximum-codepoint-bytes",
+    "source": "https://www.unicode.org/faq/utf_bom.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "46b8326b26c49a322d5e798f75843dde91a43daa7666b25d431be3d3c83b43d0",
+    "claim": "UTF-8 represents a Unicode scalar value using one to four bytes."
+  },
+  {
+    "id": "curated-d865f150a44b6ed9",
+    "fact_key": "nba:regulation-period-length",
+    "source": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "a853f868acb1d179ea62bded9dae0a048abf3e4c2baadf702176d4005501f54a",
+    "claim": "Regulation NBA periods are twelve minutes long."
+  },
+  {
+    "id": "curated-1e90d8489f98cb3d",
+    "fact_key": "football:penalty-mark-distance",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d23f99601c7b99a44230727cbf95fa371741489dc1573c0baae928f3846b9410",
+    "claim": "The penalty mark is 11 metres, or 12 yards, from the midpoint between the posts."
+  },
+  {
+    "id": "curated-30ef077792b2c05a",
+    "fact_key": "football:goal-width",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d23f99601c7b99a44230727cbf95fa371741489dc1573c0baae928f3846b9410",
+    "claim": "The inside distance between the posts is 7.32 metres."
+  },
+  {
+    "id": "curated-ff68c5dcee9d3c1f",
+    "fact_key": "machu-picchu:country",
+    "source": "https://whc.unesco.org/en/list/274/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "UNESCO lists the Historic Sanctuary of Machu Picchu in Peru."
+  },
+  {
+    "id": "curated-0201be77ec38869f",
+    "fact_key": "vanilla:plant-family",
+    "source": "https://www.kew.org/read-and-watch/vanilla-digitisation",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Vanilla belongs to the orchid family."
+  },
+  {
+    "id": "curated-c36ebe2efa1e4d88",
+    "fact_key": "petra:nabataean-city",
+    "source": "https://whc.unesco.org/en/list/326/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "UNESCO describes Petra as a Nabataean caravan city."
+  },
+  {
+    "id": "curated-9fa9632c4fd108a7",
+    "fact_key": "youtube:unlisted-link-access",
+    "source": "https://support.google.com/youtube/answer/157177",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "e573ced89bf163ff389d64885d9bf5689a782eac6c178efa9902e2ba5eea9b4d",
+    "claim": "Unlisted videos can be watched and shared by anyone with their link."
+  },
+  {
+    "id": "curated-a0135de206822122",
+    "fact_key": "rss:xml-format",
+    "source": "https://www.rssboard.org/rss-specification",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "1610f254e9312593a67f6a58e7e7978b0d10c7cd247ec6d2382d1c6fd55079c9",
+    "claim": "RSS is an XML-based format for distributing content."
+  },
+  {
+    "id": "curated-6305e53cdacf3eb1",
+    "fact_key": "http:301-permanent-redirect",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/301",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "035d38457700af765fbd77fb08e0c64e3e4ce003148044495b823804c376b695",
+    "claim": "HTTP 301 is a permanent redirection response."
+  },
+  {
+    "id": "curated-3a827c8ef261f210",
+    "fact_key": "animal-crossing:currency-bells",
+    "source": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "3af98df9b8e632dfbd0d9d05f121426114a6298c85a2364f6aa937123b86147d",
+    "claim": "Selling items at Nook’s Cranny earns Bells."
+  },
+  {
+    "id": "curated-d94f16ea1516bc64",
+    "fact_key": "minecraft:obsidian-natural-material",
+    "source": "https://www.minecraft.net/en-us/article/block-week-obsidian",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "ff521fbdb45de3758b693f497d36627ec6321f3d6878be1e881371ae3625db9c",
+    "claim": "Natural obsidian is glass formed by rapidly cooling lava."
+  },
+  {
+    "id": "curated-fdbbe6d3dcdd2222",
+    "fact_key": "chess:promotion-options",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c5b1692a0614d4bd93fe9238287b9ab7d1f47320934d5df3be113523906c476f",
+    "claim": "The four promotion choices are queen, rook, bishop and knight."
+  },
+  {
+    "id": "curated-fe2c2de37243e749",
+    "fact_key": "saxophone:instrument-family",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "66abcbf7e36560353e43c4202bf6d629e99f4a3ff52ba548ad06bb0db5341a6f",
+    "claim": "The saxophone is classified as a woodwind because of how it produces sound."
+  },
+  {
+    "id": "curated-5614792ec656e2ef",
+    "fact_key": "bassoon:double-reed",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/bassoon/structure/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "554308971275f804ce746d7cd25cff92eb4d24c45433e04372427b524b82cd9e",
+    "claim": "A bassoon is a low-register woodwind that uses a double reed."
+  },
+  {
+    "id": "curated-f6824db785079294",
+    "fact_key": "flute:lip-plate-boehm",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/flute/trivia/trivia003.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "aba8a9c7363879c2e715f7f36a3883c4fc242e0d790825a80a0671e4fedcb0ec",
+    "claim": "Theobald Boehm proposed the lip plate for the metal flute."
+  },
+  {
+    "id": "curated-0ff2d855aa8c575f",
+    "fact_key": "coco:young-protagonist",
+    "source": "https://www.pixar.com/coco",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "670b250f563654f4ba51aed5944e6cd5f2d241ccf499d02cc1382de5d98a8034",
+    "claim": "Miguel is the young musician in Coco."
+  },
+  {
+    "id": "curated-a6acfc47801360c8",
+    "fact_key": "finding-nemo:reef-setting",
+    "source": "https://www.pixar.com/finding-nemo",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "6af9b8e401b05c8c0e3e084cce35a67fcf29a15d92aaea11114086dfe4ab1553",
+    "claim": "Nemo and Marlin live at Australia’s Great Barrier Reef."
+  },
+  {
+    "id": "curated-5948ae6b3e95a311",
+    "fact_key": "coco:rivera-family-trade",
+    "source": "https://www.pixar.com/coco",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "670b250f563654f4ba51aed5944e6cd5f2d241ccf499d02cc1382de5d98a8034",
+    "claim": "The Rivera family’s traditional business is shoemaking."
+  },
+  {
+    "id": "curated-6d551195ed9ea405",
+    "fact_key": "earth:single-natural-moon",
+    "source": "https://science.nasa.gov/earth/facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "53fb5c1ae6875265f93ec49c4628240163005eceed0940e61e8d2ce31123f3c5",
+    "claim": "Earth has one natural moon."
+  },
+  {
+    "id": "curated-0d90b3e03423c923",
+    "fact_key": "uranus:sideways-axis",
+    "source": "https://science.nasa.gov/uranus/facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "ae43eb7dcca4354ffe9d93641c1cb42c837733270dd3aeaa1361cf0d383d03ad",
+    "claim": "Uranus has an extreme axial tilt and rotates almost on its side."
+  },
+  {
+    "id": "curated-941c1358e012b1ce",
+    "fact_key": "mercury:orbital-resonance",
+    "source": "https://science.nasa.gov/mercury/facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "4ea4631e5243b5d9a06b85d5d143de0df6d1adbc1ac31559009392946da92be3",
+    "claim": "Mercury rotates three times during every two orbits of the Sun."
+  },
+  {
+    "id": "curated-397fe8cbb8d1f61d",
+    "fact_key": "android:aosp-name",
+    "source": "https://source.android.com/docs/setup/about",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "bed4937fd121d4c9449d340940b366e545fa06e56a4ce363b647ae7d6651d1ff",
+    "claim": "AOSP stands for Android Open Source Project."
+  },
+  {
+    "id": "curated-2dbd22e9ba34164f",
+    "fact_key": "ssd:expanded-name",
+    "source": "https://semiconductor.samsung.com/ssd/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "3acc1fdc8e893bb5bf084929cc6aace1c7e21cce8a9d5aae6927523dba110319",
+    "claim": "SSD expands to Solid State Drive."
+  },
+  {
+    "id": "curated-b5deccb91af7903d",
+    "fact_key": "binary-search:sorted-input",
+    "source": "https://xlinux.nist.gov/dads/HTML/binarySearch.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "e6ab3b2128932623e0f6bba35dd86d64c4f613e36b41612d0cb9011e4843b490",
+    "claim": "Binary search repeatedly halves a search interval in a sorted array."
+  },
+  {
+    "id": "curated-4271fdc6b341c6be",
+    "fact_key": "football:ball-shape",
+    "source": "https://www.theifab.com/laws/latest/the-ball/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "1c1093c79fa6b48e527e9daaba18c539cdea36f1d74cf52c26863a0a8c5e4d1d",
+    "claim": "IFAB specifies that the ball must be spherical."
+  },
+  {
+    "id": "curated-a282d8d4fa637e32",
+    "fact_key": "football:centre-circle-radius",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d23f99601c7b99a44230727cbf95fa371741489dc1573c0baae928f3846b9410",
+    "claim": "The centre circle has a radius of 9.15 metres, or 10 yards."
+  },
+  {
+    "id": "curated-53a18bafd67635df",
+    "fact_key": "football:crossbar-height",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d23f99601c7b99a44230727cbf95fa371741489dc1573c0baae928f3846b9410",
+    "claim": "The lower edge of the crossbar is 2.44 metres above the ground."
+  },
+  {
+    "id": "curated-5abe9f5b925771cc",
+    "fact_key": "taj-mahal:country",
+    "source": "https://whc.unesco.org/en/list/252/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "The Taj Mahal stands in Agra, India."
+  },
+  {
+    "id": "curated-b718d38db3c3aac1",
+    "fact_key": "chocolate:cacao-source",
+    "source": "https://www.kew.org/read-and-watch/kew-gardens-cacao-how-to-make-chocolate",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Chocolate comes from the cacao tree, Theobroma cacao."
+  },
+  {
+    "id": "curated-0b7fc0c484e581e7",
+    "fact_key": "taj-mahal:commissioning-emperor",
+    "source": "https://whc.unesco.org/en/list/252/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Shah Jahan commissioned the Taj Mahal in memory of his wife."
+  },
+  {
+    "id": "curated-3b30014b382adb12",
+    "fact_key": "rss:channel-title-element",
+    "source": "https://www.rssboard.org/rss-specification",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "1610f254e9312593a67f6a58e7e7978b0d10c7cd247ec6d2382d1c6fd55079c9",
+    "claim": "The required RSS channel title element names the channel."
+  },
+  {
+    "id": "curated-ee6982db13e62e46",
+    "fact_key": "cc:sa-adaptations-terms",
+    "source": "https://creativecommons.org/cc-licenses/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "5c00c365e553ebb21ae3ba11b941e6d1572f87f9a7aad6cfb560cecb38a27252",
+    "claim": "ShareAlike governs the license used for adaptations."
+  },
+  {
+    "id": "curated-cc1dc8ca64b3c58e",
+    "fact_key": "wayback:operator",
+    "source": "https://help.archive.org/help/using-the-wayback-machine/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "0118fb54a135acdc5008baea1174389e3868eac94822fd1d996117bc59a2d0b3",
+    "claim": "The Wayback Machine is an Internet Archive service."
+  },
+  {
+    "id": "curated-bb0efc6ba04964cc",
+    "fact_key": "rocket-league:vehicle-soccer",
+    "source": "https://store.epicgames.com/en-US/p/rocket-league",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "Rocket League combines arcade-style soccer with vehicles."
+  },
+  {
+    "id": "curated-7e52766f4d846189",
+    "fact_key": "chess:bishop-movement",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c5b1692a0614d4bd93fe9238287b9ab7d1f47320934d5df3be113523906c476f",
+    "claim": "A bishop moves along diagonals and therefore remains on its starting square color."
+  },
+  {
+    "id": "curated-a5ee2dba0dd64dc2",
+    "fact_key": "chess:stalemate-condition",
+    "source": "https://handbook.fide.com/chapter/E012023",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "c5b1692a0614d4bd93fe9238287b9ab7d1f47320934d5df3be113523906c476f",
+    "claim": "A position with no legal move and no check is stalemate and is drawn."
+  },
+  {
+    "id": "curated-9caaf485364ca1fe",
+    "fact_key": "timpani:pitched-drums",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/timpani/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "f7ee1b0be0450c6b662f51a4baa8c4d9d03ecd27f1f82ace94e5361bf2ef0479",
+    "claim": "Timpani can produce accurate pitches and play melodies."
+  },
+  {
+    "id": "curated-4549672700d9cd25",
+    "fact_key": "violin:bow-hair-material",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "103533079fc516bcd8ba8e5f52bd3d550b0637dfbb89e310802bcf7bb71fcfcf",
+    "claim": "Traditional violin bows use horsehair."
+  },
+  {
+    "id": "curated-408beb744ec5f922",
+    "fact_key": "clarinet:bb-written-c-sounds-bb",
+    "source": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "8ab720125067ce0a769f9489ee2808810d093dafd601bf8431c833f95ecbb040",
+    "claim": "A B-flat clarinet sounds B-flat when its score calls for C."
+  },
+  {
+    "id": "curated-400a14fb7ada221a",
+    "fact_key": "ratatouille:remy-species",
+    "source": "https://www.pixar.com/ratatouille",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d8e9d04d893b9f5a900c34abb39e93f7ed588291e4e69a60bf66cc5272eed694",
+    "claim": "Remy is the rat who dreams of becoming a chef."
+  },
+  {
+    "id": "curated-9ee5c2f0b40b9408",
+    "fact_key": "coco:dante-animal",
+    "source": "https://www.pixar.com/coco",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "670b250f563654f4ba51aed5944e6cd5f2d241ccf499d02cc1382de5d98a8034",
+    "claim": "Dante is a Xolo dog, short for Xoloitzcuintli."
+  },
+  {
+    "id": "curated-1d5414110923094d",
+    "fact_key": "wall-e:axiom-autopilot",
+    "source": "https://www.pixar.com/wall-e",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "cf4275da9c356c2bc020d3f0086c92f73b2fe231ed66f5046786c6a6e1ead5b3",
+    "claim": "AUTO is the autopilot aboard the Axiom."
+  },
+  {
+    "id": "curated-b9bc5b6b8a76a03a",
+    "fact_key": "europa-clipper:launch-date",
+    "source": "https://science.nasa.gov/mission/europa-clipper/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "58475253b4b6ac35ffc9883d453d67cab06e1da8a22d7f227809b87c2757f559",
+    "claim": "Europa Clipper launched on October 14, 2024."
+  },
+  {
+    "id": "curated-60022820c853558c",
+    "fact_key": "jupiter:great-red-spot",
+    "source": "https://science.nasa.gov/jupiter/jupiter-facts/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "76f825159f7543f462c36548a56e8ecf8161b658b6546925499b04ad377e56c1",
+    "claim": "The Great Red Spot is a giant long-lived storm in Jupiter’s atmosphere."
+  },
+  {
+    "id": "curated-9aa50d09b52e1188",
+    "fact_key": "europa-clipper:gravity-experiment-telecommunications",
+    "source": "https://science.nasa.gov/mission/europa-clipper/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "58475253b4b6ac35ffc9883d453d67cab06e1da8a22d7f227809b87c2757f559",
+    "claim": "The gravity experiment uses Europa Clipper’s telecommunications system."
+  },
+  {
+    "id": "curated-7dae89715a80dcca",
+    "fact_key": "bluetooth:royal-name-origin",
+    "source": "https://www.bluetooth.com/about-us/bluetooth-origin/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "113811cae583b9193a7f9ff36415265e3ed1b8c50c2812f6afaeabccf471b9bb",
+    "claim": "Bluetooth’s name refers to King Harald Bluetooth Gormsson."
+  },
+  {
+    "id": "curated-e3ea7c22408ee511",
+    "fact_key": "open-source:source-code-distribution",
+    "source": "https://opensource.org/osd",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "419cf69bcb268b8e3b7a8c8f726f67344b0f812b8ca7194c02b01d4faa46e2b7",
+    "claim": "The Open Source Definition requires distribution in source-code form as well as compiled form."
+  },
+  {
+    "id": "curated-f9ea8e73a00657c4",
+    "fact_key": "database:atomic-transaction",
+    "source": "https://www.sqlite.org/atomiccommit.html",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "5a5be7b660217c9408c8a81eaf2faa2d08832ed3790f895a0a713916ad856ea1",
+    "claim": "An atomic commit makes all transaction changes together or none of them."
+  },
+  {
+    "id": "curated-e2ad30e1a4044da2",
+    "fact_key": "football:goalkeeper-handling-area",
+    "source": "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "7546db2e2f8c38c3051b469ea70383de67e12311e933a8dc1e88ec93071a48e1",
+    "claim": "A goalkeeper’s special handling permission applies inside their own penalty area."
+  },
+  {
+    "id": "curated-bd5ed235726f2982",
+    "fact_key": "football:ball-circumference",
+    "source": "https://www.theifab.com/laws/latest/the-ball/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "1c1093c79fa6b48e527e9daaba18c539cdea36f1d74cf52c26863a0a8c5e4d1d",
+    "claim": "A regulation ball’s circumference is between 68 and 70 centimetres."
+  },
+  {
+    "id": "curated-c3b8aea5209d6279",
+    "fact_key": "football:corner-flag-height",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "d23f99601c7b99a44230727cbf95fa371741489dc1573c0baae928f3846b9410",
+    "claim": "A corner flagpost must be at least 1.5 metres high and must have a non-pointed top."
+  },
+  {
+    "id": "curated-ade1d84f4eb20fd2",
+    "fact_key": "acropolis:country",
+    "source": "https://whc.unesco.org/en/list/404/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "UNESCO lists the Acropolis of Athens in Greece."
+  },
+  {
+    "id": "curated-4744da552a4311f6",
+    "fact_key": "quinoa:andean-origin",
+    "source": "https://agris.fao.org/search/en/providers/122436/records/6878dba25d9ad5f58d60287b",
+    "verified_at": "2026-10-25",
+    "method": "bounded-fetch-and-source-terms",
+    "fetch_status": 200,
+    "sha256": "3beb083a93fb191d76f97ec24e330cee4b6cc65f16ee598aed0a8b94aada2c7a",
+    "claim": "Quinoa is native to the Andean region."
+  },
+  {
+    "id": "curated-7b43b1e623307013",
+    "fact_key": "humayun-tomb:garden-tomb-date",
+    "source": "https://whc.unesco.org/en/list/232/",
+    "verified_at": "2026-10-25",
+    "method": "official-publisher-page-or-indexed-excerpt-and-agent-review",
+    "fetch_status": "unavailable",
+    "sha256": null,
+    "claim": "UNESCO dates Humayun’s Tomb to 1570."
+  }
+]

@@ -5,3 +5,5 @@ trivia_godot=${GODOT_BIN:-godot}
 mkdir -p "$trivia_root/builds/pages"
 "$trivia_godot" --headless --path "$trivia_root/game" --export-release "GitHub Pages" "$trivia_root/builds/pages/index.html"
 : > "$trivia_root/builds/pages/.nojekyll"
+
+cp -R "$trivia_root/bank" "$trivia_root/builds/pages/"

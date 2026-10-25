@@ -35,7 +35,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(data)
     def do_GET(self):
         if self.path == '/api/config':
-            return self.reply(200, {'ai_available': False, 'bank_available': True, 'categories': CATEGORIES, 'scheduled_refresh': False})
+            return self.reply(200, {'ai_available': False, 'bank_available': True, 'categories': CATEGORIES, 'scheduled_refresh': True, 'refresh_method': 'GitHub Actions weekly NASA source curation'})
         if self.path == '/api/bank':
             try:
                 questions = load_bank()

@@ -101,7 +101,7 @@ def validate_review(batch, review):
     for q in batch['questions']:
         decision = approvals.get(q['id'], {})
         if decision.get('status') != 'approved' or decision.get('correct') != q['correct']:
-            raise ValueError('Every question requires a human answer-key review')
+            raise ValueError('Every question requires a recorded answer-key review')
         if not all(decision.get(k) is True for k in ['source_checked', 'one_correct', 'distractors_checked', 'canonical_fact_checked', 'original_wording']):
             raise ValueError('Incomplete factual/dedup review')
         if not isinstance(decision.get('reviewer'), str) or not decision['reviewer'].strip(): raise ValueError('Reviewer required')

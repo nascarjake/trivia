@@ -1,0 +1,778 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-25",
+  "categories": [
+    "Internet & creators",
+    "Gaming",
+    "Music",
+    "Film & TV",
+    "Science & space",
+    "Technology",
+    "Sports",
+    "Culture & food"
+  ],
+  "questions": [
+    {
+      "id": "curated-3b30014b382adb12",
+      "fact_key": "rss:channel-title-element",
+      "category": "Internet & creators",
+      "difficulty": 0,
+      "question": "In RSS 2.0, which channel element gives the feed its name?",
+      "answers": [
+        "title",
+        "image",
+        "cloud",
+        "category"
+      ],
+      "correct": 0,
+      "explanation": "The required RSS channel title element names the channel.",
+      "source": "https://www.rssboard.org/rss-specification",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The required RSS channel title element names the channel.",
+      "source_terms": [
+        "title",
+        "channel"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies title.",
+        "This choice names a different answer and does not satisfy the stated fact: image.",
+        "This choice names a different answer and does not satisfy the stated fact: cloud.",
+        "This choice names a different answer and does not satisfy the stated fact: category."
+      ]
+    },
+    {
+      "id": "curated-ee6982db13e62e46",
+      "fact_key": "cc:sa-adaptations-terms",
+      "category": "Internet & creators",
+      "difficulty": 1,
+      "question": "Which Creative Commons element requires adaptations to use the same or a compatible license?",
+      "answers": [
+        "SA",
+        "NC",
+        "ND",
+        "CC0"
+      ],
+      "correct": 0,
+      "explanation": "ShareAlike governs the license used for adaptations.",
+      "source": "https://creativecommons.org/cc-licenses/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "ShareAlike governs the license used for adaptations.",
+      "source_terms": [
+        "SA",
+        "compatible license"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies SA.",
+        "This choice names a different answer and does not satisfy the stated fact: NC.",
+        "This choice names a different answer and does not satisfy the stated fact: ND.",
+        "This choice names a different answer and does not satisfy the stated fact: CC0."
+      ]
+    },
+    {
+      "id": "curated-cc1dc8ca64b3c58e",
+      "fact_key": "wayback:operator",
+      "category": "Internet & creators",
+      "difficulty": 2,
+      "question": "Which organization operates the Wayback Machine?",
+      "answers": [
+        "Internet Archive",
+        "Internet Engineering Task Force",
+        "Mozilla Foundation",
+        "W3C"
+      ],
+      "correct": 0,
+      "explanation": "The Wayback Machine is an Internet Archive service.",
+      "source": "https://help.archive.org/help/using-the-wayback-machine/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The Wayback Machine is an Internet Archive service.",
+      "source_terms": [
+        "Internet Archive",
+        "Wayback"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Internet Archive.",
+        "This choice names a different concept and does not satisfy the stated fact: Internet Engineering Task Force.",
+        "This choice names a different concept and does not satisfy the stated fact: Mozilla Foundation.",
+        "This choice names a different answer and does not satisfy the stated fact: W3C."
+      ]
+    },
+    {
+      "id": "curated-bb0efc6ba04964cc",
+      "fact_key": "rocket-league:vehicle-soccer",
+      "category": "Gaming",
+      "difficulty": 0,
+      "question": "Rocket League combines driving cars with a game resembling which sport?",
+      "answers": [
+        "Soccer",
+        "Cricket",
+        "Golf",
+        "Tennis"
+      ],
+      "correct": 0,
+      "explanation": "Rocket League combines arcade-style soccer with vehicles.",
+      "source": "https://store.epicgames.com/en-US/p/rocket-league",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Rocket League combines arcade-style soccer with vehicles.",
+      "source_terms": [
+        "soccer",
+        "vehicular"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Soccer.",
+        "This choice names a different answer and does not satisfy the stated fact: Cricket.",
+        "This choice names a different answer and does not satisfy the stated fact: Golf.",
+        "This choice names a different answer and does not satisfy the stated fact: Tennis."
+      ]
+    },
+    {
+      "id": "curated-7e52766f4d846189",
+      "fact_key": "chess:bishop-movement",
+      "category": "Gaming",
+      "difficulty": 1,
+      "question": "Which chess piece stays on one square color while moving diagonally?",
+      "answers": [
+        "Bishop",
+        "Rook",
+        "Knight",
+        "King"
+      ],
+      "correct": 0,
+      "explanation": "A bishop moves along diagonals and therefore remains on its starting square color.",
+      "source": "https://handbook.fide.com/chapter/E012023",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A bishop moves along diagonals and therefore remains on its starting square color.",
+      "source_terms": [
+        "bishop",
+        "diagonal"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Bishop.",
+        "This choice names a different answer and does not satisfy the stated fact: Rook.",
+        "This choice names a different answer and does not satisfy the stated fact: Knight.",
+        "This choice names a different answer and does not satisfy the stated fact: King."
+      ]
+    },
+    {
+      "id": "curated-a5ee2dba0dd64dc2",
+      "fact_key": "chess:stalemate-condition",
+      "category": "Gaming",
+      "difficulty": 2,
+      "question": "What is the result when a player has no legal move but their king is not in check?",
+      "answers": [
+        "A draw by stalemate",
+        "A win for that player",
+        "Checkmate",
+        "Automatic resignation"
+      ],
+      "correct": 0,
+      "explanation": "A position with no legal move and no check is stalemate and is drawn.",
+      "source": "https://handbook.fide.com/chapter/E012023",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A position with no legal move and no check is stalemate and is drawn.",
+      "source_terms": [
+        "no legal move",
+        "stalemate"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies A draw by stalemate.",
+        "This choice names a different concept and does not satisfy the stated fact: A win for that player.",
+        "This choice names a different answer and does not satisfy the stated fact: Checkmate.",
+        "This choice names a different concept and does not satisfy the stated fact: Automatic resignation."
+      ]
+    },
+    {
+      "id": "curated-9caaf485364ca1fe",
+      "fact_key": "timpani:pitched-drums",
+      "category": "Music",
+      "difficulty": 0,
+      "question": "Which orchestral drums can produce definite pitches and even a melody?",
+      "answers": [
+        "Timpani",
+        "Snare drums",
+        "Bass drums",
+        "Tom-toms"
+      ],
+      "correct": 0,
+      "explanation": "Timpani can produce accurate pitches and play melodies.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/timpani/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Timpani can produce accurate pitches and play melodies.",
+      "source_terms": [
+        "accurate pitches",
+        "melody"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Timpani.",
+        "This choice names a different answer and does not satisfy the stated fact: Snare drums.",
+        "This choice names a different answer and does not satisfy the stated fact: Bass drums.",
+        "This choice names a different answer and does not satisfy the stated fact: Tom-toms."
+      ]
+    },
+    {
+      "id": "curated-4549672700d9cd25",
+      "fact_key": "violin:bow-hair-material",
+      "category": "Music",
+      "difficulty": 1,
+      "question": "Traditional violin bow hair is usually made from which animal’s hair?",
+      "answers": [
+        "Horse",
+        "Sheep",
+        "Goat",
+        "Alpaca"
+      ],
+      "correct": 0,
+      "explanation": "Traditional violin bows use horsehair.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Traditional violin bows use horsehair.",
+      "source_terms": [
+        "horsehair"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Horse.",
+        "This choice names a different answer and does not satisfy the stated fact: Sheep.",
+        "This choice names a different answer and does not satisfy the stated fact: Goat.",
+        "This choice names a different answer and does not satisfy the stated fact: Alpaca."
+      ]
+    },
+    {
+      "id": "curated-408beb744ec5f922",
+      "fact_key": "clarinet:bb-written-c-sounds-bb",
+      "category": "Music",
+      "difficulty": 2,
+      "question": "On a B-flat clarinet, a written C sounds as which concert pitch?",
+      "answers": [
+        "B-flat",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct": 0,
+      "explanation": "A B-flat clarinet sounds B-flat when its score calls for C.",
+      "source": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A B-flat clarinet sounds B-flat when its score calls for C.",
+      "source_terms": [
+        "B♭ clarinet",
+        "C, D, E"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies B-flat.",
+        "This choice names a different answer and does not satisfy the stated fact: C.",
+        "This choice names a different answer and does not satisfy the stated fact: D.",
+        "This choice names a different answer and does not satisfy the stated fact: A."
+      ]
+    },
+    {
+      "id": "curated-400a14fb7ada221a",
+      "fact_key": "ratatouille:remy-species",
+      "category": "Film & TV",
+      "difficulty": 0,
+      "question": "Remy, the aspiring chef in Ratatouille, is which animal?",
+      "answers": [
+        "Rat",
+        "Mouse",
+        "Rabbit",
+        "Hamster"
+      ],
+      "correct": 0,
+      "explanation": "Remy is the rat who dreams of becoming a chef.",
+      "source": "https://www.pixar.com/ratatouille",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Remy is the rat who dreams of becoming a chef.",
+      "source_terms": [
+        "Remy",
+        "rat"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Rat.",
+        "This choice names a different answer and does not satisfy the stated fact: Mouse.",
+        "This choice names a different answer and does not satisfy the stated fact: Rabbit.",
+        "This choice names a different answer and does not satisfy the stated fact: Hamster."
+      ]
+    },
+    {
+      "id": "curated-9ee5c2f0b40b9408",
+      "fact_key": "coco:dante-animal",
+      "category": "Film & TV",
+      "difficulty": 1,
+      "question": "What kind of animal is Miguel’s companion Dante in Coco?",
+      "answers": [
+        "Dog",
+        "Cat",
+        "Fox",
+        "Iguana"
+      ],
+      "correct": 0,
+      "explanation": "Dante is a Xolo dog, short for Xoloitzcuintli.",
+      "source": "https://www.pixar.com/coco",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Dante is a Xolo dog, short for Xoloitzcuintli.",
+      "source_terms": [
+        "Dante",
+        "dog"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Dog.",
+        "This choice names a different answer and does not satisfy the stated fact: Cat.",
+        "This choice names a different answer and does not satisfy the stated fact: Fox.",
+        "This choice names a different answer and does not satisfy the stated fact: Iguana."
+      ]
+    },
+    {
+      "id": "curated-1d5414110923094d",
+      "fact_key": "wall-e:axiom-autopilot",
+      "category": "Film & TV",
+      "difficulty": 2,
+      "question": "What is the name of the Axiom’s autopilot in WALL-E?",
+      "answers": [
+        "AUTO",
+        "EVE",
+        "M-O",
+        "GO-4"
+      ],
+      "correct": 0,
+      "explanation": "AUTO is the autopilot aboard the Axiom.",
+      "source": "https://www.pixar.com/wall-e",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "AUTO is the autopilot aboard the Axiom.",
+      "source_terms": [
+        "Auto",
+        "autopilot"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies AUTO.",
+        "This choice names a different answer and does not satisfy the stated fact: EVE.",
+        "This choice names a different answer and does not satisfy the stated fact: M-O.",
+        "This choice names a different answer and does not satisfy the stated fact: GO-4."
+      ]
+    },
+    {
+      "id": "curated-b9bc5b6b8a76a03a",
+      "fact_key": "europa-clipper:launch-date",
+      "category": "Science & space",
+      "difficulty": 0,
+      "question": "In which year did Europa Clipper leave Earth on its journey to Jupiter?",
+      "answers": [
+        "2024",
+        "2014",
+        "2004",
+        "1994"
+      ],
+      "correct": 0,
+      "explanation": "Europa Clipper launched on October 14, 2024.",
+      "source": "https://science.nasa.gov/mission/europa-clipper/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Europa Clipper launched on October 14, 2024.",
+      "source_terms": [
+        "Oct. 14, 2024"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 2024.",
+        "This choice names a different answer and does not satisfy the stated fact: 2014.",
+        "This choice names a different answer and does not satisfy the stated fact: 2004.",
+        "This choice names a different answer and does not satisfy the stated fact: 1994."
+      ]
+    },
+    {
+      "id": "curated-60022820c853558c",
+      "fact_key": "jupiter:great-red-spot",
+      "category": "Science & space",
+      "difficulty": 1,
+      "question": "Jupiter’s Great Red Spot is what kind of feature?",
+      "answers": [
+        "A giant storm",
+        "A volcano",
+        "A solid continent",
+        "An impact crater"
+      ],
+      "correct": 0,
+      "explanation": "The Great Red Spot is a giant long-lived storm in Jupiter’s atmosphere.",
+      "source": "https://science.nasa.gov/jupiter/jupiter-facts/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The Great Red Spot is a giant long-lived storm in Jupiter’s atmosphere.",
+      "source_terms": [
+        "Great Red Spot",
+        "storm"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies A giant storm.",
+        "This choice names a different answer and does not satisfy the stated fact: A volcano.",
+        "This choice names a different concept and does not satisfy the stated fact: A solid continent.",
+        "This choice names a different concept and does not satisfy the stated fact: An impact crater."
+      ]
+    },
+    {
+      "id": "curated-9aa50d09b52e1188",
+      "fact_key": "europa-clipper:gravity-experiment-telecommunications",
+      "category": "Science & space",
+      "difficulty": 2,
+      "question": "Which Europa Clipper system also supports its gravity experiment?",
+      "answers": [
+        "Telecommunications system",
+        "Landing legs",
+        "Sample-return capsule",
+        "Surface drilling rig"
+      ],
+      "correct": 0,
+      "explanation": "The gravity experiment uses Europa Clipper’s telecommunications system.",
+      "source": "https://science.nasa.gov/mission/europa-clipper/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The gravity experiment uses Europa Clipper’s telecommunications system.",
+      "source_terms": [
+        "gravity experiment",
+        "telecommunications"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Telecommunications system.",
+        "This choice names a different answer and does not satisfy the stated fact: Landing legs.",
+        "This choice names a different concept and does not satisfy the stated fact: Sample-return capsule.",
+        "This choice names a different concept and does not satisfy the stated fact: Surface drilling rig."
+      ]
+    },
+    {
+      "id": "curated-7dae89715a80dcca",
+      "fact_key": "bluetooth:royal-name-origin",
+      "category": "Technology",
+      "difficulty": 0,
+      "question": "Bluetooth technology takes its name from which historical king?",
+      "answers": [
+        "Harald Bluetooth",
+        "Richard the Lionheart",
+        "Louis XIV",
+        "Alfred the Great"
+      ],
+      "correct": 0,
+      "explanation": "Bluetooth’s name refers to King Harald Bluetooth Gormsson.",
+      "source": "https://www.bluetooth.com/about-us/bluetooth-origin/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Bluetooth’s name refers to King Harald Bluetooth Gormsson.",
+      "source_terms": [
+        "Harald",
+        "Gormsson"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Harald Bluetooth.",
+        "This choice names a different concept and does not satisfy the stated fact: Richard the Lionheart.",
+        "This choice names a different answer and does not satisfy the stated fact: Louis XIV.",
+        "This choice names a different concept and does not satisfy the stated fact: Alfred the Great."
+      ]
+    },
+    {
+      "id": "curated-e3ea7c22408ee511",
+      "fact_key": "open-source:source-code-distribution",
+      "category": "Technology",
+      "difficulty": 1,
+      "question": "Under the Open Source Definition, software must allow distribution in which form as well as compiled form?",
+      "answers": [
+        "Source code",
+        "Printed screenshots",
+        "Encrypted archives only",
+        "Audio narration"
+      ],
+      "correct": 0,
+      "explanation": "The Open Source Definition requires distribution in source-code form as well as compiled form.",
+      "source": "https://opensource.org/osd",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "The Open Source Definition requires distribution in source-code form as well as compiled form.",
+      "source_terms": [
+        "source code as well as compiled form"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Source code.",
+        "This choice names a different concept and does not satisfy the stated fact: Printed screenshots.",
+        "This choice names a different concept and does not satisfy the stated fact: Encrypted archives only.",
+        "This choice names a different concept and does not satisfy the stated fact: Audio narration."
+      ]
+    },
+    {
+      "id": "curated-f9ea8e73a00657c4",
+      "fact_key": "database:atomic-transaction",
+      "category": "Technology",
+      "difficulty": 2,
+      "question": "What does an atomic database transaction guarantee about its changes?",
+      "answers": [
+        "All happen or none happen",
+        "Only one column can change",
+        "Every query is sorted",
+        "Data is automatically encrypted"
+      ],
+      "correct": 0,
+      "explanation": "An atomic commit makes all transaction changes together or none of them.",
+      "source": "https://www.sqlite.org/atomiccommit.html",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "An atomic commit makes all transaction changes together or none of them.",
+      "source_terms": [
+        "all",
+        "none",
+        "atomic"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies All happen or none happen.",
+        "This choice names a different concept and does not satisfy the stated fact: Only one column can change.",
+        "This choice names a different concept and does not satisfy the stated fact: Every query is sorted.",
+        "This choice names a different concept and does not satisfy the stated fact: Data is automatically encrypted."
+      ]
+    },
+    {
+      "id": "curated-e2ad30e1a4044da2",
+      "fact_key": "football:goalkeeper-handling-area",
+      "category": "Sports",
+      "difficulty": 0,
+      "question": "Where may a goalkeeper handle the ball, subject to the other handling rules?",
+      "answers": [
+        "Inside their own penalty area",
+        "Anywhere in their own half",
+        "Only inside the centre circle",
+        "Inside either penalty area"
+      ],
+      "correct": 0,
+      "explanation": "A goalkeeper’s special handling permission applies inside their own penalty area.",
+      "source": "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A goalkeeper’s special handling permission applies inside their own penalty area.",
+      "source_terms": [
+        "goalkeeper",
+        "own penalty area"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Inside their own penalty area.",
+        "This choice names a different concept and does not satisfy the stated fact: Anywhere in their own half.",
+        "This choice names a different concept and does not satisfy the stated fact: Only inside the centre circle.",
+        "This choice names a different concept and does not satisfy the stated fact: Inside either penalty area."
+      ]
+    },
+    {
+      "id": "curated-bd5ed235726f2982",
+      "fact_key": "football:ball-circumference",
+      "category": "Sports",
+      "difficulty": 1,
+      "question": "What circumference range does IFAB specify for the match ball?",
+      "answers": [
+        "68–70 cm",
+        "58–60 cm",
+        "78–80 cm",
+        "88–90 cm"
+      ],
+      "correct": 0,
+      "explanation": "A regulation ball’s circumference is between 68 and 70 centimetres.",
+      "source": "https://www.theifab.com/laws/latest/the-ball/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A regulation ball’s circumference is between 68 and 70 centimetres.",
+      "source_terms": [
+        "68 cm",
+        "70 cm"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 68–70 cm.",
+        "This choice names a different answer and does not satisfy the stated fact: 58–60 cm.",
+        "This choice names a different answer and does not satisfy the stated fact: 78–80 cm.",
+        "This choice names a different answer and does not satisfy the stated fact: 88–90 cm."
+      ]
+    },
+    {
+      "id": "curated-c3b8aea5209d6279",
+      "fact_key": "football:corner-flag-height",
+      "category": "Sports",
+      "difficulty": 2,
+      "question": "What is the minimum height of a corner flagpost under IFAB Law 1?",
+      "answers": [
+        "1.5 m",
+        "1.0 m",
+        "2.0 m",
+        "2.5 m"
+      ],
+      "correct": 0,
+      "explanation": "A corner flagpost must be at least 1.5 metres high and must have a non-pointed top.",
+      "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "A corner flagpost must be at least 1.5 metres high and must have a non-pointed top.",
+      "source_terms": [
+        "1.5 m"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 1.5 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 1.0 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 2.0 m.",
+        "This choice names a different answer and does not satisfy the stated fact: 2.5 m."
+      ]
+    },
+    {
+      "id": "curated-ade1d84f4eb20fd2",
+      "fact_key": "acropolis:country",
+      "category": "Culture & food",
+      "difficulty": 0,
+      "question": "The Acropolis of Athens is a World Heritage site in which country?",
+      "answers": [
+        "Greece",
+        "Italy",
+        "Turkey",
+        "Cyprus"
+      ],
+      "correct": 0,
+      "explanation": "UNESCO lists the Acropolis of Athens in Greece.",
+      "source": "https://whc.unesco.org/en/list/404/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "UNESCO lists the Acropolis of Athens in Greece.",
+      "source_terms": [
+        "Greece"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies Greece.",
+        "This choice names a different answer and does not satisfy the stated fact: Italy.",
+        "This choice names a different answer and does not satisfy the stated fact: Turkey.",
+        "This choice names a different answer and does not satisfy the stated fact: Cyprus."
+      ]
+    },
+    {
+      "id": "curated-4744da552a4311f6",
+      "fact_key": "quinoa:andean-origin",
+      "category": "Culture & food",
+      "difficulty": 1,
+      "question": "Quinoa is a traditional crop native to which South American mountain region?",
+      "answers": [
+        "The Andes",
+        "The Guiana Highlands",
+        "The Brazilian Highlands",
+        "The Serra do Mar"
+      ],
+      "correct": 0,
+      "explanation": "Quinoa is native to the Andean region.",
+      "source": "https://agris.fao.org/search/en/providers/122436/records/6878dba25d9ad5f58d60287b",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "Quinoa is native to the Andean region.",
+      "source_terms": [
+        "Andean region"
+      ],
+      "choice_notes": [
+        "The cited research identifies the Andean region.",
+        "This is another South American highland region, not the crop’s stated native region.",
+        "This is another South American highland region, not the crop’s stated native region.",
+        "This is a different South American mountain range, not the stated Andean origin."
+      ]
+    },
+    {
+      "id": "curated-7b43b1e623307013",
+      "fact_key": "humayun-tomb:garden-tomb-date",
+      "category": "Culture & food",
+      "difficulty": 2,
+      "question": "UNESCO dates the construction of Humayun’s Tomb in Delhi to which year?",
+      "answers": [
+        "1570",
+        "1470",
+        "1670",
+        "1770"
+      ],
+      "correct": 0,
+      "explanation": "UNESCO dates Humayun’s Tomb to 1570.",
+      "source": "https://whc.unesco.org/en/list/232/",
+      "kind": "evergreen",
+      "expires_at": "",
+      "verified_at": "2026-10-25",
+      "source_date": "2026-10-25",
+      "source_date_kind": "retrieved-undated-reference",
+      "evidence": "UNESCO dates Humayun’s Tomb to 1570.",
+      "source_terms": [
+        "built in 1570"
+      ],
+      "choice_notes": [
+        "The cited publisher identifies 1570.",
+        "This choice names a different answer and does not satisfy the stated fact: 1470.",
+        "This choice names a different answer and does not satisfy the stated fact: 1670.",
+        "This choice names a different answer and does not satisfy the stated fact: 1770."
+      ]
+    }
+  ]
+}
